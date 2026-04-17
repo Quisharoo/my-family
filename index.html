@@ -3,66 +3,58 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Quish Family Census Explorer</title>
+    <meta name="theme-color" content="#f5f0e7" />
+    <title>The Quish Family</title>
     <link rel="stylesheet" href="./styles.css" />
   </head>
   <body>
-    <div class="page-shell">
-      <header class="hero">
-        <div>
-          <p class="eyebrow">1901 and 1911 census explorer</p>
-          <h1>Quish family tree sketch</h1>
-          <p class="lede">
-            This is a census-first view of the Quish households. Solid links are
-            the strongest 1901 to 1911 continuities. Single households are kept
-            separate unless the census actually supports a connection.
+    <div id="app">
+      <section id="list-view" class="view view-visible" aria-labelledby="listTitle">
+        <header class="list-header">
+          <h1 id="listTitle">The Quish Family</h1>
+          <p class="subtitle">
+            Our family in the 1901 and 1911 Irish census.
           </p>
-        </div>
-        <div class="metric-grid" id="metricGrid"></div>
-      </header>
+          <div class="search-wrap">
+            <input
+              id="searchInput"
+              type="search"
+              autocomplete="off"
+              placeholder="Search a name or place"
+              aria-label="Search a name or place"
+            />
+          </div>
+        </header>
 
-      <section class="controls-panel">
-        <label class="control">
-          <span>County</span>
-          <select id="countyFilter"></select>
-        </label>
-        <label class="control control-wide">
-          <span>Search name or place</span>
-          <input
-            id="searchInput"
-            type="search"
-            placeholder="Rathanny, Martin, Tipperary..."
-          />
-        </label>
-        <label class="check">
-          <input id="showSingles" type="checkbox" />
-          <span>Show single-household clusters</span>
-        </label>
+        <main id="householdList" class="household-list" aria-live="polite"></main>
       </section>
 
-      <main class="app-layout">
-        <section class="cluster-column">
-          <div class="section-head">
-            <h2>Connected clusters</h2>
-            <p id="clusterCountLabel"></p>
-          </div>
-          <div id="clusterList" class="cluster-list"></div>
-        </section>
-
-        <aside class="detail-column">
-          <div id="detailPanel" class="detail-panel"></div>
-          <div class="variant-panel">
-            <div class="section-head">
-              <h2>`Quishe` variants</h2>
-              <p>Kept separate from exact `Quish` matches.</p>
-            </div>
-            <div id="variantList" class="variant-list"></div>
-          </div>
-        </aside>
-      </main>
+      <section
+        id="detail-view"
+        class="view"
+        aria-labelledby="detailTitle"
+        aria-hidden="true"
+      >
+        <header class="detail-header">
+          <button id="backButton" class="back-button" type="button" aria-label="Back">
+            <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true">
+              <path
+                d="M15 5l-7 7 7 7"
+                fill="none"
+                stroke="currentColor"
+                stroke-width="2.25"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+            <span>Back</span>
+          </button>
+        </header>
+        <main id="detailBody" class="detail-body"></main>
+      </section>
     </div>
 
     <script src="./viz-data.js"></script>
     <script src="./app.js"></script>
   </body>
-  </html>
+</html>
