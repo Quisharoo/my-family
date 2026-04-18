@@ -25,7 +25,7 @@ function jitterCoordinate(coordinate, index) {
 
 function shortLabel(fullLabel) {
   if (!fullLabel) return fullLabel;
-  return fullLabel.replace(/\s+line$/, "");
+  return fullLabel.replace(/\s+line$/, "").replace(/\s+Quish$/, "");
 }
 
 function attachDisplayCoordinates(lines) {
