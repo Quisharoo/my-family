@@ -107,21 +107,43 @@
 }
 
 .family-pin__label.leaflet-tooltip {
-  background: rgba(255, 248, 236, 0.92);
+  background: rgba(255, 248, 236, 0.94);
   border: 1px solid var(--line);
   border-radius: 10px;
-  padding: 2px 8px;
+  padding: 4px 10px;
   color: var(--ink);
   font-size: 0.78rem;
-  font-weight: 600;
-  font-family: "Iowan Old Style", "Palatino Linotype", "Georgia", serif;
-  letter-spacing: 0.01em;
-  box-shadow: 0 2px 4px rgba(17, 26, 34, 0.2);
+  line-height: 1.2;
+  box-shadow: 0 2px 6px rgba(17, 26, 34, 0.22);
   white-space: nowrap;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
 }
 
-.family-pin__label.leaflet-tooltip::before {
-  border-top-color: rgba(255, 248, 236, 0.92);
+.family-pin__label-line {
+  font-family: "Iowan Old Style", "Palatino Linotype", "Georgia", serif;
+  font-weight: 600;
+  color: var(--ink);
+}
+
+.family-pin__label-place {
+  color: var(--ink-soft);
+  font-size: 0.72rem;
+  letter-spacing: 0.01em;
+}
+
+.family-pin__label.leaflet-tooltip-top::before {
+  border-top-color: rgba(255, 248, 236, 0.94);
+}
+.family-pin__label.leaflet-tooltip-bottom::before {
+  border-bottom-color: rgba(255, 248, 236, 0.94);
+}
+.family-pin__label.leaflet-tooltip-left::before {
+  border-left-color: rgba(255, 248, 236, 0.94);
+}
+.family-pin__label.leaflet-tooltip-right::before {
+  border-right-color: rgba(255, 248, 236, 0.94);
 }
 
 .leaflet-container {

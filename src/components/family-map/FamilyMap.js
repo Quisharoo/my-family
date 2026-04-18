@@ -25,7 +25,7 @@ function jitterCoordinate(coordinate, index) {
 
 function attachDisplayCoordinates(lines) {
   const byKey = new Map();
-  return lines.map((line) => {
+  const withCoords = lines.map((line) => {
     if (!line.coordinate) return line;
     const key = `${line.coordinate.lat.toFixed(5)}::${line.coordinate.lng.toFixed(5)}`;
     const count = byKey.get(key) || 0;
@@ -33,7 +33,36 @@ function attachDisplayCoordinates(lines) {
     const displayCoordinate = jitterCoordinate(line.coordinate, count);
     return { ...line, displayCoordinate };
   });
+
+  const withDisplay = withCoords.filter((line) => line.displayCoordinate);
+  if (!withDisplay.length) return withCoords;
+  const centreLat =
+    withDisplay.reduce((sum, line) => sum + line.displayCoordinate.lat, 0) /
+    withDisplay.length;
+  const centreLng =
+    withDisplay.reduce((sum, line) => sum + line.displayCoordinate.lng, 0) /
+    withDisplay.length;
+
+  return withCoords.map((line) => {
+    if (!line.displayCoordinate) return line;
+    const dLat = line.displayCoordinate.lat - centreLat;
+    const dLng = line.displayCoordinate.lng - centreLng;
+    let direction;
+    if (Math.abs(dLat) > Math.abs(dLng)) {
+      direction = dLat >= 0 ? "top" : "bottom";
+    } else {
+      direction = dLng >= 0 ? "right" : "left";
+    }
+    return { ...line, labelDirection: direction };
+  });
 }
+
+const LABEL_OFFSETS = {
+  top: [0, -14],
+  bottom: [0, 14],
+  left: [-16, 0],
+  right: [16, 0],
+};
 
 function createPinIcon({ selected = false } = {}) {
   return L.divIcon({
@@ -130,12 +159,13 @@ export default function FamilyMap({ lines, selectedLineId, onSelect }) {
               alt={`${line.label} at ${line.townland}`}
             >
               <Tooltip
-                direction="top"
-                offset={[0, -14]}
-                permanent={line.id === selectedLineId}
+                direction={line.labelDirection || "top"}
+                offset={LABEL_OFFSETS[line.labelDirection || "top"]}
+                permanent
                 className="family-pin__label"
               >
-                {line.townland}
+                <span className="family-pin__label-line">{line.label}</span>
+                <span className="family-pin__label-place">{line.townland}</span>
               </Tooltip>
             </Marker>
           ) : null
