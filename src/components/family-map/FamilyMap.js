@@ -132,7 +132,7 @@ export default function FamilyMap({ lines, selectedLineId, onSelect }) {
               <Tooltip
                 direction="top"
                 offset={[0, -14]}
-                permanent
+                permanent={line.id === selectedLineId}
                 className="family-pin__label"
               >
                 {line.townland}
