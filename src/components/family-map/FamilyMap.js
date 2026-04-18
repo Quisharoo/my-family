@@ -50,6 +50,8 @@ function attachDisplayCoordinates(lines) {
 
   return withCoords.map((line) => {
     if (!line.displayCoordinate) return line;
+    const override = LABEL_DIRECTION_OVERRIDES[line.id];
+    if (override) return { ...line, labelDirection: override };
     const dLat = line.displayCoordinate.lat - centreLat;
     const dLng = line.displayCoordinate.lng - centreLng;
     let direction;
@@ -67,6 +69,13 @@ const LABEL_OFFSETS = {
   bottom: [0, 14],
   left: [-16, 0],
   right: [16, 0],
+};
+
+const LABEL_DIRECTION_OVERRIDES = {
+  "family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893": "left",
+  "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539": "right",
+  "family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959": "left",
+  "family-line::1901::Limerick::Ballylanders::Killeen::13::1505874": "right",
 };
 
 function createPinIcon({ selected = false } = {}) {
