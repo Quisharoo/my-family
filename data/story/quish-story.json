@@ -1,8 +1,8 @@
 {
   "meta": {
-    "familyLineCount": 45,
+    "familyLineCount": 43,
     "householdCount": 62,
-    "appendixHouseholdCount": 33
+    "appendixHouseholdCount": 30
   },
   "sections": [
     {
@@ -28,12 +28,13 @@
         "claim::family-line::1901::Limerick::Hospital::Ballycahill::12::1490918::first-free-state",
         "claim::family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893::continuity",
         "claim::family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893::first-free-state",
+        "claim::family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539::continuity",
+        "claim::family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539::first-free-state",
         "claim::family-line::1926::Limerick::Hospital::Portboy::::528154::first-free-state",
         "claim::family-line::1926::Limerick::Darragh::Darragh Moore::::230540::first-free-state",
         "claim::family-line::1926::Limerick::Knockainy::Knockainy Town::::399468::first-free-state",
         "claim::family-line::1926::Tipperary::Emly::Nickers::::502764::first-free-state",
         "claim::family-line::1926::Limerick::Duntryleague::Newtown::::500913::first-free-state",
-        "claim::family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772::first-free-state",
         "claim::family-line::1926::Cork::Cobh Rural::Donegal::::244945::first-free-state",
         "claim::family-line::1926::Limerick::Knockainy::Knockainy Town::::399464::first-free-state",
         "claim::family-line::1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390::first-free-state",
@@ -61,12 +62,12 @@
         "claim::family-line::1901::Limerick::Emlygrennan::Cush::19::1491679::first-free-state",
         "claim::family-line::1901::Limerick::Hospital::Ballycahill::12::1490918::first-free-state",
         "claim::family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893::first-free-state",
+        "claim::family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539::first-free-state",
         "claim::family-line::1926::Limerick::Hospital::Portboy::::528154::first-free-state",
         "claim::family-line::1926::Limerick::Darragh::Darragh Moore::::230540::first-free-state",
         "claim::family-line::1926::Limerick::Knockainy::Knockainy Town::::399468::first-free-state",
         "claim::family-line::1926::Tipperary::Emly::Nickers::::502764::first-free-state",
         "claim::family-line::1926::Limerick::Duntryleague::Newtown::::500913::first-free-state",
-        "claim::family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772::first-free-state",
         "claim::family-line::1926::Cork::Cobh Rural::Donegal::::244945::first-free-state",
         "claim::family-line::1926::Limerick::Knockainy::Knockainy Town::::399464::first-free-state",
         "claim::family-line::1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390::first-free-state",
@@ -103,8 +104,6 @@
         "1911::Limerick::Duntryleague::Lackelly East::3::634884",
         "1911::Limerick::Hospital::Ballycahill::3::619540",
         "1911::Limerick::Darragh::Darragh More::9::620195",
-        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
-        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540",
         "1911::Londonderry::Londonderry No. 5 Urban::Londonderry Workhouse::3::606910",
         "1911::Tipperary::Rodus::Ballyhowe::6::831154",
         "1911::Wicklow::Baltinglass::Baltinglass West::1::888339",
@@ -114,7 +113,6 @@
         "1926::Limerick::Darragh::Darragh Moore::::230540",
         "1926::Limerick::Duntryleague::Newtown::::500913",
         "1926::Limerick::Emlygrennan::Elton::::276995",
-        "1926::Limerick::Glenbrohane::Ballyfroota::::50772",
         "1926::Limerick::Hospital::Portboy::::528154",
         "1926::Limerick::Kilflyn::Garryarthur::::303860",
         "1926::Tipperary::Cappagh::Ardnagassane::::16268",

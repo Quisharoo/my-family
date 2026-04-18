@@ -1,5 +1,5 @@
 {
-  "count": 45,
+  "count": 43,
   "familyLines": [
     {
       "id": "family-line::1901::Limerick::Duntryleague::Duntryleague::15::1506166",
@@ -95,16 +95,34 @@
       "id": "family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893",
       "householdIds": [
         "1901::Limerick::Glenbrohane::Ballyfroota::4::1491893",
-        "1926::Limerick::Glenbrohane::Ballyfroota::::50767"
+        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50772"
       ],
       "censusYears": [
         1901,
+        1911,
         1926
       ],
       "milestones": {
         "firstFreeStateCensus": true
       },
       "label": "Thomas Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
+    },
+    {
+      "id": "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
+      "householdIds": [
+        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50767"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Martin Quish line",
       "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
     },
     {
@@ -176,20 +194,6 @@
       },
       "label": "William Quish line",
       "placeLabel": "Limerick | Duntryleague | Newtown"
-    },
-    {
-      "id": "family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772",
-      "householdIds": [
-        "1926::Limerick::Glenbrohane::Ballyfroota::::50772"
-      ],
-      "censusYears": [
-        1926
-      ],
-      "milestones": {
-        "firstFreeStateCensus": true
-      },
-      "label": "Thomas Quish line",
-      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
     },
     {
       "id": "family-line::1926::Cork::Cobh Rural::Donegal::::244945",
@@ -442,20 +446,6 @@
       "placeLabel": "Limerick | Darragh | Darragh More"
     },
     {
-      "id": "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
-      "householdIds": [
-        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539"
-      ],
-      "censusYears": [
-        1911
-      ],
-      "milestones": {
-        "firstFreeStateCensus": false
-      },
-      "label": "Martin Quish line",
-      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
-    },
-    {
       "id": "family-line::1911::Tipperary::Rodus::Ballyhowe::6::831154",
       "householdIds": [
         "1911::Tipperary::Rodus::Ballyhowe::6::831154"
@@ -552,20 +542,6 @@
       },
       "label": "Patrick Quish line",
       "placeLabel": "Limerick | Hospital | Ballycahill"
-    },
-    {
-      "id": "family-line::1911::Limerick::Glenbrohane::Ballyfroota::7::620540",
-      "householdIds": [
-        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540"
-      ],
-      "censusYears": [
-        1911
-      ],
-      "milestones": {
-        "firstFreeStateCensus": false
-      },
-      "label": "Thomas Quish line",
-      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
     },
     {
       "id": "family-line::1901::Dublin::Glasnevin::Glasnevin Demesne::1.1::1273126",

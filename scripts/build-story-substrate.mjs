@@ -92,6 +92,7 @@ function flattenObservations(observations) {
     age: observation.age,
     sex: observation.sex,
     birthplace: observation.birthplace,
+    birthplace_raw: observation.birthplaceRaw,
     source_record_url: sourceRecordUrl(observation),
     source_image_url: sourceImageUrl(observation),
   }));
@@ -181,7 +182,7 @@ function buildManifest() {
   };
 }
 
-function buildResearchBrief(summary) {
+function buildResearchBrief(summary, { multiCensusLineCount, unanchored1926Count }) {
   const topPlaces = summary.topPlaces
     .slice(0, 5)
     .map((place) => `- ${place.place}: ${place.memberCount} observed household members`)
@@ -199,11 +200,17 @@ These exports are designed for genealogical and analytical work that goes beyond
 - Households by year: ${Object.entries(summary.householdsByYear)
     .map(([year, count]) => `${year}=${count}`)
     .join(", ")}
-- Family lines reaching 1926: ${summary.familyLinesReaching1926}
+- Family lines with multi-census continuity reaching 1926: ${multiCensusLineCount}
+- Additional 1926 households with no earlier-census match: ${unanchored1926Count}
 - Person threads reaching 1926: ${summary.personThreadsReaching1926}
 
 ## Strongest place concentrations
 ${topPlaces}
+
+## Data caveats
+- **1926 birthplace field is unreliable.** Many entries are OCR garbage (e.g. "Limfrog", "Cuman"). The \`birthplace\` column is sanitised to known Irish counties only; original values are preserved in \`birthplace_raw\`.
+- **Household links have varying strength.** Some rest on a single person-link at "possible" confidence. See \`quish-household-links.csv\` for per-link scores.
+- **Age inflation around 1911 is common** (Irish pension-age effects). The household linker uses a lenient age window when both census entries show the same head-of-family name at the same townland.
 
 ## Intended analyst workflow
 - Start with \`quish-observations.csv\` to inspect the full canonical record set.
@@ -395,9 +402,15 @@ writeCsv(path.join(analysisDir, "quish-person-threads.csv"), flattenPersonThread
 writeCsv(path.join(analysisDir, "quish-family-lines.csv"), flattenFamilyLines(familyLines));
 writeCsv(path.join(analysisDir, "quish-place-summary.csv"), placeSummary);
 writeJson(path.join(analysisDir, "quish-research-summary.json"), researchSummary);
+const multiCensusLineCount = familyLines.filter(
+  (line) => line.milestones?.firstFreeStateCensus && line.censusYears.length >= 2
+).length;
+const unanchored1926Count = familyLines.filter(
+  (line) => line.milestones?.firstFreeStateCensus && line.censusYears.length === 1
+).length;
 fs.writeFileSync(
   path.join(analysisDir, "quish-research-brief.md"),
-  `${buildResearchBrief(researchSummary)}\n`
+  `${buildResearchBrief(researchSummary, { multiCensusLineCount, unanchored1926Count })}\n`
 );
 writeJson(path.join(analysisDir, "quish-takeaways.json"), takeaways);
 fs.writeFileSync(

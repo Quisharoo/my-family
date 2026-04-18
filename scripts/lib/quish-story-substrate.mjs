@@ -44,7 +44,7 @@ export function normalizeNameForMatch(name) {
   return NAME_EQUIVALENTS.get(cleaned) || cleaned;
 }
 
-export function scoreAgeProgression(fromAge, toAge, expectedDelta) {
+export function scoreAgeProgression(fromAge, toAge, expectedDelta, options = {}) {
   if (fromAge == null || toAge == null) {
     return {
       ok: false,
@@ -58,28 +58,21 @@ export function scoreAgeProgression(fromAge, toAge, expectedDelta) {
   const preferredMax = expectedDelta + 1;
   const allowedMin = expectedDelta - 2;
   const allowedMax = expectedDelta + 2;
+  const lenientWindow = options.lenientWindow ?? 0;
+  const lenientMin = expectedDelta - lenientWindow;
+  const lenientMax = expectedDelta + lenientWindow;
 
   if (delta >= preferredMin && delta <= preferredMax) {
-    return {
-      ok: true,
-      band: "preferred",
-      delta,
-    };
+    return { ok: true, band: "preferred", delta };
   }
-
   if (delta >= allowedMin && delta <= allowedMax) {
-    return {
-      ok: true,
-      band: "allowed",
-      delta,
-    };
+    return { ok: true, band: "allowed", delta };
+  }
+  if (lenientWindow > 0 && delta >= lenientMin && delta <= lenientMax) {
+    return { ok: true, band: "lenient", delta };
   }
 
-  return {
-    ok: false,
-    band: "out_of_range",
-    delta,
-  };
+  return { ok: false, band: "out_of_range", delta };
 }
 
 function canonicalFirstName(record) {
@@ -103,8 +96,25 @@ function canonicalSex(record) {
   return record.updated_sex || record.sex || null;
 }
 
+const KNOWN_IRISH_COUNTIES = new Set([
+  "antrim", "armagh", "carlow", "cavan", "clare", "cork", "derry", "donegal",
+  "down", "dublin", "fermanagh", "galway", "kerry", "kildare", "kilkenny",
+  "laois", "leitrim", "limerick", "londonderry", "longford", "louth", "mayo",
+  "meath", "monaghan", "offaly", "queens", "roscommon", "sligo", "tipperary",
+  "tyrone", "waterford", "westmeath", "wexford", "wicklow",
+]);
+
 function canonicalBirthplace(record) {
-  return record.birthplace_county || record.birthplace || null;
+  const raw = record.birthplace_county || record.birthplace || null;
+  if (!raw) return { clean: null, raw: null };
+  const normalized = String(raw).toLowerCase().replace(/[^a-z]/g, "");
+  if (!normalized) return { clean: null, raw };
+  for (const county of KNOWN_IRISH_COUNTIES) {
+    if (normalized === county || normalized.startsWith(county)) {
+      return { clean: county.charAt(0).toUpperCase() + county.slice(1), raw };
+    }
+  }
+  return { clean: null, raw };
 }
 
 function canonicalHouseNumber(record) {
@@ -119,6 +129,7 @@ export function buildCanonicalPersonObservations(rawRecords, editions) {
   return rawRecords.map((entry) => {
     const edition = editions.get(entry.censusYear);
     const firstName = canonicalFirstName(entry.raw);
+    const birthplace = canonicalBirthplace(entry.raw);
     return {
       id: entry.sourceId,
       sourceDataset: entry.sourceDataset,
@@ -139,7 +150,8 @@ export function buildCanonicalPersonObservations(rawRecords, editions) {
       relation: canonicalRelation(entry.raw),
       age: canonicalAge(entry.raw),
       sex: canonicalSex(entry.raw),
-      birthplace: canonicalBirthplace(entry.raw),
+      birthplace: birthplace.clean,
+      birthplaceRaw: birthplace.raw,
       raw: entry.raw,
     };
   });
@@ -236,30 +248,48 @@ export function buildPersonLinks(observations) {
   return links;
 }
 
+function isHead(member) {
+  return String(member?.relation || "").toLowerCase().includes("head");
+}
+
 function bestAdjacentHousehold(household, candidates, expectedDelta) {
-  let best = null;
+  const sameTownland = candidates.filter((c) => placeKey(household) === placeKey(c));
 
-  for (const candidate of candidates) {
-    if (placeKey(household) !== placeKey(candidate)) continue;
+  for (const candidate of sameTownland) {
     for (const member of household.members) {
-      const normalized = member.normalizedName;
-      const match = candidate.members.find((other) => other.normalizedName === normalized);
+      const match = candidate.members.find(
+        (other) => other.normalizedName === member.normalizedName
+      );
       if (!match) continue;
-
       const ageProgression = scoreAgeProgression(member.age, match.age, expectedDelta);
       if (!ageProgression.ok) continue;
-
-      best = {
+      return {
         targetHouseholdId: candidate.id,
         matchedMemberIds: [member.id, match.id],
         confidence: ageProgression.band === "preferred" ? "strong" : "likely",
         reasons: ["same_place", "same_name", "plausible_age_progression"],
       };
-      return best;
     }
   }
 
-  return best;
+  for (const candidate of sameTownland) {
+    const fromHead = household.members.find(isHead);
+    const toHead = candidate.members.find(isHead);
+    if (!fromHead || !toHead) continue;
+    if (fromHead.normalizedName !== toHead.normalizedName) continue;
+    const ageProgression = scoreAgeProgression(fromHead.age, toHead.age, expectedDelta, {
+      lenientWindow: 8,
+    });
+    if (!ageProgression.ok) continue;
+    return {
+      targetHouseholdId: candidate.id,
+      matchedMemberIds: [fromHead.id, toHead.id],
+      confidence: "likely",
+      reasons: ["same_place", "same_name", "head_match_lenient_age"],
+    };
+  }
+
+  return null;
 }
 
 export function assembleFamilyLines(households) {
@@ -609,9 +639,14 @@ export function buildTakeaways({ researchSummary, familyLines }) {
     });
   }
 
-  for (const line of familyLines.filter((line) => line.milestones?.firstFreeStateCensus).slice(0, 5)) {
+  const multiCensusLines = familyLines
+    .filter((line) => line.milestones?.firstFreeStateCensus && line.censusYears.length >= 2)
+    .slice(0, 8);
+  for (const line of multiCensusLines) {
+    const placeSuffix = line.placeLabel ? ` at ${line.placeLabel}` : "";
+    const label = line.label || line.id;
     established.push({
-      statement: `${line.label || line.id} forms an established multi-census line across ${line.censusYears.join(", ")}.`,
+      statement: `${label}${placeSuffix} forms a multi-census line across ${line.censusYears.join(", ")}.`,
       evidenceRefs: line.householdIds,
     });
   }

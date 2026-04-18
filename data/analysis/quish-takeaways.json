@@ -24,7 +24,7 @@
       "evidenceRefs": []
     },
     {
-      "statement": "Martin Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "statement": "Martin Quish line at Limerick | Duntryleague | Duntryleague forms a multi-census line across 1901, 1911, 1926.",
       "evidenceRefs": [
         "1901::Limerick::Duntryleague::Duntryleague::15::1506166",
         "1911::Limerick::Duntryleague::Duntryleague::4::634851",
@@ -32,7 +32,7 @@
       ]
     },
     {
-      "statement": "Patrick Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "statement": "Patrick Quish line at Limerick | Glenbrohane | Knockaunavlyman forms a multi-census line across 1901, 1911, 1926.",
       "evidenceRefs": [
         "1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959",
         "1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597",
@@ -40,7 +40,7 @@
       ]
     },
     {
-      "statement": "Patrick Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "statement": "Patrick Quish line at Limerick | Ballylanders | Killeen forms a multi-census line across 1901, 1911, 1926.",
       "evidenceRefs": [
         "1901::Limerick::Ballylanders::Killeen::13::1505874",
         "1911::Limerick::Ballylanders::Killeen::10::634574",
@@ -48,7 +48,7 @@
       ]
     },
     {
-      "statement": "Patrick Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "statement": "Patrick Quish line at Limerick | Emlygrennan | Cush forms a multi-census line across 1901, 1911, 1926.",
       "evidenceRefs": [
         "1901::Limerick::Emlygrennan::Cush::19::1491679",
         "1911::Limerick::Emlygrennan::Cush::21::620325",
@@ -56,11 +56,26 @@
       ]
     },
     {
-      "statement": "Pat Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "statement": "Pat Quish line at Limerick | Hospital | Ballycahill forms a multi-census line across 1901, 1911, 1926.",
       "evidenceRefs": [
         "1901::Limerick::Hospital::Ballycahill::12::1490918",
         "1911::Limerick::Hospital::Ballycahill::7::619544",
         "1926::Limerick::Hospital::Ballycahill::::44287"
+      ]
+    },
+    {
+      "statement": "Thomas Quish line at Limerick | Glenbrohane | Ballyfroota forms a multi-census line across 1901, 1911, 1926.",
+      "evidenceRefs": [
+        "1901::Limerick::Glenbrohane::Ballyfroota::4::1491893",
+        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50772"
+      ]
+    },
+    {
+      "statement": "Martin Quish line at Limerick | Glenbrohane | Ballyfroota forms a multi-census line across 1911, 1926.",
+      "evidenceRefs": [
+        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50767"
       ]
     }
   ],
