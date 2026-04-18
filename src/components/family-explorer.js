@@ -146,7 +146,7 @@ export default function FamilyExplorer({ data, initialSlug = null }) {
     setDirection("back");
     setSelectedId(null);
     if (typeof window !== "undefined") {
-      window.history.replaceState({}, "", "/");
+      window.history.replaceState({}, "", "/explorer");
       window.scrollTo({ top: 0, behavior: "auto" });
     }
   }
@@ -176,10 +176,10 @@ export default function FamilyExplorer({ data, initialSlug = null }) {
         <header className="list-header">
           <h1>The Quish Family</h1>
           <p className="subtitle">
-            Our family in the 1901 and 1911 Irish census.
+            Every recorded Quish household across the 1901 and 1911 censuses.
           </p>
-          <Link href="/family-map" className="home-map-link">
-            See the family map →
+          <Link href="/" className="home-map-link">
+            ← Back to the family map
           </Link>
           <div className="search-wrap">
             <input
