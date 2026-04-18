@@ -10,10 +10,6 @@ export const metadata = {
     "Our family lines pinned on a historic map of south Limerick across the 1901, 1911 and 1926 censuses.",
 };
 
-function formatYears(years) {
-  return years.join(" · ");
-}
-
 export default function FamilyMapPage() {
   const { lines } = mapData;
 
@@ -33,19 +29,6 @@ export default function FamilyMapPage() {
       </header>
 
       <FamilyMapClient lines={lines} />
-
-      <section className="map-page__fallback" aria-label="Our family lines">
-        <h2>Our family lines</h2>
-        <ul className="map-page__lines">
-          {lines.map((line) => (
-            <li key={line.id}>
-              <strong>{line.label}</strong> — {line.townland},{" "}
-              {line.ded ? `${line.ded}, ` : ""}Co. {line.county} ·{" "}
-              <span className="muted">{formatYears(line.censusYears)}</span>
-            </li>
-          ))}
-        </ul>
-      </section>
 
       <PrintRosters lines={lines} />
 

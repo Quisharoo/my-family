@@ -3,7 +3,13 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import { MapContainer, TileLayer, Marker, useMap } from "react-leaflet";
+import {
+  MapContainer,
+  TileLayer,
+  Marker,
+  Tooltip,
+  useMap,
+} from "react-leaflet";
 import { HISTORIC_TILES, FALLBACK_TILES } from "./tile-config";
 import RosterPanel from "./RosterPanel";
 
@@ -29,12 +35,12 @@ function attachDisplayCoordinates(lines) {
   });
 }
 
-function createPinIcon() {
+function createPinIcon({ selected = false } = {}) {
   return L.divIcon({
-    className: "family-pin",
+    className: `family-pin${selected ? " family-pin--selected" : ""}`,
     html: '<span class="family-pin__inner" aria-hidden="true"></span>',
-    iconSize: [28, 28],
-    iconAnchor: [14, 14],
+    iconSize: [32, 32],
+    iconAnchor: [16, 16],
   });
 }
 
@@ -54,14 +60,27 @@ function FitToPins({ lines }) {
   return null;
 }
 
-export default function FamilyMap({ lines }) {
+function FocusOnLine({ focusLine }) {
+  const map = useMap();
+  useEffect(() => {
+    if (!focusLine?.displayCoordinate) return;
+    map.flyTo(
+      [focusLine.displayCoordinate.lat, focusLine.displayCoordinate.lng],
+      Math.max(map.getZoom(), 13),
+      { duration: 0.9 }
+    );
+  }, [focusLine, map]);
+  return null;
+}
+
+export default function FamilyMap({ lines, selectedLineId, onSelect }) {
   const displayLines = useMemo(() => attachDisplayCoordinates(lines), [lines]);
-  const [selectedLineId, setSelectedLineId] = useState(null);
   const [tileFailed, setTileFailed] = useState(false);
-  const iconRef = useRef(null);
-  if (!iconRef.current) {
-    iconRef.current = createPinIcon();
-  }
+  const normalIconRef = useRef(null);
+  const selectedIconRef = useRef(null);
+  if (!normalIconRef.current) normalIconRef.current = createPinIcon();
+  if (!selectedIconRef.current)
+    selectedIconRef.current = createPinIcon({ selected: true });
 
   const selectedLine = useMemo(
     () => displayLines.find((line) => line.id === selectedLineId) || null,
@@ -69,6 +88,7 @@ export default function FamilyMap({ lines }) {
   );
 
   const tileConfig = tileFailed ? FALLBACK_TILES : HISTORIC_TILES;
+  const tileOpacity = tileFailed ? 1 : 0.88;
 
   return (
     <div className="family-map">
@@ -86,6 +106,7 @@ export default function FamilyMap({ lines }) {
           attribution={tileConfig.attribution}
           maxZoom={tileConfig.maxZoom}
           minZoom={tileConfig.minZoom}
+          opacity={tileOpacity}
           eventHandlers={{
             tileerror: () => {
               if (!tileFailed) setTileFailed(true);
@@ -93,20 +114,34 @@ export default function FamilyMap({ lines }) {
           }}
         />
         <FitToPins lines={displayLines} />
+        <FocusOnLine focusLine={selectedLine} />
         {displayLines.map((line) =>
           line.displayCoordinate ? (
             <Marker
               key={line.id}
               position={[line.displayCoordinate.lat, line.displayCoordinate.lng]}
-              icon={iconRef.current}
-              eventHandlers={{ click: () => setSelectedLineId(line.id) }}
+              icon={
+                line.id === selectedLineId
+                  ? selectedIconRef.current
+                  : normalIconRef.current
+              }
+              eventHandlers={{ click: () => onSelect(line.id) }}
               keyboard
               alt={`${line.label} at ${line.townland}`}
-            />
+            >
+              <Tooltip
+                direction="top"
+                offset={[0, -14]}
+                permanent
+                className="family-pin__label"
+              >
+                {line.townland}
+              </Tooltip>
+            </Marker>
           ) : null
         )}
       </MapContainer>
-      <RosterPanel line={selectedLine} onClose={() => setSelectedLineId(null)} />
+      <RosterPanel line={selectedLine} onClose={() => onSelect(null)} />
     </div>
   );
 }
