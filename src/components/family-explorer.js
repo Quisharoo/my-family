@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
 function placeText(household) {
@@ -177,6 +178,9 @@ export default function FamilyExplorer({ data, initialSlug = null }) {
           <p className="subtitle">
             Our family in the 1901 and 1911 Irish census.
           </p>
+          <Link href="/family-map" className="home-map-link">
+            See the family map →
+          </Link>
           <div className="search-wrap">
             <input
               type="search"

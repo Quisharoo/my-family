@@ -3,14 +3,16 @@
   "private": true,
   "scripts": {
     "test": "node --test",
-    "data:build": "node scripts/build-story-substrate.mjs && node scripts/build-viz-data.mjs",
+    "data:build": "node scripts/build-story-substrate.mjs && node scripts/build-viz-data.mjs && node scripts/build-map-data.mjs",
     "dev": "npm run data:build && next dev",
     "build": "npm run data:build && next build",
     "start": "next start"
   },
   "dependencies": {
+    "leaflet": "^1.9.4",
     "next": "^16.0.0",
     "react": "^19.2.0",
-    "react-dom": "^19.2.0"
+    "react-dom": "^19.2.0",
+    "react-leaflet": "^5.0.0"
   }
 }

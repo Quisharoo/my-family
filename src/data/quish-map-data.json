@@ -1,0 +1,1156 @@
+{
+  "generatedAt": "2026-04-18T15:08:55.591Z",
+  "lineCount": 7,
+  "missingCoordinateCount": 0,
+  "lines": [
+    {
+      "id": "family-line::1901::Limerick::Duntryleague::Duntryleague::15::1506166",
+      "label": "Martin Quish line",
+      "placeLabel": "Limerick | Duntryleague | Duntryleague",
+      "county": "Limerick",
+      "ded": "Duntryleague",
+      "townland": "Duntryleague",
+      "coordinate": {
+        "lat": 52.4070518,
+        "lng": -8.3250811
+      },
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "yearRecords": [
+        {
+          "year": 1901,
+          "regime": "British administration",
+          "houseNumber": "15",
+          "memberCount": 8,
+          "members": [
+            {
+              "firstName": "Martin",
+              "age": 38,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131866"
+            },
+            {
+              "firstName": "Margaret",
+              "age": 32,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131867"
+            },
+            {
+              "firstName": "Mary",
+              "age": 6,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131868"
+            },
+            {
+              "firstName": "Michael",
+              "age": 5,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131869"
+            },
+            {
+              "firstName": "Denis",
+              "age": 4,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131870"
+            },
+            {
+              "firstName": "Thomas John",
+              "age": 2,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131871"
+            },
+            {
+              "firstName": "Nora",
+              "age": 1,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131872"
+            },
+            {
+              "firstName": "Josephine",
+              "age": 0,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131873"
+            }
+          ]
+        },
+        {
+          "year": 1911,
+          "regime": "British administration",
+          "houseNumber": "4",
+          "memberCount": 10,
+          "members": [
+            {
+              "firstName": "Martin",
+              "age": 48,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167257"
+            },
+            {
+              "firstName": "Margaret",
+              "age": 43,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167258"
+            },
+            {
+              "firstName": "Michael",
+              "age": 15,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167259"
+            },
+            {
+              "firstName": "Denis",
+              "age": 14,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167260"
+            },
+            {
+              "firstName": "Thomas",
+              "age": 12,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167261"
+            },
+            {
+              "firstName": "Norah",
+              "age": 11,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167262"
+            },
+            {
+              "firstName": "Josephine",
+              "age": 10,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167263"
+            },
+            {
+              "firstName": "Martin",
+              "age": 5,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167264"
+            },
+            {
+              "firstName": "Patrick",
+              "age": 4,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167265"
+            },
+            {
+              "firstName": "John",
+              "age": 3,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167266"
+            }
+          ]
+        },
+        {
+          "year": 1926,
+          "regime": "Irish Free State",
+          "houseNumber": null,
+          "memberCount": 9,
+          "members": [
+            {
+              "firstName": "Martin",
+              "age": 64,
+              "relation": "Head",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504942"
+            },
+            {
+              "firstName": "Margaret",
+              "age": 59,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504943"
+            },
+            {
+              "firstName": "Denis",
+              "age": 26,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504944"
+            },
+            {
+              "firstName": "Nora",
+              "age": 24,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504945"
+            },
+            {
+              "firstName": "Johannah",
+              "age": 23,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504946"
+            },
+            {
+              "firstName": "Martin",
+              "age": 20,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504947"
+            },
+            {
+              "firstName": "Patrick",
+              "age": 19,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504948"
+            },
+            {
+              "firstName": "John",
+              "age": 17,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504949"
+            },
+            {
+              "firstName": "James",
+              "age": 13,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504950"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959",
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Knockaunavlyman",
+      "county": "Limerick",
+      "ded": "Glenbrohane",
+      "townland": "Knockaunavlyman",
+      "coordinate": {
+        "lat": 52.3946181,
+        "lng": -8.3589222
+      },
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "yearRecords": [
+        {
+          "year": 1901,
+          "regime": "British administration",
+          "houseNumber": "7",
+          "memberCount": 5,
+          "members": [
+            {
+              "firstName": "Patrick",
+              "age": 48,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923211"
+            },
+            {
+              "firstName": "William",
+              "age": 74,
+              "relation": "Uncle",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923215"
+            },
+            {
+              "firstName": "Bridget",
+              "age": 32,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923212"
+            },
+            {
+              "firstName": "William",
+              "age": 4,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923213"
+            },
+            {
+              "firstName": "Anne",
+              "age": 0,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923214"
+            }
+          ]
+        },
+        {
+          "year": 1911,
+          "regime": "British administration",
+          "houseNumber": "7",
+          "memberCount": 8,
+          "members": [
+            {
+              "firstName": "Patrick",
+              "age": 66,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240512"
+            },
+            {
+              "firstName": "Bridget",
+              "age": 46,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240513"
+            },
+            {
+              "firstName": "William",
+              "age": 14,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240514"
+            },
+            {
+              "firstName": "Annie",
+              "age": 10,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240515"
+            },
+            {
+              "firstName": "Mary Ellen",
+              "age": 9,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240516"
+            },
+            {
+              "firstName": "John",
+              "age": 6,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240517"
+            },
+            {
+              "firstName": "Patrick",
+              "age": 5,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240518"
+            },
+            {
+              "firstName": "Bridget",
+              "age": 2,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240519"
+            }
+          ]
+        },
+        {
+          "year": 1926,
+          "regime": "Irish Free State",
+          "houseNumber": null,
+          "memberCount": 5,
+          "members": [
+            {
+              "firstName": "B",
+              "age": 60,
+              "relation": "Head",
+              "sex": "F",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518171"
+            },
+            {
+              "firstName": "Molly",
+              "age": 23,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518174"
+            },
+            {
+              "firstName": "John",
+              "age": 21,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518172"
+            },
+            {
+              "firstName": "Patrick",
+              "age": 20,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518173"
+            },
+            {
+              "firstName": "Bridget",
+              "age": 17,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518175"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-line::1901::Limerick::Ballylanders::Killeen::13::1505874",
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Ballylanders | Killeen",
+      "county": "Limerick",
+      "ded": "Ballylanders",
+      "townland": "Killeen",
+      "coordinate": {
+        "lat": 52.3890872,
+        "lng": -8.3512464
+      },
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "yearRecords": [
+        {
+          "year": 1901,
+          "regime": "British administration",
+          "houseNumber": "13",
+          "memberCount": 6,
+          "members": [
+            {
+              "firstName": "Patrick",
+              "age": 60,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130343"
+            },
+            {
+              "firstName": "Julia",
+              "age": 50,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130344"
+            },
+            {
+              "firstName": "Mary",
+              "age": 22,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130345"
+            },
+            {
+              "firstName": "Willie",
+              "age": 14,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130346"
+            },
+            {
+              "firstName": "Hannie",
+              "age": 9,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130347"
+            },
+            {
+              "firstName": "Katie",
+              "age": 5,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130348"
+            }
+          ]
+        },
+        {
+          "year": 1911,
+          "regime": "British administration",
+          "houseNumber": "10",
+          "memberCount": 5,
+          "members": [
+            {
+              "firstName": "Patrick",
+              "age": 72,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165863"
+            },
+            {
+              "firstName": "Julia",
+              "age": 60,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165864"
+            },
+            {
+              "firstName": "Mary",
+              "age": 31,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165865"
+            },
+            {
+              "firstName": "William",
+              "age": 24,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165866"
+            },
+            {
+              "firstName": "Hannah",
+              "age": 19,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165867"
+            }
+          ]
+        },
+        {
+          "year": 1926,
+          "regime": "Irish Free State",
+          "houseNumber": null,
+          "memberCount": 3,
+          "members": [
+            {
+              "firstName": "William",
+              "age": 38,
+              "relation": "Head",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1361507"
+            },
+            {
+              "firstName": "Julia",
+              "age": 75,
+              "relation": "Mother",
+              "sex": "F",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1361508"
+            },
+            {
+              "firstName": "Hannah",
+              "age": 32,
+              "relation": "Sister",
+              "sex": "F",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1361509"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-line::1901::Limerick::Emlygrennan::Cush::19::1491679",
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Emlygrennan | Cush",
+      "county": "Limerick",
+      "ded": "Emlygrennan",
+      "townland": "Cush",
+      "coordinate": {
+        "lat": 52.388669,
+        "lng": -8.449431
+      },
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "yearRecords": [
+        {
+          "year": 1901,
+          "regime": "British administration",
+          "houseNumber": "19",
+          "memberCount": 5,
+          "members": [
+            {
+              "firstName": "Patrick",
+              "age": 55,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921810"
+            },
+            {
+              "firstName": "Eliza",
+              "age": 50,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921811"
+            },
+            {
+              "firstName": "Patrick",
+              "age": 31,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921812"
+            },
+            {
+              "firstName": "Ellon",
+              "age": 17,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921813"
+            },
+            {
+              "firstName": "Denis",
+              "age": 13,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921814"
+            }
+          ]
+        },
+        {
+          "year": 1911,
+          "regime": "British administration",
+          "houseNumber": "21",
+          "memberCount": 5,
+          "members": [
+            {
+              "firstName": "Patrick",
+              "age": 74,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239222"
+            },
+            {
+              "firstName": "Eliza",
+              "age": 65,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239223"
+            },
+            {
+              "firstName": "Mary",
+              "age": 36,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239224"
+            },
+            {
+              "firstName": "Ellie",
+              "age": 26,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239225"
+            },
+            {
+              "firstName": "Denis",
+              "age": 23,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239226"
+            }
+          ]
+        },
+        {
+          "year": 1926,
+          "regime": "Irish Free State",
+          "houseNumber": null,
+          "memberCount": 2,
+          "members": [
+            {
+              "firstName": "Denis",
+              "age": 38,
+              "relation": "Head",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1506829"
+            },
+            {
+              "firstName": "Ellie",
+              "age": 4,
+              "relation": "Sister",
+              "sex": "F",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1506830"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-line::1901::Limerick::Hospital::Ballycahill::12::1490918",
+      "label": "Pat Quish line",
+      "placeLabel": "Limerick | Hospital | Ballycahill",
+      "county": "Limerick",
+      "ded": "Hospital",
+      "townland": "Ballycahill",
+      "coordinate": {
+        "lat": 52.4481043,
+        "lng": -8.443198
+      },
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "yearRecords": [
+        {
+          "year": 1901,
+          "regime": "British administration",
+          "houseNumber": "12",
+          "memberCount": 4,
+          "members": [
+            {
+              "firstName": "Pat",
+              "age": 60,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7388542"
+            },
+            {
+              "firstName": "Andrew",
+              "age": 25,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7388543"
+            },
+            {
+              "firstName": "Annie",
+              "age": 20,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7388544"
+            },
+            {
+              "firstName": "Pat",
+              "age": 15,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7388545"
+            }
+          ]
+        },
+        {
+          "year": 1911,
+          "regime": "British administration",
+          "houseNumber": "7",
+          "memberCount": 4,
+          "members": [
+            {
+              "firstName": "Patrick",
+              "age": 68,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3236944"
+            },
+            {
+              "firstName": "Andrew",
+              "age": 36,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3236945"
+            },
+            {
+              "firstName": "Anne",
+              "age": 32,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3236947"
+            },
+            {
+              "firstName": "Patrick",
+              "age": 26,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3236946"
+            }
+          ]
+        },
+        {
+          "year": 1926,
+          "regime": "Irish Free State",
+          "houseNumber": null,
+          "memberCount": 4,
+          "members": [
+            {
+              "firstName": "Patrick",
+              "age": 40,
+              "relation": "Head",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=983488"
+            },
+            {
+              "firstName": "John",
+              "age": 60,
+              "relation": "Cousin",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=983491"
+            },
+            {
+              "firstName": "Michael",
+              "age": 45,
+              "relation": "Brother",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=983489"
+            },
+            {
+              "firstName": "Ann",
+              "age": 30,
+              "relation": "Cousin",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=983490"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893",
+      "label": "Thomas Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota",
+      "county": "Limerick",
+      "ded": "Glenbrohane",
+      "townland": "Ballyfroota",
+      "coordinate": {
+        "lat": 52.3963566,
+        "lng": -8.3717428
+      },
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "yearRecords": [
+        {
+          "year": 1901,
+          "regime": "British administration",
+          "houseNumber": "4",
+          "memberCount": 3,
+          "members": [
+            {
+              "firstName": "Thomas",
+              "age": 37,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6922890"
+            },
+            {
+              "firstName": "Margaret",
+              "age": 36,
+              "relation": "Sister",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6922891"
+            },
+            {
+              "firstName": "Mary",
+              "age": 6,
+              "relation": "Niece",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6922892"
+            }
+          ]
+        },
+        {
+          "year": 1911,
+          "regime": "British administration",
+          "houseNumber": "7",
+          "memberCount": 2,
+          "members": [
+            {
+              "firstName": "Thomas",
+              "age": 53,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240259"
+            },
+            {
+              "firstName": "Margaret",
+              "age": 55,
+              "relation": "Sister",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240260"
+            }
+          ]
+        },
+        {
+          "year": 1926,
+          "regime": "Irish Free State",
+          "houseNumber": null,
+          "memberCount": 3,
+          "members": [
+            {
+              "firstName": "Thomas",
+              "age": 60,
+              "relation": "Head",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517919"
+            },
+            {
+              "firstName": "Margaret",
+              "age": 67,
+              "relation": "Sister",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517920"
+            },
+            {
+              "firstName": "Josephina",
+              "age": 22,
+              "relation": "Niece",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517921"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
+      "label": "Martin Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota",
+      "county": "Limerick",
+      "ded": "Glenbrohane",
+      "townland": "Ballyfroota",
+      "coordinate": {
+        "lat": 52.3963566,
+        "lng": -8.3717428
+      },
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "yearRecords": [
+        {
+          "year": 1911,
+          "regime": "British administration",
+          "houseNumber": "6",
+          "memberCount": 7,
+          "members": [
+            {
+              "firstName": "Martin",
+              "age": 45,
+              "relation": "Head of Family",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240252"
+            },
+            {
+              "firstName": "Margret",
+              "age": 36,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240253"
+            },
+            {
+              "firstName": "Patrick",
+              "age": 7,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240254"
+            },
+            {
+              "firstName": "Edmond",
+              "age": 6,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240255"
+            },
+            {
+              "firstName": "John Peter",
+              "age": 4,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240256"
+            },
+            {
+              "firstName": "Elizabeth",
+              "age": 2,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240257"
+            },
+            {
+              "firstName": "Martin",
+              "age": 0,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240258"
+            }
+          ]
+        },
+        {
+          "year": 1926,
+          "regime": "Irish Free State",
+          "houseNumber": null,
+          "memberCount": 9,
+          "members": [
+            {
+              "firstName": "Martin",
+              "age": 60,
+              "relation": "Head",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517887"
+            },
+            {
+              "firstName": "Margaret",
+              "age": 52,
+              "relation": "Wife",
+              "sex": "F",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517888"
+            },
+            {
+              "firstName": "Patrick",
+              "age": 22,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517889"
+            },
+            {
+              "firstName": "Edmond",
+              "age": 21,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517890"
+            },
+            {
+              "firstName": "John",
+              "age": 19,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517891"
+            },
+            {
+              "firstName": "Martin",
+              "age": 15,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517892"
+            },
+            {
+              "firstName": "Mary",
+              "age": 14,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517893"
+            },
+            {
+              "firstName": "James",
+              "age": 11,
+              "relation": "Son",
+              "sex": "M",
+              "birthplace": null,
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517894"
+            },
+            {
+              "firstName": "Sarah",
+              "age": 10,
+              "relation": "Daughter",
+              "sex": "F",
+              "birthplace": "Limerick",
+              "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517895"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "missingCoordinates": []
+}

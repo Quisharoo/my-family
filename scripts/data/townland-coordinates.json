@@ -1,0 +1,47 @@
+{
+  "_note": "Hand-curated centroids for the six anchor Quish family lines, all in Co. Limerick. Source: OpenStreetMap Nominatim (2026). Match on county + ded + townland.",
+  "coordinates": [
+    {
+      "county": "Limerick",
+      "ded": "Glenbrohane",
+      "townland": "Ballyfroota",
+      "lat": 52.3963566,
+      "lng": -8.3717428
+    },
+    {
+      "county": "Limerick",
+      "ded": "Ballylanders",
+      "townland": "Killeen",
+      "lat": 52.3890872,
+      "lng": -8.3512464
+    },
+    {
+      "county": "Limerick",
+      "ded": "Duntryleague",
+      "townland": "Duntryleague",
+      "lat": 52.4070518,
+      "lng": -8.3250811
+    },
+    {
+      "county": "Limerick",
+      "ded": "Glenbrohane",
+      "townland": "Knockaunavlyman",
+      "lat": 52.3946181,
+      "lng": -8.3589222
+    },
+    {
+      "county": "Limerick",
+      "ded": "Hospital",
+      "townland": "Ballycahill",
+      "lat": 52.4481043,
+      "lng": -8.4431980
+    },
+    {
+      "county": "Limerick",
+      "ded": "Emlygrennan",
+      "townland": "Cush",
+      "lat": 52.3886690,
+      "lng": -8.4494310
+    }
+  ]
+}
