@@ -18,9 +18,14 @@ const MAP_ZOOM = 11;
 
 function jitterCoordinate(coordinate, index) {
   if (index === 0) return coordinate;
-  const offsetLat = Math.sin(index * 1.7) * 0.001;
-  const offsetLng = Math.cos(index * 1.7) * 0.001;
+  const offsetLat = Math.sin(index * 1.7) * 0.0035;
+  const offsetLng = Math.cos(index * 1.7) * 0.0035;
   return { lat: coordinate.lat + offsetLat, lng: coordinate.lng + offsetLng };
+}
+
+function shortLabel(fullLabel) {
+  if (!fullLabel) return fullLabel;
+  return fullLabel.replace(/\s+line$/, "");
 }
 
 function attachDisplayCoordinates(lines) {
@@ -164,7 +169,7 @@ export default function FamilyMap({ lines, selectedLineId, onSelect }) {
                 permanent
                 className="family-pin__label"
               >
-                <span className="family-pin__label-line">{line.label}</span>
+                <span className="family-pin__label-line">{shortLabel(line.label)}</span>
                 <span className="family-pin__label-place">{line.townland}</span>
               </Tooltip>
             </Marker>

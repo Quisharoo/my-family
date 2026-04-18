@@ -37,7 +37,10 @@ export default function HomePage() {
           family parentage.
         </p>
         <p className="map-page__footer-link">
-          <Link href="/explorer">Search all recorded Quish households →</Link>
+          <Link href="/lines">Trace each line through the censuses →</Link>
+        </p>
+        <p className="map-page__footer-link muted">
+          <Link href="/explorer">Search every recorded Quish household</Link>
         </p>
       </footer>
     </main>
