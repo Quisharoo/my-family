@@ -1,0 +1,63 @@
+household_id,census_year,regime,county,ded,townland,house_number,image_group,member_count,member_ids,member_names
+1901::Dublin::Arran Quay::Aberdeen Street::6::1334125,1901,British administration,Dublin,Arran Quay,Aberdeen Street,6,1334125,1,5195852,John
+1901::Dublin::Glasnevin::Glasnevin Demesne::1.1::1273126,1901,British administration,Dublin,Glasnevin,Glasnevin Demesne,1.1,1273126,1,5332989,Catherine
+1901::Cork::Cork Urban No. 5::College Road::6.1::1111138,1901,British administration,Cork,Cork Urban No. 5,College Road,6.1,1111138,2,6330074|6330075,Michael|William
+1901::Limerick::Knockainy::Rathanny::18::1489942,1901,British administration,Limerick,Knockainy,Rathanny,18,1489942,6,6917888|6917889|6917890|6917891|6917892|6917893,John|Ellen|Alice|Martin|Bridget|Nora
+1901::Limerick::Emlygrennan::Cush::19::1491679,1901,British administration,Limerick,Emlygrennan,Cush,19,1491679,5,6921810|6921811|6921812|6921813|6921814,Patrick|Eliza|Patrick|Ellon|Denis
+1901::Limerick::Glenbrohane::Ballyfroota::4::1491893,1901,British administration,Limerick,Glenbrohane,Ballyfroota,4,1491893,3,6922890|6922891|6922892,Thomas|Margaret|Mary
+1901::Limerick::Glenbrohane::Ballyfroota::6::1491895,1901,British administration,Limerick,Glenbrohane,Ballyfroota,6,1491895,1,6922901,Mary
+1901::Limerick::Glenbrohane::Ballyfroota::10::1491898,1901,British administration,Limerick,Glenbrohane,Ballyfroota,10,1491898,2,6922909|6922910,Patrick|Martin
+1901::Limerick::Glenbrohane::Knockaunavlyman::6::1491958,1901,British administration,Limerick,Glenbrohane,Knockaunavlyman,6,1491958,1,6923209,Catherine
+1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959,1901,British administration,Limerick,Glenbrohane,Knockaunavlyman,7,1491959,5,6923211|6923212|6923213|6923214|6923215,Patrick|Bridget|William|Anne|William
+1901::Limerick::Ballylanders::Killeen::8::1505870,1901,British administration,Limerick,Ballylanders,Killeen,8,1505870,2,7130324|7130325,Charles|Ellin
+1901::Limerick::Ballylanders::Killeen::9::1505871,1901,British administration,Limerick,Ballylanders,Killeen,9,1505871,5,7130326|7130327|7130328|7130329|7130330,Catherine|Lena|Thomas|Anne|Patrick
+1901::Limerick::Ballylanders::Killeen::13::1505874,1901,British administration,Limerick,Ballylanders,Killeen,13,1505874,6,7130343|7130344|7130345|7130346|7130347|7130348,Patrick|Julia|Mary|Willie|Hannie|Katie
+1901::Limerick::Duntryleague::Duntryleague::15::1506166,1901,British administration,Limerick,Duntryleague,Duntryleague,15,1506166,8,7131866|7131867|7131868|7131869|7131870|7131871|7131872|7131873,Martin|Margaret|Mary|Michael|Denis|Thomas John|Nora|Josephine
+1901::Limerick::Duntryleague::Lackelly East::3::1506191,1901,British administration,Limerick,Duntryleague,Lackelly East,3,1506191,3,7131981|7131982|7131983,James|Margaret|Bridget
+1901::Limerick::Hospital::Ballycahill::12::1490918,1901,British administration,Limerick,Hospital,Ballycahill,12,1490918,4,7388542|7388543|7388544|7388545,Pat|Andrew|Annie|Pat
+1901::Limerick::Hospital::Ballycahill::13::1490919,1901,British administration,Limerick,Hospital,Ballycahill,13,1490919,2,7388547|7388548,Michael|Pat
+1901::Tipperary::Emly::Nickeres::2::1718183,1901,British administration,Tipperary,Emly,Nickeres,2,1718183,7,8227729|8227730|8227731|8227732|8227733|8227734|8227735,Patrick|Mary|Thomas|Bridget|Sarah|Mary Anne|Ellen
+1901::Tipperary::Rodus::Ballyhone::1::1718382,1901,British administration,Tipperary,Rodus,Ballyhone,1,1718382,10,8228714|8228715|8228716|8228717|8228718|8228719|8228720|8228721|8228722|8228723,Thomas|Catherine|Agnes|Margaret|Eily|Michael|Thomas|Angela|Patrick|Josephine
+1901::Tipperary::Shronell::Shronell Beg::9::1718626,1901,British administration,Tipperary,Shronell,Shronell Beg,9,1718626,6,8230055|8230056|8230057|8230058|8230059|8230060,James|Mary|Margaret|Martin|Mary|James
+1911::Dublin::Arran Quay::Aberdeen Street::6::38280,1911,British administration,Dublin,Arran Quay,Aberdeen Street,6,38280,1,273210,John
+1911::Cork::Cork No. 4 Urban (part of)::Rockwell Terrace::4::388715,1911,British administration,Cork,Cork No. 4 Urban (part of),Rockwell Terrace,4,388715,1,1434881,Kattie
+1911::Limerick::Knockainy::Rathanny::19::618589,1911,British administration,Limerick,Knockainy,Rathanny,19,618589,5,2519539|2519540|2519541|2519542|2519543,John|Ellen|Alice|Martin|Nora
+1911::Limerick::Hospital::Hospital Town::5::619663,1911,British administration,Limerick,Hospital,Hospital Town,5,619663,1,2519702,Patrick
+1911::Limerick::Ballylanders::Killeen::10::634574,1911,British administration,Limerick,Ballylanders,Killeen,10,634574,5,3165863|3165864|3165865|3165866|3165867,Patrick|Julia|Mary|William|Hannah
+1911::Limerick::Ballylanders::Killeen::15::634579,1911,British administration,Limerick,Ballylanders,Killeen,15,634579,2,3165891|3165892,Charles|Ellen
+1911::Limerick::Ballylanders::Killeen::16::634580,1911,British administration,Limerick,Ballylanders,Killeen,16,634580,4,3165893|3165894|3165895|3165896,Catherine|Helena|Thomas|Annie
+1911::Limerick::Duntryleague::Duntryleague::4::634851,1911,British administration,Limerick,Duntryleague,Duntryleague,4,634851,10,3167257|3167258|3167259|3167260|3167261|3167262|3167263|3167264|3167265|3167266,Martin|Margaret|Michael|Denis|Thomas|Norah|Josephine|Martin|Patrick|John
+1911::Limerick::Duntryleague::Lackelly East::3::634884,1911,British administration,Limerick,Duntryleague,Lackelly East,3,634884,2,3167399|3167400,Margaret|Bridget
+1911::Limerick::Hospital::Ballycahill::3::619540,1911,British administration,Limerick,Hospital,Ballycahill,3,619540,2,3236917|3236918,Patrick|William
+1911::Limerick::Hospital::Ballycahill::7::619544,1911,British administration,Limerick,Hospital,Ballycahill,7,619544,4,3236944|3236945|3236946|3236947,Patrick|Andrew|Patrick|Anne
+1911::Limerick::Darragh::Darragh More::9::620195,1911,British administration,Limerick,Darragh,Darragh More,9,620195,7,3238618|3238619|3238620|3238621|3238622|3238623|3238624,Patrick|Mary|Eliza|Patrick|Jeremiah|John|William
+1911::Limerick::Emlygrennan::Cush::21::620325,1911,British administration,Limerick,Emlygrennan,Cush,21,620325,5,3239222|3239223|3239224|3239225|3239226,Patrick|Eliza|Mary|Ellie|Denis
+1911::Limerick::Glenbrohane::Ballyfroota::6::620539,1911,British administration,Limerick,Glenbrohane,Ballyfroota,6,620539,7,3240252|3240253|3240254|3240255|3240256|3240257|3240258,Martin|Margret|Patrick|Edmond|John Peter|Elizabeth|Martin
+1911::Limerick::Glenbrohane::Ballyfroota::7::620540,1911,British administration,Limerick,Glenbrohane,Ballyfroota,7,620540,2,3240259|3240260,Thomas|Margaret
+1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597,1911,British administration,Limerick,Glenbrohane,Knockaunavlyman,7,620597,8,3240512|3240513|3240514|3240515|3240516|3240517|3240518|3240519,Patrick|Bridget|William|Annie|Mary Ellen|John|Patrick|Bridget
+1911::Londonderry::Londonderry No. 5 Urban::Londonderry Workhouse::3::606910,1911,British administration,Londonderry,Londonderry No. 5 Urban,Londonderry Workhouse,3,606910,1,3424296,Denis
+1911::Tipperary::Emly::Nickeres::2::830956,1911,British administration,Tipperary,Emly,Nickeres,2,830956,4,4112831|4112832|4112833|4112834,Mary|Thomas|Bridget|Ellen
+1911::Tipperary::Rodus::Ballyhowe::6::831154,1911,British administration,Tipperary,Rodus,Ballyhowe,6,831154,6,4113771|4113772|4113773|4113774|4113775|4113776,Catherine|Michael|Thomas|Angela|Patrick|Josephine
+1911::Tipperary::Shronell::Shronell Beg::11::831401,1911,British administration,Tipperary,Shronell,Shronell Beg,11,831401,5,4115004|4115005|4115006|4115007|4115008,James|Mary|Martin|James|Ellen
+1911::Wicklow::Baltinglass::Baltinglass West::1::888339,1911,British administration,Wicklow,Baltinglass,Baltinglass West,1,888339,1,4322029,William
+1926::Limerick::Knockainy::Knockainy Town::::399464,1926,Irish Free State,Limerick,Knockainy,Knockainy Town,,399464,1,951795,Mary Anne
+1926::Limerick::Knockainy::Knockainy Town::::399468,1926,Irish Free State,Limerick,Knockainy,Knockainy Town,,399468,4,951803|951804|951805|951806,Patrick|Mary A|Patrick|Hannah
+1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390,1926,Irish Free State,Limerick,Limerick South Rural,Ballinacurra Town,,30390,1,1202750,Mary
+1926::Limerick::Ballylanders::Killeen::::380628,1926,Irish Free State,Limerick,Ballylanders,Killeen,,380628,3,1361507|1361508|1361509,William|Julia|Hannah
+1926::Limerick::Darragh::Darragh Moore::::230540,1926,Irish Free State,Limerick,Darragh,Darragh Moore,,230540,6,1471285|1471286|1471287|1471288|1471289|1471290,Patrick|Mary|Patrick|Peter|Ellen|Martin
+1926::Limerick::Duntryleague::Duntryleague::::272767,1926,Irish Free State,Limerick,Duntryleague,Duntryleague,,272767,9,1504942|1504943|1504944|1504945|1504946|1504947|1504948|1504949|1504950,Martin|Margaret|Denis|Nora|Johannah|Martin|Patrick|John|James
+1926::Limerick::Duntryleague::Newtown::::500913,1926,Irish Free State,Limerick,Duntryleague,Newtown,,500913,3,1506542|1506543|1506544,William|Nora|Patrick
+1926::Limerick::Emlygrennan::Cush::::228748,1926,Irish Free State,Limerick,Emlygrennan,Cush,,228748,2,1506829|1506830,Denis|Ellie
+1926::Limerick::Emlygrennan::Elton::::276995,1926,Irish Free State,Limerick,Emlygrennan,Elton,,276995,1,1507157,Andrew
+1926::Limerick::Glenbrohane::Ballyfroota::::50767,1926,Irish Free State,Limerick,Glenbrohane,Ballyfroota,,50767,9,1517887|1517888|1517889|1517890|1517891|1517892|1517893|1517894|1517895,Martin|Margaret|Patrick|Edmond|John|Martin|Mary|James|Sarah
+1926::Limerick::Glenbrohane::Ballyfroota::::50772,1926,Irish Free State,Limerick,Glenbrohane,Ballyfroota,,50772,3,1517919|1517920|1517921,Thomas|Margaret|Josephina
+1926::Limerick::Glenbrohane::Knockaunavlyman::::402008,1926,Irish Free State,Limerick,Glenbrohane,Knockaunavlyman,,402008,5,1518171|1518172|1518173|1518174|1518175,B|John|Patrick|Molly|Bridget
+1926::Limerick::Hospital::Ballycahill::::44287,1926,Irish Free State,Limerick,Hospital,Ballycahill,,44287,4,983488|983489|983490|983491,Patrick|Michael|Ann|John
+1926::Limerick::Hospital::Portboy::::528154,1926,Irish Free State,Limerick,Hospital,Portboy,,528154,7,984440|984441|984442|984443|984444|984445|984446,Thomas|Josie|William|Bridie|Patrick|John|Lily
+1926::Limerick::Kilflyn::Garryarthur::::303860,1926,Irish Free State,Limerick,Kilflyn,Garryarthur,,303860,1,1005292,John
+1926::Tipperary::Cappagh::Ardnagassane::::16268,1926,Irish Free State,Tipperary,Cappagh,Ardnagassane,,16268,1,2041299,James
+1926::Tipperary::Cullen::Ballynulty::::65968,1926,Irish Free State,Tipperary,Cullen,Ballynulty,,65968,1,2227355,Ellen
+1926::Tipperary::Emly::Nickers::::502764,1926,Irish Free State,Tipperary,Emly,Nickers,,502764,4,2241026|2241027|2241028|2241029,Mary|Thomas|Bridget|Ellen
+1926::Wexford::Wexford Number 2 Urban::Grogan's Road::::335601,1926,Irish Free State,Wexford,Wexford Number 2 Urban,Grogan's Road,,335601,1,1943728,Kathleen
+1926::Cork::Cobh Rural::Donegal::::244945,1926,Irish Free State,Cork,Cobh Rural,Donegal,,244945,2,2892256|2892257,John|[Fannie]
+1926::Cork::Cork Number 3 Urban (North East Ward)::Middle Glanmire Road::::468778,1926,Irish Free State,Cork,Cork Number 3 Urban (North East Ward),Middle Glanmire Road,,468778,1,2957816,Ellen

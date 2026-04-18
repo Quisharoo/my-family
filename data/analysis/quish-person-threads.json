@@ -1,0 +1,2537 @@
+{
+  "count": 188,
+  "personThreads": [
+    {
+      "id": "person-thread::john::5195852",
+      "observationIds": [
+        "5195852",
+        "273210"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::catherine::5332989",
+      "observationIds": [
+        "5332989"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "catherine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::michael::6330074",
+      "observationIds": [
+        "6330074"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "michael",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::william::6330075",
+      "observationIds": [
+        "6330075"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::john::6917888",
+      "observationIds": [
+        "6917888",
+        "2519539"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::ellen::6917889",
+      "observationIds": [
+        "6917889",
+        "2519540"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "ellen",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::alice::6917890",
+      "observationIds": [
+        "6917890"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "alice",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::martin::6917891",
+      "observationIds": [
+        "6917891",
+        "2519542"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "martin",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::bridget::6917892",
+      "observationIds": [
+        "6917892"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "bridget",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::nora::6917893",
+      "observationIds": [
+        "6917893",
+        "2519543"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "nora",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::6921810",
+      "observationIds": [
+        "6921810"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::eliza::6921811",
+      "observationIds": [
+        "6921811"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "eliza",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::6921812",
+      "observationIds": [
+        "6921812"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::ellon::6921813",
+      "observationIds": [
+        "6921813"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "ellon",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::denis::6921814",
+      "observationIds": [
+        "6921814",
+        "3239226",
+        "1506829"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "normalizedName": "denis",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::thomas::6922890",
+      "observationIds": [
+        "6922890"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::margaret::6922891",
+      "observationIds": [
+        "6922891"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary::6922892",
+      "observationIds": [
+        "6922892"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary::6922901",
+      "observationIds": [
+        "6922901"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::6922909",
+      "observationIds": [
+        "6922909"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::martin::6922910",
+      "observationIds": [
+        "6922910"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "martin",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::catherine::6923209",
+      "observationIds": [
+        "6923209"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "catherine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::6923211",
+      "observationIds": [
+        "6923211"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::bridget::6923212",
+      "observationIds": [
+        "6923212"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "bridget",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::william::6923213",
+      "observationIds": [
+        "6923213",
+        "3240514"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::anne::6923214",
+      "observationIds": [
+        "6923214"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "anne",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::william::6923215",
+      "observationIds": [
+        "6923215"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::charles::7130324",
+      "observationIds": [
+        "7130324",
+        "3165891"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "charles",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::ellin::7130325",
+      "observationIds": [
+        "7130325"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "ellin",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::catherine::7130326",
+      "observationIds": [
+        "7130326"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "catherine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::lena::7130327",
+      "observationIds": [
+        "7130327"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "lena",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::thomas::7130328",
+      "observationIds": [
+        "7130328",
+        "3165895"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::anne::7130329",
+      "observationIds": [
+        "7130329"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "anne",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::7130330",
+      "observationIds": [
+        "7130330"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::7130343",
+      "observationIds": [
+        "7130343",
+        "3165863"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::julia::7130344",
+      "observationIds": [
+        "7130344",
+        "3165864",
+        "1361508"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "normalizedName": "julia",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::mary::7130345",
+      "observationIds": [
+        "7130345",
+        "3165865"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::willie::7130346",
+      "observationIds": [
+        "7130346"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "willie",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::hannie::7130347",
+      "observationIds": [
+        "7130347"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "hannie",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::katie::7130348",
+      "observationIds": [
+        "7130348"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "katie",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::martin::7131866",
+      "observationIds": [
+        "7131866",
+        "3167257",
+        "1504942"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "normalizedName": "martin",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::margaret::7131867",
+      "observationIds": [
+        "7131867",
+        "3167258",
+        "1504943"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::mary::7131868",
+      "observationIds": [
+        "7131868"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::michael::7131869",
+      "observationIds": [
+        "7131869",
+        "3167259"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "michael",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::denis::7131870",
+      "observationIds": [
+        "7131870",
+        "3167260"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "denis",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::thomas john::7131871",
+      "observationIds": [
+        "7131871"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "thomas john",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::nora::7131872",
+      "observationIds": [
+        "7131872",
+        "3167262",
+        "1504945"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "normalizedName": "nora",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::josephine::7131873",
+      "observationIds": [
+        "7131873",
+        "3167263"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "josephine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::james::7131981",
+      "observationIds": [
+        "7131981"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "james",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::margaret::7131982",
+      "observationIds": [
+        "7131982"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::bridget::7131983",
+      "observationIds": [
+        "7131983"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "bridget",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::pat::7388542",
+      "observationIds": [
+        "7388542"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "pat",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::andrew::7388543",
+      "observationIds": [
+        "7388543",
+        "3236945"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "andrew",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::annie::7388544",
+      "observationIds": [
+        "7388544"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "annie",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::pat::7388545",
+      "observationIds": [
+        "7388545"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "pat",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::michael::7388547",
+      "observationIds": [
+        "7388547"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "michael",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::pat::7388548",
+      "observationIds": [
+        "7388548"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "pat",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::8227729",
+      "observationIds": [
+        "8227729"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary::8227730",
+      "observationIds": [
+        "8227730",
+        "4112831"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::thomas::8227731",
+      "observationIds": [
+        "8227731",
+        "4112832"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::bridget::8227732",
+      "observationIds": [
+        "8227732",
+        "4112833"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "bridget",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::sarah::8227733",
+      "observationIds": [
+        "8227733"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "sarah",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary anne::8227734",
+      "observationIds": [
+        "8227734"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "mary anne",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::ellen::8227735",
+      "observationIds": [
+        "8227735",
+        "4112834"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "ellen",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::thomas::8228714",
+      "observationIds": [
+        "8228714"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::catherine::8228715",
+      "observationIds": [
+        "8228715"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "catherine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::agnes::8228716",
+      "observationIds": [
+        "8228716"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "agnes",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::margaret::8228717",
+      "observationIds": [
+        "8228717"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::eily::8228718",
+      "observationIds": [
+        "8228718"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "eily",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::michael::8228719",
+      "observationIds": [
+        "8228719"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "michael",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::thomas::8228720",
+      "observationIds": [
+        "8228720"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::angela::8228721",
+      "observationIds": [
+        "8228721"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "angela",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::8228722",
+      "observationIds": [
+        "8228722"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::josephine::8228723",
+      "observationIds": [
+        "8228723"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "josephine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::james::8230055",
+      "observationIds": [
+        "8230055",
+        "4115004"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "james",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary::8230056",
+      "observationIds": [
+        "8230056"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::margaret::8230057",
+      "observationIds": [
+        "8230057"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::martin::8230058",
+      "observationIds": [
+        "8230058",
+        "4115006"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "martin",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary::8230059",
+      "observationIds": [
+        "8230059"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::james::8230060",
+      "observationIds": [
+        "8230060",
+        "4115007"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "normalizedName": "james",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::kattie::1434881",
+      "observationIds": [
+        "1434881"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "kattie",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::alice::2519541",
+      "observationIds": [
+        "2519541"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "alice",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::2519702",
+      "observationIds": [
+        "2519702"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::william::3165866",
+      "observationIds": [
+        "3165866",
+        "1361507"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::hannah::3165867",
+      "observationIds": [
+        "3165867",
+        "1361509"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "hannah",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::ellen::3165892",
+      "observationIds": [
+        "3165892"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "ellen",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::catherine::3165893",
+      "observationIds": [
+        "3165893"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "catherine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::helena::3165894",
+      "observationIds": [
+        "3165894"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "helena",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::annie::3165896",
+      "observationIds": [
+        "3165896"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "annie",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::thomas::3167261",
+      "observationIds": [
+        "3167261"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::martin::3167264",
+      "observationIds": [
+        "3167264",
+        "1504947"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "martin",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::patrick::3167265",
+      "observationIds": [
+        "3167265",
+        "1504948"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::john::3167266",
+      "observationIds": [
+        "3167266",
+        "1504949"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::margaret::3167399",
+      "observationIds": [
+        "3167399"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::bridget::3167400",
+      "observationIds": [
+        "3167400"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "bridget",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::3236917",
+      "observationIds": [
+        "3236917"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::william::3236918",
+      "observationIds": [
+        "3236918"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::3236944",
+      "observationIds": [
+        "3236944"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::3236946",
+      "observationIds": [
+        "3236946",
+        "983488"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::anne::3236947",
+      "observationIds": [
+        "3236947"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "anne",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::3238618",
+      "observationIds": [
+        "3238618"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary::3238619",
+      "observationIds": [
+        "3238619"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::eliza::3238620",
+      "observationIds": [
+        "3238620"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "eliza",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::3238621",
+      "observationIds": [
+        "3238621"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::jeremiah::3238622",
+      "observationIds": [
+        "3238622"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "jeremiah",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::john::3238623",
+      "observationIds": [
+        "3238623"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::william::3238624",
+      "observationIds": [
+        "3238624"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::3239222",
+      "observationIds": [
+        "3239222"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::eliza::3239223",
+      "observationIds": [
+        "3239223"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "eliza",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary::3239224",
+      "observationIds": [
+        "3239224"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::ellie::3239225",
+      "observationIds": [
+        "3239225"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "ellie",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::martin::3240252",
+      "observationIds": [
+        "3240252",
+        "1517887"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "martin",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::margret::3240253",
+      "observationIds": [
+        "3240253"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "margret",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::3240254",
+      "observationIds": [
+        "3240254",
+        "1517889"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::edmond::3240255",
+      "observationIds": [
+        "3240255",
+        "1517890"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "edmond",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::john peter::3240256",
+      "observationIds": [
+        "3240256"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "john peter",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::elizabeth::3240257",
+      "observationIds": [
+        "3240257"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "elizabeth",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::martin::3240258",
+      "observationIds": [
+        "3240258",
+        "1517892"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "martin",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::thomas::3240259",
+      "observationIds": [
+        "3240259"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::margaret::3240260",
+      "observationIds": [
+        "3240260"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::3240512",
+      "observationIds": [
+        "3240512"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::bridget::3240513",
+      "observationIds": [
+        "3240513"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "bridget",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::annie::3240515",
+      "observationIds": [
+        "3240515"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "annie",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary ellen::3240516",
+      "observationIds": [
+        "3240516"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "mary ellen",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::john::3240517",
+      "observationIds": [
+        "3240517",
+        "1518172"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::patrick::3240518",
+      "observationIds": [
+        "3240518",
+        "1518173"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::bridget::3240519",
+      "observationIds": [
+        "3240519",
+        "1518175"
+      ],
+      "censusYears": [
+        1911,
+        1926
+      ],
+      "normalizedName": "bridget",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::denis::3424296",
+      "observationIds": [
+        "3424296"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "denis",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::catherine::4113771",
+      "observationIds": [
+        "4113771"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "catherine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::michael::4113772",
+      "observationIds": [
+        "4113772"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "michael",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::thomas::4113773",
+      "observationIds": [
+        "4113773"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::angela::4113774",
+      "observationIds": [
+        "4113774"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "angela",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::patrick::4113775",
+      "observationIds": [
+        "4113775"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::josephine::4113776",
+      "observationIds": [
+        "4113776"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "josephine",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary::4115005",
+      "observationIds": [
+        "4115005"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::ellen::4115008",
+      "observationIds": [
+        "4115008"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "ellen",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::william::4322029",
+      "observationIds": [
+        "4322029"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": false
+      }
+    },
+    {
+      "id": "person-thread::mary anne::951795",
+      "observationIds": [
+        "951795"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "mary anne",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::patrick::951803",
+      "observationIds": [
+        "951803"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::mary anne::951804",
+      "observationIds": [
+        "951804"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "mary anne",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::patrick::951805",
+      "observationIds": [
+        "951805"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::hannah::951806",
+      "observationIds": [
+        "951806"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "hannah",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::mary::1202750",
+      "observationIds": [
+        "1202750"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::patrick::1471285",
+      "observationIds": [
+        "1471285"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::mary::1471286",
+      "observationIds": [
+        "1471286"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::patrick::1471287",
+      "observationIds": [
+        "1471287"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::peter::1471288",
+      "observationIds": [
+        "1471288"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "peter",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::ellen::1471289",
+      "observationIds": [
+        "1471289"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "ellen",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::martin::1471290",
+      "observationIds": [
+        "1471290"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "martin",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::denis::1504944",
+      "observationIds": [
+        "1504944"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "denis",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::hannah::1504946",
+      "observationIds": [
+        "1504946"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "hannah",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::james::1504950",
+      "observationIds": [
+        "1504950"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "james",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::william::1506542",
+      "observationIds": [
+        "1506542"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::nora::1506543",
+      "observationIds": [
+        "1506543"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "nora",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::patrick::1506544",
+      "observationIds": [
+        "1506544"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::ellie::1506830",
+      "observationIds": [
+        "1506830"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "ellie",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::andrew::1507157",
+      "observationIds": [
+        "1507157"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "andrew",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::margaret::1517888",
+      "observationIds": [
+        "1517888"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::john::1517891",
+      "observationIds": [
+        "1517891"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::mary::1517893",
+      "observationIds": [
+        "1517893"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::james::1517894",
+      "observationIds": [
+        "1517894"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "james",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::sarah::1517895",
+      "observationIds": [
+        "1517895"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "sarah",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::thomas::1517919",
+      "observationIds": [
+        "1517919"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::margaret::1517920",
+      "observationIds": [
+        "1517920"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "margaret",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::josephina::1517921",
+      "observationIds": [
+        "1517921"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "josephina",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::b::1518171",
+      "observationIds": [
+        "1518171"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "b",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::molly::1518174",
+      "observationIds": [
+        "1518174"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "molly",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::michael::983489",
+      "observationIds": [
+        "983489"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "michael",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::ann::983490",
+      "observationIds": [
+        "983490"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "ann",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::john::983491",
+      "observationIds": [
+        "983491"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::thomas::984440",
+      "observationIds": [
+        "984440"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::josie::984441",
+      "observationIds": [
+        "984441"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "josie",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::william::984442",
+      "observationIds": [
+        "984442"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "william",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::bridie::984443",
+      "observationIds": [
+        "984443"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "bridie",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::patrick::984444",
+      "observationIds": [
+        "984444"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "patrick",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::john::984445",
+      "observationIds": [
+        "984445"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::lily::984446",
+      "observationIds": [
+        "984446"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "lily",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::john::1005292",
+      "observationIds": [
+        "1005292"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::james::2041299",
+      "observationIds": [
+        "2041299"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "james",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::ellen::2227355",
+      "observationIds": [
+        "2227355"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "ellen",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::mary::2241026",
+      "observationIds": [
+        "2241026"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "mary",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::thomas::2241027",
+      "observationIds": [
+        "2241027"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "thomas",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::bridget::2241028",
+      "observationIds": [
+        "2241028"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "bridget",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::ellen::2241029",
+      "observationIds": [
+        "2241029"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "ellen",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::kathleen::1943728",
+      "observationIds": [
+        "1943728"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "kathleen",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::john::2892256",
+      "observationIds": [
+        "2892256"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "john",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::fannie::2892257",
+      "observationIds": [
+        "2892257"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "fannie",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    },
+    {
+      "id": "person-thread::ellen::2957816",
+      "observationIds": [
+        "2957816"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "normalizedName": "ellen",
+      "milestones": {
+        "firstFreeStateCensus": true
+      }
+    }
+  ]
+}

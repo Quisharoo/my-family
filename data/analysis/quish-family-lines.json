@@ -1,0 +1,803 @@
+{
+  "count": 45,
+  "familyLines": [
+    {
+      "id": "family-line::1901::Limerick::Duntryleague::Duntryleague::15::1506166",
+      "householdIds": [
+        "1901::Limerick::Duntryleague::Duntryleague::15::1506166",
+        "1911::Limerick::Duntryleague::Duntryleague::4::634851",
+        "1926::Limerick::Duntryleague::Duntryleague::::272767"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Martin Quish line",
+      "placeLabel": "Limerick | Duntryleague | Duntryleague"
+    },
+    {
+      "id": "family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959",
+      "householdIds": [
+        "1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959",
+        "1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597",
+        "1926::Limerick::Glenbrohane::Knockaunavlyman::::402008"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Knockaunavlyman"
+    },
+    {
+      "id": "family-line::1901::Limerick::Ballylanders::Killeen::13::1505874",
+      "householdIds": [
+        "1901::Limerick::Ballylanders::Killeen::13::1505874",
+        "1911::Limerick::Ballylanders::Killeen::10::634574",
+        "1926::Limerick::Ballylanders::Killeen::::380628"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Ballylanders | Killeen"
+    },
+    {
+      "id": "family-line::1901::Limerick::Emlygrennan::Cush::19::1491679",
+      "householdIds": [
+        "1901::Limerick::Emlygrennan::Cush::19::1491679",
+        "1911::Limerick::Emlygrennan::Cush::21::620325",
+        "1926::Limerick::Emlygrennan::Cush::::228748"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Emlygrennan | Cush"
+    },
+    {
+      "id": "family-line::1901::Limerick::Hospital::Ballycahill::12::1490918",
+      "householdIds": [
+        "1901::Limerick::Hospital::Ballycahill::12::1490918",
+        "1911::Limerick::Hospital::Ballycahill::7::619544",
+        "1926::Limerick::Hospital::Ballycahill::::44287"
+      ],
+      "censusYears": [
+        1901,
+        1911,
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Pat Quish line",
+      "placeLabel": "Limerick | Hospital | Ballycahill"
+    },
+    {
+      "id": "family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893",
+      "householdIds": [
+        "1901::Limerick::Glenbrohane::Ballyfroota::4::1491893",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50767"
+      ],
+      "censusYears": [
+        1901,
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Thomas Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
+    },
+    {
+      "id": "family-line::1926::Limerick::Hospital::Portboy::::528154",
+      "householdIds": [
+        "1926::Limerick::Hospital::Portboy::::528154"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Thomas Quish line",
+      "placeLabel": "Limerick | Hospital | Portboy"
+    },
+    {
+      "id": "family-line::1926::Limerick::Darragh::Darragh Moore::::230540",
+      "householdIds": [
+        "1926::Limerick::Darragh::Darragh Moore::::230540"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Darragh | Darragh Moore"
+    },
+    {
+      "id": "family-line::1926::Limerick::Knockainy::Knockainy Town::::399468",
+      "householdIds": [
+        "1926::Limerick::Knockainy::Knockainy Town::::399468"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Knockainy | Knockainy Town"
+    },
+    {
+      "id": "family-line::1926::Tipperary::Emly::Nickers::::502764",
+      "householdIds": [
+        "1926::Tipperary::Emly::Nickers::::502764"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Mary Quish line",
+      "placeLabel": "Tipperary | Emly | Nickers"
+    },
+    {
+      "id": "family-line::1926::Limerick::Duntryleague::Newtown::::500913",
+      "householdIds": [
+        "1926::Limerick::Duntryleague::Newtown::::500913"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "William Quish line",
+      "placeLabel": "Limerick | Duntryleague | Newtown"
+    },
+    {
+      "id": "family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772",
+      "householdIds": [
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50772"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Thomas Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
+    },
+    {
+      "id": "family-line::1926::Cork::Cobh Rural::Donegal::::244945",
+      "householdIds": [
+        "1926::Cork::Cobh Rural::Donegal::::244945"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "John Quish line",
+      "placeLabel": "Cork | Cobh Rural | Donegal"
+    },
+    {
+      "id": "family-line::1926::Limerick::Knockainy::Knockainy Town::::399464",
+      "householdIds": [
+        "1926::Limerick::Knockainy::Knockainy Town::::399464"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Mary Anne Quish line",
+      "placeLabel": "Limerick | Knockainy | Knockainy Town"
+    },
+    {
+      "id": "family-line::1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390",
+      "householdIds": [
+        "1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Limerick | Limerick South Rural | Ballinacurra Town line",
+      "placeLabel": "Limerick | Limerick South Rural | Ballinacurra Town"
+    },
+    {
+      "id": "family-line::1926::Limerick::Emlygrennan::Elton::::276995",
+      "householdIds": [
+        "1926::Limerick::Emlygrennan::Elton::::276995"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Limerick | Emlygrennan | Elton line",
+      "placeLabel": "Limerick | Emlygrennan | Elton"
+    },
+    {
+      "id": "family-line::1926::Limerick::Kilflyn::Garryarthur::::303860",
+      "householdIds": [
+        "1926::Limerick::Kilflyn::Garryarthur::::303860"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Limerick | Kilflyn | Garryarthur line",
+      "placeLabel": "Limerick | Kilflyn | Garryarthur"
+    },
+    {
+      "id": "family-line::1926::Tipperary::Cappagh::Ardnagassane::::16268",
+      "householdIds": [
+        "1926::Tipperary::Cappagh::Ardnagassane::::16268"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Tipperary | Cappagh | Ardnagassane line",
+      "placeLabel": "Tipperary | Cappagh | Ardnagassane"
+    },
+    {
+      "id": "family-line::1926::Tipperary::Cullen::Ballynulty::::65968",
+      "householdIds": [
+        "1926::Tipperary::Cullen::Ballynulty::::65968"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Tipperary | Cullen | Ballynulty line",
+      "placeLabel": "Tipperary | Cullen | Ballynulty"
+    },
+    {
+      "id": "family-line::1926::Wexford::Wexford Number 2 Urban::Grogan's Road::::335601",
+      "householdIds": [
+        "1926::Wexford::Wexford Number 2 Urban::Grogan's Road::::335601"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Wexford | Wexford Number 2 Urban | Grogan's Road line",
+      "placeLabel": "Wexford | Wexford Number 2 Urban | Grogan's Road"
+    },
+    {
+      "id": "family-line::1926::Cork::Cork Number 3 Urban (North East Ward)::Middle Glanmire Road::::468778",
+      "householdIds": [
+        "1926::Cork::Cork Number 3 Urban (North East Ward)::Middle Glanmire Road::::468778"
+      ],
+      "censusYears": [
+        1926
+      ],
+      "milestones": {
+        "firstFreeStateCensus": true
+      },
+      "label": "Cork | Cork Number 3 Urban (North East Ward) | Middle Glanmire Road line",
+      "placeLabel": "Cork | Cork Number 3 Urban (North East Ward) | Middle Glanmire Road"
+    },
+    {
+      "id": "family-line::1901::Limerick::Knockainy::Rathanny::18::1489942",
+      "householdIds": [
+        "1901::Limerick::Knockainy::Rathanny::18::1489942",
+        "1911::Limerick::Knockainy::Rathanny::19::618589"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "John Quish line",
+      "placeLabel": "Limerick | Knockainy | Rathanny"
+    },
+    {
+      "id": "family-line::1901::Tipperary::Emly::Nickeres::2::1718183",
+      "householdIds": [
+        "1901::Tipperary::Emly::Nickeres::2::1718183",
+        "1911::Tipperary::Emly::Nickeres::2::830956"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Tipperary | Emly | Nickeres"
+    },
+    {
+      "id": "family-line::1901::Tipperary::Shronell::Shronell Beg::9::1718626",
+      "householdIds": [
+        "1901::Tipperary::Shronell::Shronell Beg::9::1718626",
+        "1911::Tipperary::Shronell::Shronell Beg::11::831401"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "James Quish line",
+      "placeLabel": "Tipperary | Shronell | Shronell Beg"
+    },
+    {
+      "id": "family-line::1901::Limerick::Ballylanders::Killeen::9::1505871",
+      "householdIds": [
+        "1901::Limerick::Ballylanders::Killeen::9::1505871",
+        "1911::Limerick::Ballylanders::Killeen::16::634580"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Catherine Quish line",
+      "placeLabel": "Limerick | Ballylanders | Killeen"
+    },
+    {
+      "id": "family-line::1901::Limerick::Ballylanders::Killeen::8::1505870",
+      "householdIds": [
+        "1901::Limerick::Ballylanders::Killeen::8::1505870",
+        "1911::Limerick::Ballylanders::Killeen::15::634579"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Charles Quish line",
+      "placeLabel": "Limerick | Ballylanders | Killeen"
+    },
+    {
+      "id": "family-line::1901::Dublin::Arran Quay::Aberdeen Street::6::1334125",
+      "householdIds": [
+        "1901::Dublin::Arran Quay::Aberdeen Street::6::1334125",
+        "1911::Dublin::Arran Quay::Aberdeen Street::6::38280"
+      ],
+      "censusYears": [
+        1901,
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Dublin | Arran Quay | Aberdeen Street line",
+      "placeLabel": "Dublin | Arran Quay | Aberdeen Street"
+    },
+    {
+      "id": "family-line::1901::Tipperary::Rodus::Ballyhone::1::1718382",
+      "householdIds": [
+        "1901::Tipperary::Rodus::Ballyhone::1::1718382"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Thomas Quish line",
+      "placeLabel": "Tipperary | Rodus | Ballyhone"
+    },
+    {
+      "id": "family-line::1911::Limerick::Darragh::Darragh More::9::620195",
+      "householdIds": [
+        "1911::Limerick::Darragh::Darragh More::9::620195"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Darragh | Darragh More"
+    },
+    {
+      "id": "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
+      "householdIds": [
+        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Martin Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
+    },
+    {
+      "id": "family-line::1911::Tipperary::Rodus::Ballyhowe::6::831154",
+      "householdIds": [
+        "1911::Tipperary::Rodus::Ballyhowe::6::831154"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Catherine Quish line",
+      "placeLabel": "Tipperary | Rodus | Ballyhowe"
+    },
+    {
+      "id": "family-line::1901::Limerick::Duntryleague::Lackelly East::3::1506191",
+      "householdIds": [
+        "1901::Limerick::Duntryleague::Lackelly East::3::1506191"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "James Quish line",
+      "placeLabel": "Limerick | Duntryleague | Lackelly East"
+    },
+    {
+      "id": "family-line::1901::Cork::Cork Urban No. 5::College Road::6.1::1111138",
+      "householdIds": [
+        "1901::Cork::Cork Urban No. 5::College Road::6.1::1111138"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Cork | Cork Urban No. 5 | College Road line",
+      "placeLabel": "Cork | Cork Urban No. 5 | College Road"
+    },
+    {
+      "id": "family-line::1901::Limerick::Glenbrohane::Ballyfroota::10::1491898",
+      "householdIds": [
+        "1901::Limerick::Glenbrohane::Ballyfroota::10::1491898"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
+    },
+    {
+      "id": "family-line::1901::Limerick::Hospital::Ballycahill::13::1490919",
+      "householdIds": [
+        "1901::Limerick::Hospital::Ballycahill::13::1490919"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Michael Quish line",
+      "placeLabel": "Limerick | Hospital | Ballycahill"
+    },
+    {
+      "id": "family-line::1911::Limerick::Duntryleague::Lackelly East::3::634884",
+      "householdIds": [
+        "1911::Limerick::Duntryleague::Lackelly East::3::634884"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Margaret Quish line",
+      "placeLabel": "Limerick | Duntryleague | Lackelly East"
+    },
+    {
+      "id": "family-line::1911::Limerick::Hospital::Ballycahill::3::619540",
+      "householdIds": [
+        "1911::Limerick::Hospital::Ballycahill::3::619540"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Patrick Quish line",
+      "placeLabel": "Limerick | Hospital | Ballycahill"
+    },
+    {
+      "id": "family-line::1911::Limerick::Glenbrohane::Ballyfroota::7::620540",
+      "householdIds": [
+        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Thomas Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
+    },
+    {
+      "id": "family-line::1901::Dublin::Glasnevin::Glasnevin Demesne::1.1::1273126",
+      "householdIds": [
+        "1901::Dublin::Glasnevin::Glasnevin Demesne::1.1::1273126"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Dublin | Glasnevin | Glasnevin Demesne line",
+      "placeLabel": "Dublin | Glasnevin | Glasnevin Demesne"
+    },
+    {
+      "id": "family-line::1901::Limerick::Glenbrohane::Ballyfroota::6::1491895",
+      "householdIds": [
+        "1901::Limerick::Glenbrohane::Ballyfroota::6::1491895"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Mary Quish line",
+      "placeLabel": "Limerick | Glenbrohane | Ballyfroota"
+    },
+    {
+      "id": "family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::6::1491958",
+      "householdIds": [
+        "1901::Limerick::Glenbrohane::Knockaunavlyman::6::1491958"
+      ],
+      "censusYears": [
+        1901
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Limerick | Glenbrohane | Knockaunavlyman line",
+      "placeLabel": "Limerick | Glenbrohane | Knockaunavlyman"
+    },
+    {
+      "id": "family-line::1911::Cork::Cork No. 4 Urban (part of)::Rockwell Terrace::4::388715",
+      "householdIds": [
+        "1911::Cork::Cork No. 4 Urban (part of)::Rockwell Terrace::4::388715"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Cork | Cork No. 4 Urban (part of) | Rockwell Terrace line",
+      "placeLabel": "Cork | Cork No. 4 Urban (part of) | Rockwell Terrace"
+    },
+    {
+      "id": "family-line::1911::Limerick::Hospital::Hospital Town::5::619663",
+      "householdIds": [
+        "1911::Limerick::Hospital::Hospital Town::5::619663"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Limerick | Hospital | Hospital Town line",
+      "placeLabel": "Limerick | Hospital | Hospital Town"
+    },
+    {
+      "id": "family-line::1911::Londonderry::Londonderry No. 5 Urban::Londonderry Workhouse::3::606910",
+      "householdIds": [
+        "1911::Londonderry::Londonderry No. 5 Urban::Londonderry Workhouse::3::606910"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Londonderry | Londonderry No. 5 Urban | Londonderry Workhouse line",
+      "placeLabel": "Londonderry | Londonderry No. 5 Urban | Londonderry Workhouse"
+    },
+    {
+      "id": "family-line::1911::Wicklow::Baltinglass::Baltinglass West::1::888339",
+      "householdIds": [
+        "1911::Wicklow::Baltinglass::Baltinglass West::1::888339"
+      ],
+      "censusYears": [
+        1911
+      ],
+      "milestones": {
+        "firstFreeStateCensus": false
+      },
+      "label": "Wicklow | Baltinglass | Baltinglass West line",
+      "placeLabel": "Wicklow | Baltinglass | Baltinglass West"
+    }
+  ],
+  "placeSummary": [
+    {
+      "place": "Limerick | Glenbrohane | Ballyfroota",
+      "memberCount": 27
+    },
+    {
+      "place": "Limerick | Ballylanders | Killeen",
+      "memberCount": 27
+    },
+    {
+      "place": "Limerick | Duntryleague | Duntryleague",
+      "memberCount": 27
+    },
+    {
+      "place": "Limerick | Glenbrohane | Knockaunavlyman",
+      "memberCount": 19
+    },
+    {
+      "place": "Limerick | Hospital | Ballycahill",
+      "memberCount": 16
+    },
+    {
+      "place": "Limerick | Emlygrennan | Cush",
+      "memberCount": 12
+    },
+    {
+      "place": "Limerick | Knockainy | Rathanny",
+      "memberCount": 11
+    },
+    {
+      "place": "Tipperary | Emly | Nickeres",
+      "memberCount": 11
+    },
+    {
+      "place": "Tipperary | Shronell | Shronell Beg",
+      "memberCount": 11
+    },
+    {
+      "place": "Tipperary | Rodus | Ballyhone",
+      "memberCount": 10
+    },
+    {
+      "place": "Limerick | Darragh | Darragh More",
+      "memberCount": 7
+    },
+    {
+      "place": "Limerick | Hospital | Portboy",
+      "memberCount": 7
+    },
+    {
+      "place": "Tipperary | Rodus | Ballyhowe",
+      "memberCount": 6
+    },
+    {
+      "place": "Limerick | Darragh | Darragh Moore",
+      "memberCount": 6
+    },
+    {
+      "place": "Limerick | Duntryleague | Lackelly East",
+      "memberCount": 5
+    },
+    {
+      "place": "Limerick | Knockainy | Knockainy Town",
+      "memberCount": 5
+    },
+    {
+      "place": "Tipperary | Emly | Nickers",
+      "memberCount": 4
+    },
+    {
+      "place": "Limerick | Duntryleague | Newtown",
+      "memberCount": 3
+    },
+    {
+      "place": "Dublin | Arran Quay | Aberdeen Street",
+      "memberCount": 2
+    },
+    {
+      "place": "Cork | Cork Urban No. 5 | College Road",
+      "memberCount": 2
+    },
+    {
+      "place": "Cork | Cobh Rural | Donegal",
+      "memberCount": 2
+    },
+    {
+      "place": "Dublin | Glasnevin | Glasnevin Demesne",
+      "memberCount": 1
+    },
+    {
+      "place": "Cork | Cork No. 4 Urban (part of) | Rockwell Terrace",
+      "memberCount": 1
+    },
+    {
+      "place": "Limerick | Hospital | Hospital Town",
+      "memberCount": 1
+    },
+    {
+      "place": "Londonderry | Londonderry No. 5 Urban | Londonderry Workhouse",
+      "memberCount": 1
+    },
+    {
+      "place": "Wicklow | Baltinglass | Baltinglass West",
+      "memberCount": 1
+    },
+    {
+      "place": "Limerick | Limerick South Rural | Ballinacurra Town",
+      "memberCount": 1
+    },
+    {
+      "place": "Limerick | Emlygrennan | Elton",
+      "memberCount": 1
+    },
+    {
+      "place": "Limerick | Kilflyn | Garryarthur",
+      "memberCount": 1
+    },
+    {
+      "place": "Tipperary | Cappagh | Ardnagassane",
+      "memberCount": 1
+    },
+    {
+      "place": "Tipperary | Cullen | Ballynulty",
+      "memberCount": 1
+    },
+    {
+      "place": "Wexford | Wexford Number 2 Urban | Grogan's Road",
+      "memberCount": 1
+    },
+    {
+      "place": "Cork | Cork Number 3 Urban (North East Ward) | Middle Glanmire Road",
+      "memberCount": 1
+    }
+  ]
+}

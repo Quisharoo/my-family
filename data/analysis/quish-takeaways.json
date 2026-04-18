@@ -1,0 +1,77 @@
+{
+  "established": [
+    {
+      "statement": "The dataset now combines 80 observations from 1901, 83 from 1911, and 69 from 1926 into one analyzable corpus.",
+      "evidenceRefs": []
+    },
+    {
+      "statement": "21 family lines in the current analysis reach the first Irish Free State census in 1926.",
+      "evidenceRefs": [
+        "1901::Limerick::Duntryleague::Duntryleague::15::1506166",
+        "1911::Limerick::Duntryleague::Duntryleague::4::634851",
+        "1926::Limerick::Duntryleague::Duntryleague::::272767",
+        "1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959",
+        "1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597",
+        "1926::Limerick::Glenbrohane::Knockaunavlyman::::402008",
+        "1901::Limerick::Ballylanders::Killeen::13::1505874",
+        "1911::Limerick::Ballylanders::Killeen::10::634574",
+        "1926::Limerick::Ballylanders::Killeen::::380628",
+        "1901::Limerick::Emlygrennan::Cush::19::1491679"
+      ]
+    },
+    {
+      "statement": "The strongest place concentration in the current corpus is Limerick | Glenbrohane | Ballyfroota.",
+      "evidenceRefs": []
+    },
+    {
+      "statement": "Martin Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "evidenceRefs": [
+        "1901::Limerick::Duntryleague::Duntryleague::15::1506166",
+        "1911::Limerick::Duntryleague::Duntryleague::4::634851",
+        "1926::Limerick::Duntryleague::Duntryleague::::272767"
+      ]
+    },
+    {
+      "statement": "Patrick Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "evidenceRefs": [
+        "1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959",
+        "1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597",
+        "1926::Limerick::Glenbrohane::Knockaunavlyman::::402008"
+      ]
+    },
+    {
+      "statement": "Patrick Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "evidenceRefs": [
+        "1901::Limerick::Ballylanders::Killeen::13::1505874",
+        "1911::Limerick::Ballylanders::Killeen::10::634574",
+        "1926::Limerick::Ballylanders::Killeen::::380628"
+      ]
+    },
+    {
+      "statement": "Patrick Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "evidenceRefs": [
+        "1901::Limerick::Emlygrennan::Cush::19::1491679",
+        "1911::Limerick::Emlygrennan::Cush::21::620325",
+        "1926::Limerick::Emlygrennan::Cush::::228748"
+      ]
+    },
+    {
+      "statement": "Pat Quish line forms an established multi-census line across 1901, 1911, 1926.",
+      "evidenceRefs": [
+        "1901::Limerick::Hospital::Ballycahill::12::1490918",
+        "1911::Limerick::Hospital::Ballycahill::7::619544",
+        "1926::Limerick::Hospital::Ballycahill::::44287"
+      ]
+    }
+  ],
+  "openQuestions": [
+    {
+      "statement": "Single-census appearances and weaker inferred links still need manual genealogical review before they are presented as family continuity.",
+      "evidenceRefs": []
+    },
+    {
+      "statement": "This analysis establishes census-based continuity evidence, not full kinship proof; church, civil, and land records are still needed for stronger family-tree assertions.",
+      "evidenceRefs": []
+    }
+  ]
+}

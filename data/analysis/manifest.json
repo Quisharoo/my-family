@@ -1,0 +1,45 @@
+{
+  "generatedAt": "2026-04-18T10:48:18.185Z",
+  "outputs": [
+    {
+      "path": "data/normalized/quish-observations.json",
+      "purpose": "Canonical per-person observations across all censuses"
+    },
+    {
+      "path": "data/analysis/quish-observations.csv",
+      "purpose": "Flat analyst table of person observations with source links"
+    },
+    {
+      "path": "data/analysis/quish-households.csv",
+      "purpose": "Flat analyst table of households grouped from observations"
+    },
+    {
+      "path": "data/analysis/quish-person-links.csv",
+      "purpose": "Adjacent-decade candidate person continuities"
+    },
+    {
+      "path": "data/analysis/quish-household-links.csv",
+      "purpose": "Household continuity candidates derived from person links"
+    },
+    {
+      "path": "data/analysis/quish-family-lines.csv",
+      "purpose": "Flat family-line table for multi-decade lineage analysis"
+    },
+    {
+      "path": "data/analysis/quish-place-summary.csv",
+      "purpose": "Place concentration summary for trend analysis"
+    },
+    {
+      "path": "data/analysis/quish-research-summary.json",
+      "purpose": "High-level computed trends for analysts and genealogists"
+    },
+    {
+      "path": "data/analysis/quish-research-brief.md",
+      "purpose": "Human-readable synthesis of the computed trends and key connections"
+    },
+    {
+      "path": "data/analysis/quish-takeaways.md",
+      "purpose": "Researcher-facing statement of what is established, what is suggestive, and what still needs outside confirmation"
+    }
+  ]
+}

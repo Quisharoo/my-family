@@ -1,0 +1,940 @@
+{
+  "personLinkCount": 44,
+  "householdLinkCount": 17,
+  "personLinks": [
+    {
+      "id": "person-link::5195852::273210",
+      "fromObservationId": "5195852",
+      "toObservationId": "273210",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::6917888::2519539",
+      "fromObservationId": "6917888",
+      "toObservationId": "2519539",
+      "score": 2,
+      "confidence": "likely",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::6917889::2519540",
+      "fromObservationId": "6917889",
+      "toObservationId": "2519540",
+      "score": 2,
+      "confidence": "likely",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::6917891::2519542",
+      "fromObservationId": "6917891",
+      "toObservationId": "2519542",
+      "score": 2,
+      "confidence": "likely",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::6917893::2519543",
+      "fromObservationId": "6917893",
+      "toObservationId": "2519543",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::6921814::3239226",
+      "fromObservationId": "6921814",
+      "toObservationId": "3239226",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::6923213::3240514",
+      "fromObservationId": "6923213",
+      "toObservationId": "3240514",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7130324::3165891",
+      "fromObservationId": "7130324",
+      "toObservationId": "3165891",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7130328::3165895",
+      "fromObservationId": "7130328",
+      "toObservationId": "3165895",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7130343::3165863",
+      "fromObservationId": "7130343",
+      "toObservationId": "3165863",
+      "score": 2,
+      "confidence": "likely",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7130344::3165864",
+      "fromObservationId": "7130344",
+      "toObservationId": "3165864",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7130345::3165865",
+      "fromObservationId": "7130345",
+      "toObservationId": "3165865",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7131866::3167257",
+      "fromObservationId": "7131866",
+      "toObservationId": "3167257",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7131867::3167258",
+      "fromObservationId": "7131867",
+      "toObservationId": "3167258",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7131869::3167259",
+      "fromObservationId": "7131869",
+      "toObservationId": "3167259",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7131870::3167260",
+      "fromObservationId": "7131870",
+      "toObservationId": "3167260",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7131872::3167262",
+      "fromObservationId": "7131872",
+      "toObservationId": "3167262",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7131873::3167263",
+      "fromObservationId": "7131873",
+      "toObservationId": "3167263",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::7388543::3236945",
+      "fromObservationId": "7388543",
+      "toObservationId": "3236945",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::8227730::4112831",
+      "fromObservationId": "8227730",
+      "toObservationId": "4112831",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::8227731::4112832",
+      "fromObservationId": "8227731",
+      "toObservationId": "4112832",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::8227732::4112833",
+      "fromObservationId": "8227732",
+      "toObservationId": "4112833",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::8227735::4112834",
+      "fromObservationId": "8227735",
+      "toObservationId": "4112834",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::8230055::4115004",
+      "fromObservationId": "8230055",
+      "toObservationId": "4115004",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::8230058::4115006",
+      "fromObservationId": "8230058",
+      "toObservationId": "4115006",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::8230060::4115007",
+      "fromObservationId": "8230060",
+      "toObservationId": "4115007",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3165864::1361508",
+      "fromObservationId": "3165864",
+      "toObservationId": "1361508",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3165866::1361507",
+      "fromObservationId": "3165866",
+      "toObservationId": "1361507",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3165867::1361509",
+      "fromObservationId": "3165867",
+      "toObservationId": "1361509",
+      "score": 2,
+      "confidence": "likely",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3167257::1504942",
+      "fromObservationId": "3167257",
+      "toObservationId": "1504942",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3167258::1504943",
+      "fromObservationId": "3167258",
+      "toObservationId": "1504943",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3167262::1504945",
+      "fromObservationId": "3167262",
+      "toObservationId": "1504945",
+      "score": 2,
+      "confidence": "likely",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3167264::1504947",
+      "fromObservationId": "3167264",
+      "toObservationId": "1504947",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3167265::1504948",
+      "fromObservationId": "3167265",
+      "toObservationId": "1504948",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3167266::1504949",
+      "fromObservationId": "3167266",
+      "toObservationId": "1504949",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3236946::983488",
+      "fromObservationId": "3236946",
+      "toObservationId": "983488",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3239226::1506829",
+      "fromObservationId": "3239226",
+      "toObservationId": "1506829",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3240252::1517887",
+      "fromObservationId": "3240252",
+      "toObservationId": "1517887",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3240254::1517889",
+      "fromObservationId": "3240254",
+      "toObservationId": "1517889",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3240255::1517890",
+      "fromObservationId": "3240255",
+      "toObservationId": "1517890",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3240258::1517892",
+      "fromObservationId": "3240258",
+      "toObservationId": "1517892",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3240517::1518172",
+      "fromObservationId": "3240517",
+      "toObservationId": "1518172",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3240518::1518173",
+      "fromObservationId": "3240518",
+      "toObservationId": "1518173",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    },
+    {
+      "id": "person-link::3240519::1518175",
+      "fromObservationId": "3240519",
+      "toObservationId": "1518175",
+      "score": 3,
+      "confidence": "strong",
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "blockingReasons": [],
+      "reviewStatus": "accepted"
+    }
+  ],
+  "householdLinks": [
+    {
+      "id": "household-link::1901::Dublin::Arran Quay::Aberdeen Street::6::1334125::1911::Dublin::Arran Quay::Aberdeen Street::6::38280",
+      "fromHouseholdId": "1901::Dublin::Arran Quay::Aberdeen Street::6::1334125",
+      "toHouseholdId": "1911::Dublin::Arran Quay::Aberdeen Street::6::38280",
+      "personLinkIds": [
+        "person-link::5195852::273210"
+      ],
+      "score": 3,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "possible",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Limerick::Knockainy::Rathanny::18::1489942::1911::Limerick::Knockainy::Rathanny::19::618589",
+      "fromHouseholdId": "1901::Limerick::Knockainy::Rathanny::18::1489942",
+      "toHouseholdId": "1911::Limerick::Knockainy::Rathanny::19::618589",
+      "personLinkIds": [
+        "person-link::6917888::2519539",
+        "person-link::6917889::2519540",
+        "person-link::6917891::2519542",
+        "person-link::6917893::2519543"
+      ],
+      "score": 9,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Limerick::Emlygrennan::Cush::19::1491679::1911::Limerick::Emlygrennan::Cush::21::620325",
+      "fromHouseholdId": "1901::Limerick::Emlygrennan::Cush::19::1491679",
+      "toHouseholdId": "1911::Limerick::Emlygrennan::Cush::21::620325",
+      "personLinkIds": [
+        "person-link::6921814::3239226"
+      ],
+      "score": 3,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "possible",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959::1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597",
+      "fromHouseholdId": "1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959",
+      "toHouseholdId": "1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597",
+      "personLinkIds": [
+        "person-link::6923213::3240514"
+      ],
+      "score": 3,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "possible",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Limerick::Ballylanders::Killeen::8::1505870::1911::Limerick::Ballylanders::Killeen::15::634579",
+      "fromHouseholdId": "1901::Limerick::Ballylanders::Killeen::8::1505870",
+      "toHouseholdId": "1911::Limerick::Ballylanders::Killeen::15::634579",
+      "personLinkIds": [
+        "person-link::7130324::3165891"
+      ],
+      "score": 3,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "possible",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Limerick::Ballylanders::Killeen::9::1505871::1911::Limerick::Ballylanders::Killeen::16::634580",
+      "fromHouseholdId": "1901::Limerick::Ballylanders::Killeen::9::1505871",
+      "toHouseholdId": "1911::Limerick::Ballylanders::Killeen::16::634580",
+      "personLinkIds": [
+        "person-link::7130328::3165895"
+      ],
+      "score": 3,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "possible",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Limerick::Ballylanders::Killeen::13::1505874::1911::Limerick::Ballylanders::Killeen::10::634574",
+      "fromHouseholdId": "1901::Limerick::Ballylanders::Killeen::13::1505874",
+      "toHouseholdId": "1911::Limerick::Ballylanders::Killeen::10::634574",
+      "personLinkIds": [
+        "person-link::7130343::3165863",
+        "person-link::7130344::3165864",
+        "person-link::7130345::3165865"
+      ],
+      "score": 8,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Limerick::Duntryleague::Duntryleague::15::1506166::1911::Limerick::Duntryleague::Duntryleague::4::634851",
+      "fromHouseholdId": "1901::Limerick::Duntryleague::Duntryleague::15::1506166",
+      "toHouseholdId": "1911::Limerick::Duntryleague::Duntryleague::4::634851",
+      "personLinkIds": [
+        "person-link::7131866::3167257",
+        "person-link::7131867::3167258",
+        "person-link::7131869::3167259",
+        "person-link::7131870::3167260",
+        "person-link::7131872::3167262",
+        "person-link::7131873::3167263"
+      ],
+      "score": 18,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Limerick::Hospital::Ballycahill::12::1490918::1911::Limerick::Hospital::Ballycahill::7::619544",
+      "fromHouseholdId": "1901::Limerick::Hospital::Ballycahill::12::1490918",
+      "toHouseholdId": "1911::Limerick::Hospital::Ballycahill::7::619544",
+      "personLinkIds": [
+        "person-link::7388543::3236945"
+      ],
+      "score": 3,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "possible",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Tipperary::Emly::Nickeres::2::1718183::1911::Tipperary::Emly::Nickeres::2::830956",
+      "fromHouseholdId": "1901::Tipperary::Emly::Nickeres::2::1718183",
+      "toHouseholdId": "1911::Tipperary::Emly::Nickeres::2::830956",
+      "personLinkIds": [
+        "person-link::8227730::4112831",
+        "person-link::8227731::4112832",
+        "person-link::8227732::4112833",
+        "person-link::8227735::4112834"
+      ],
+      "score": 12,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1901::Tipperary::Shronell::Shronell Beg::9::1718626::1911::Tipperary::Shronell::Shronell Beg::11::831401",
+      "fromHouseholdId": "1901::Tipperary::Shronell::Shronell Beg::9::1718626",
+      "toHouseholdId": "1911::Tipperary::Shronell::Shronell Beg::11::831401",
+      "personLinkIds": [
+        "person-link::8230055::4115004",
+        "person-link::8230058::4115006",
+        "person-link::8230060::4115007"
+      ],
+      "score": 9,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1911::Limerick::Ballylanders::Killeen::10::634574::1926::Limerick::Ballylanders::Killeen::::380628",
+      "fromHouseholdId": "1911::Limerick::Ballylanders::Killeen::10::634574",
+      "toHouseholdId": "1926::Limerick::Ballylanders::Killeen::::380628",
+      "personLinkIds": [
+        "person-link::3165864::1361508",
+        "person-link::3165866::1361507",
+        "person-link::3165867::1361509"
+      ],
+      "score": 8,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1911::Limerick::Duntryleague::Duntryleague::4::634851::1926::Limerick::Duntryleague::Duntryleague::::272767",
+      "fromHouseholdId": "1911::Limerick::Duntryleague::Duntryleague::4::634851",
+      "toHouseholdId": "1926::Limerick::Duntryleague::Duntryleague::::272767",
+      "personLinkIds": [
+        "person-link::3167257::1504942",
+        "person-link::3167258::1504943",
+        "person-link::3167262::1504945",
+        "person-link::3167264::1504947",
+        "person-link::3167265::1504948",
+        "person-link::3167266::1504949"
+      ],
+      "score": 17,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1911::Limerick::Hospital::Ballycahill::7::619544::1926::Limerick::Hospital::Ballycahill::::44287",
+      "fromHouseholdId": "1911::Limerick::Hospital::Ballycahill::7::619544",
+      "toHouseholdId": "1926::Limerick::Hospital::Ballycahill::::44287",
+      "personLinkIds": [
+        "person-link::3236946::983488"
+      ],
+      "score": 3,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "possible",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1911::Limerick::Emlygrennan::Cush::21::620325::1926::Limerick::Emlygrennan::Cush::::228748",
+      "fromHouseholdId": "1911::Limerick::Emlygrennan::Cush::21::620325",
+      "toHouseholdId": "1926::Limerick::Emlygrennan::Cush::::228748",
+      "personLinkIds": [
+        "person-link::3239226::1506829"
+      ],
+      "score": 3,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "possible",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1911::Limerick::Glenbrohane::Ballyfroota::6::620539::1926::Limerick::Glenbrohane::Ballyfroota::::50767",
+      "fromHouseholdId": "1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
+      "toHouseholdId": "1926::Limerick::Glenbrohane::Ballyfroota::::50767",
+      "personLinkIds": [
+        "person-link::3240252::1517887",
+        "person-link::3240254::1517889",
+        "person-link::3240255::1517890",
+        "person-link::3240258::1517892"
+      ],
+      "score": 12,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    },
+    {
+      "id": "household-link::1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597::1926::Limerick::Glenbrohane::Knockaunavlyman::::402008",
+      "fromHouseholdId": "1911::Limerick::Glenbrohane::Knockaunavlyman::7::620597",
+      "toHouseholdId": "1926::Limerick::Glenbrohane::Knockaunavlyman::::402008",
+      "personLinkIds": [
+        "person-link::3240517::1518172",
+        "person-link::3240518::1518173",
+        "person-link::3240519::1518175"
+      ],
+      "score": 9,
+      "reasons": [
+        "same_place",
+        "same_name",
+        "plausible_age_progression"
+      ],
+      "confidence": "strong",
+      "reviewStatus": "accepted",
+      "placeMatch": true
+    }
+  ]
+}

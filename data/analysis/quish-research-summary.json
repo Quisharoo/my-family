@@ -1,0 +1,67 @@
+{
+  "observationsByYear": {
+    "1901": 80,
+    "1911": 83,
+    "1926": 69
+  },
+  "householdsByYear": {
+    "1901": 20,
+    "1911": 21,
+    "1926": 21
+  },
+  "observationsByCounty": {
+    "Dublin": 3,
+    "Cork": 6,
+    "Limerick": 176,
+    "Tipperary": 44,
+    "Londonderry": 1,
+    "Wicklow": 1,
+    "Wexford": 1
+  },
+  "familyLineCount": 45,
+  "familyLinesReaching1926": 21,
+  "personThreadCount": 188,
+  "personThreadsReaching1926": 69,
+  "topPlaces": [
+    {
+      "place": "Limerick | Glenbrohane | Ballyfroota",
+      "memberCount": 27
+    },
+    {
+      "place": "Limerick | Ballylanders | Killeen",
+      "memberCount": 27
+    },
+    {
+      "place": "Limerick | Duntryleague | Duntryleague",
+      "memberCount": 27
+    },
+    {
+      "place": "Limerick | Glenbrohane | Knockaunavlyman",
+      "memberCount": 19
+    },
+    {
+      "place": "Limerick | Hospital | Ballycahill",
+      "memberCount": 16
+    },
+    {
+      "place": "Limerick | Emlygrennan | Cush",
+      "memberCount": 12
+    },
+    {
+      "place": "Limerick | Knockainy | Rathanny",
+      "memberCount": 11
+    },
+    {
+      "place": "Tipperary | Emly | Nickeres",
+      "memberCount": 11
+    },
+    {
+      "place": "Tipperary | Shronell | Shronell Beg",
+      "memberCount": 11
+    },
+    {
+      "place": "Tipperary | Rodus | Ballyhone",
+      "memberCount": 10
+    }
+  ]
+}

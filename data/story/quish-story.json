@@ -1,0 +1,129 @@
+{
+  "meta": {
+    "familyLineCount": 45,
+    "householdCount": 62,
+    "appendixHouseholdCount": 33
+  },
+  "sections": [
+    {
+      "id": "historical-context",
+      "title": "Historical context",
+      "claimIds": [
+        "context::1926"
+      ]
+    },
+    {
+      "id": "main-family-lines",
+      "title": "Main family lines",
+      "claimIds": [
+        "claim::family-line::1901::Limerick::Duntryleague::Duntryleague::15::1506166::continuity",
+        "claim::family-line::1901::Limerick::Duntryleague::Duntryleague::15::1506166::first-free-state",
+        "claim::family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959::continuity",
+        "claim::family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959::first-free-state",
+        "claim::family-line::1901::Limerick::Ballylanders::Killeen::13::1505874::continuity",
+        "claim::family-line::1901::Limerick::Ballylanders::Killeen::13::1505874::first-free-state",
+        "claim::family-line::1901::Limerick::Emlygrennan::Cush::19::1491679::continuity",
+        "claim::family-line::1901::Limerick::Emlygrennan::Cush::19::1491679::first-free-state",
+        "claim::family-line::1901::Limerick::Hospital::Ballycahill::12::1490918::continuity",
+        "claim::family-line::1901::Limerick::Hospital::Ballycahill::12::1490918::first-free-state",
+        "claim::family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893::continuity",
+        "claim::family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893::first-free-state",
+        "claim::family-line::1926::Limerick::Hospital::Portboy::::528154::first-free-state",
+        "claim::family-line::1926::Limerick::Darragh::Darragh Moore::::230540::first-free-state",
+        "claim::family-line::1926::Limerick::Knockainy::Knockainy Town::::399468::first-free-state",
+        "claim::family-line::1926::Tipperary::Emly::Nickers::::502764::first-free-state",
+        "claim::family-line::1926::Limerick::Duntryleague::Newtown::::500913::first-free-state",
+        "claim::family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772::first-free-state",
+        "claim::family-line::1926::Cork::Cobh Rural::Donegal::::244945::first-free-state",
+        "claim::family-line::1926::Limerick::Knockainy::Knockainy Town::::399464::first-free-state",
+        "claim::family-line::1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390::first-free-state",
+        "claim::family-line::1926::Limerick::Emlygrennan::Elton::::276995::first-free-state",
+        "claim::family-line::1926::Limerick::Kilflyn::Garryarthur::::303860::first-free-state",
+        "claim::family-line::1926::Tipperary::Cappagh::Ardnagassane::::16268::first-free-state",
+        "claim::family-line::1926::Tipperary::Cullen::Ballynulty::::65968::first-free-state",
+        "claim::family-line::1926::Wexford::Wexford Number 2 Urban::Grogan's Road::::335601::first-free-state",
+        "claim::family-line::1926::Cork::Cork Number 3 Urban (North East Ward)::Middle Glanmire Road::::468778::first-free-state",
+        "claim::family-line::1901::Limerick::Knockainy::Rathanny::18::1489942::continuity",
+        "claim::family-line::1901::Tipperary::Emly::Nickeres::2::1718183::continuity",
+        "claim::family-line::1901::Tipperary::Shronell::Shronell Beg::9::1718626::continuity",
+        "claim::family-line::1901::Limerick::Ballylanders::Killeen::9::1505871::continuity",
+        "claim::family-line::1901::Limerick::Ballylanders::Killeen::8::1505870::continuity",
+        "claim::family-line::1901::Dublin::Arran Quay::Aberdeen Street::6::1334125::continuity"
+      ]
+    },
+    {
+      "id": "free-state-transition",
+      "title": "Free State transition",
+      "claimIds": [
+        "claim::family-line::1901::Limerick::Duntryleague::Duntryleague::15::1506166::first-free-state",
+        "claim::family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959::first-free-state",
+        "claim::family-line::1901::Limerick::Ballylanders::Killeen::13::1505874::first-free-state",
+        "claim::family-line::1901::Limerick::Emlygrennan::Cush::19::1491679::first-free-state",
+        "claim::family-line::1901::Limerick::Hospital::Ballycahill::12::1490918::first-free-state",
+        "claim::family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893::first-free-state",
+        "claim::family-line::1926::Limerick::Hospital::Portboy::::528154::first-free-state",
+        "claim::family-line::1926::Limerick::Darragh::Darragh Moore::::230540::first-free-state",
+        "claim::family-line::1926::Limerick::Knockainy::Knockainy Town::::399468::first-free-state",
+        "claim::family-line::1926::Tipperary::Emly::Nickers::::502764::first-free-state",
+        "claim::family-line::1926::Limerick::Duntryleague::Newtown::::500913::first-free-state",
+        "claim::family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772::first-free-state",
+        "claim::family-line::1926::Cork::Cobh Rural::Donegal::::244945::first-free-state",
+        "claim::family-line::1926::Limerick::Knockainy::Knockainy Town::::399464::first-free-state",
+        "claim::family-line::1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390::first-free-state",
+        "claim::family-line::1926::Limerick::Emlygrennan::Elton::::276995::first-free-state",
+        "claim::family-line::1926::Limerick::Kilflyn::Garryarthur::::303860::first-free-state",
+        "claim::family-line::1926::Tipperary::Cappagh::Ardnagassane::::16268::first-free-state",
+        "claim::family-line::1926::Tipperary::Cullen::Ballynulty::::65968::first-free-state",
+        "claim::family-line::1926::Wexford::Wexford Number 2 Urban::Grogan's Road::::335601::first-free-state",
+        "claim::family-line::1926::Cork::Cork Number 3 Urban (North East Ward)::Middle Glanmire Road::::468778::first-free-state"
+      ]
+    },
+    {
+      "id": "place-patterns",
+      "title": "Place patterns",
+      "claimIds": [
+        "claim::place::Limerick | Glenbrohane | Ballyfroota"
+      ]
+    },
+    {
+      "id": "appendix",
+      "title": "Appendix",
+      "claimIds": [],
+      "householdIds": [
+        "1901::Dublin::Glasnevin::Glasnevin Demesne::1.1::1273126",
+        "1901::Cork::Cork Urban No. 5::College Road::6.1::1111138",
+        "1901::Limerick::Glenbrohane::Ballyfroota::6::1491895",
+        "1901::Limerick::Glenbrohane::Ballyfroota::10::1491898",
+        "1901::Limerick::Glenbrohane::Knockaunavlyman::6::1491958",
+        "1901::Limerick::Duntryleague::Lackelly East::3::1506191",
+        "1901::Limerick::Hospital::Ballycahill::13::1490919",
+        "1901::Tipperary::Rodus::Ballyhone::1::1718382",
+        "1911::Cork::Cork No. 4 Urban (part of)::Rockwell Terrace::4::388715",
+        "1911::Limerick::Hospital::Hospital Town::5::619663",
+        "1911::Limerick::Duntryleague::Lackelly East::3::634884",
+        "1911::Limerick::Hospital::Ballycahill::3::619540",
+        "1911::Limerick::Darragh::Darragh More::9::620195",
+        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
+        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540",
+        "1911::Londonderry::Londonderry No. 5 Urban::Londonderry Workhouse::3::606910",
+        "1911::Tipperary::Rodus::Ballyhowe::6::831154",
+        "1911::Wicklow::Baltinglass::Baltinglass West::1::888339",
+        "1926::Limerick::Knockainy::Knockainy Town::::399464",
+        "1926::Limerick::Knockainy::Knockainy Town::::399468",
+        "1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390",
+        "1926::Limerick::Darragh::Darragh Moore::::230540",
+        "1926::Limerick::Duntryleague::Newtown::::500913",
+        "1926::Limerick::Emlygrennan::Elton::::276995",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50772",
+        "1926::Limerick::Hospital::Portboy::::528154",
+        "1926::Limerick::Kilflyn::Garryarthur::::303860",
+        "1926::Tipperary::Cappagh::Ardnagassane::::16268",
+        "1926::Tipperary::Cullen::Ballynulty::::65968",
+        "1926::Tipperary::Emly::Nickers::::502764",
+        "1926::Wexford::Wexford Number 2 Urban::Grogan's Road::::335601",
+        "1926::Cork::Cobh Rural::Donegal::::244945",
+        "1926::Cork::Cork Number 3 Urban (North East Ward)::Middle Glanmire Road::::468778"
+      ]
+    }
+  ]
+}
