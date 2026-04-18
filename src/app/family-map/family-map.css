@@ -38,6 +38,13 @@
   max-width: 640px;
 }
 
+.map-page__hint {
+  margin-top: 12px;
+  color: var(--accent);
+  font-size: 0.95rem;
+  font-weight: 500;
+}
+
 .family-map {
   position: relative;
   margin: 24px 0 20px;
@@ -264,13 +271,31 @@
 }
 
 .roster-panel__member {
-  padding: 14px 16px;
-  border-radius: 14px;
-  background: var(--surface);
-  border: 1px solid var(--line-soft);
+  list-style: none;
+}
+
+.roster-panel__member-link {
+  position: relative;
   display: flex;
   flex-direction: column;
   gap: 3px;
+  padding: 14px 40px 14px 16px;
+  border-radius: 14px;
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  text-decoration: none;
+  color: inherit;
+  transition: border-color 180ms var(--ease), background 180ms var(--ease),
+    transform 150ms var(--ease);
+}
+
+.roster-panel__member-link:hover {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+}
+
+.roster-panel__member-link:active {
+  transform: scale(0.99);
 }
 
 .roster-panel__member-name {
@@ -280,31 +305,25 @@
 }
 
 .roster-panel__member-meta {
-  display: flex;
-  gap: 10px;
   color: var(--ink-soft);
   font-size: 0.93rem;
 }
 
-.roster-panel__sources {
-  margin-top: 14px;
-  font-size: 0.88rem;
-  line-height: 1.8;
+.roster-panel__member-note {
+  font-size: 0.9rem;
+  color: var(--ink);
+}
+
+.roster-panel__member-note.muted {
   color: var(--ink-soft);
-  display: flex;
-  flex-wrap: wrap;
-  gap: 4px 10px;
 }
 
-.roster-panel__source-link {
+.roster-panel__member-arrow {
+  position: absolute;
+  right: 14px;
+  top: 14px;
   color: var(--accent);
-  text-decoration: underline;
-  text-underline-offset: 3px;
-}
-
-.roster-panel__source-link::before {
-  content: "↗ ";
-  text-decoration: none;
+  font-size: 1rem;
 }
 
 .roster-panel__footer {
@@ -350,10 +369,16 @@
 
 /* ---------- Print ---------- */
 
+.print-rosters {
+  display: none;
+}
+
 @media print {
   .map-page__back,
+  .map-page__hint,
   .family-map,
-  .roster-panel__backdrop {
+  .roster-panel__backdrop,
+  .roster-panel {
     display: none !important;
   }
 
@@ -385,5 +410,69 @@
   .map-page__footer {
     color: var(--ink);
     font-size: 0.9rem;
+  }
+
+  .print-rosters {
+    display: block;
+    margin-top: 32px;
+  }
+
+  .print-rosters h2 {
+    font-size: 1.6rem;
+    margin-bottom: 20px;
+    color: var(--ink);
+  }
+
+  .print-rosters__line {
+    break-inside: avoid;
+    break-before: page;
+    margin-bottom: 24px;
+  }
+
+  .print-rosters__line:first-of-type {
+    break-before: auto;
+  }
+
+  .print-rosters__line header h3 {
+    font-family: "Iowan Old Style", "Palatino Linotype", "Georgia", serif;
+    font-size: 1.3rem;
+    margin-bottom: 4px;
+  }
+
+  .print-rosters__line header p {
+    color: var(--ink-soft);
+    font-size: 0.95rem;
+    margin-bottom: 16px;
+  }
+
+  .print-rosters__year {
+    margin-bottom: 16px;
+  }
+
+  .print-rosters__year h4 {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+    font-size: 1.1rem;
+    margin-bottom: 6px;
+  }
+
+  .print-rosters__regime {
+    font-size: 0.78rem;
+    color: var(--ink-soft);
+    text-transform: uppercase;
+    letter-spacing: 0.04em;
+    font-weight: 400;
+  }
+
+  .print-rosters__year ul {
+    margin: 0;
+    padding-left: 22px;
+  }
+
+  .print-rosters__year li {
+    line-height: 1.6;
+    font-size: 0.98rem;
+    break-inside: avoid;
   }
 }

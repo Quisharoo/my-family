@@ -48,7 +48,7 @@ function FitToPins({ lines }) {
         .map((line) => [line.displayCoordinate.lat, line.displayCoordinate.lng])
     );
     if (bounds.isValid()) {
-      map.fitBounds(bounds, { padding: [48, 48] });
+      map.fitBounds(bounds, { padding: [72, 96] });
     }
   }, [lines, map]);
   return null;

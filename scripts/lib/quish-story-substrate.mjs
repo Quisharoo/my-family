@@ -96,6 +96,18 @@ function canonicalSex(record) {
   return record.updated_sex || record.sex || null;
 }
 
+function canonicalOccupation(record) {
+  const raw =
+    record.occupation_updated ||
+    record.occupation ||
+    record.updated_occupation ||
+    null;
+  if (!raw) return null;
+  const trimmed = String(raw).trim();
+  if (!trimmed || /^none$|^n\/a$|^-$/i.test(trimmed)) return null;
+  return trimmed;
+}
+
 const KNOWN_IRISH_COUNTIES = new Set([
   "antrim", "armagh", "carlow", "cavan", "clare", "cork", "derry", "donegal",
   "down", "dublin", "fermanagh", "galway", "kerry", "kildare", "kilkenny",
@@ -107,10 +119,13 @@ const KNOWN_IRISH_COUNTIES = new Set([
 function canonicalBirthplace(record) {
   const raw = record.birthplace_county || record.birthplace || null;
   if (!raw) return { clean: null, raw: null };
-  const normalized = String(raw).toLowerCase().replace(/[^a-z]/g, "");
-  if (!normalized) return { clean: null, raw };
+  const stripped = String(raw)
+    .toLowerCase()
+    .replace(/^co\.?\s+/, "")
+    .replace(/[^a-z]/g, "");
+  if (!stripped) return { clean: null, raw };
   for (const county of KNOWN_IRISH_COUNTIES) {
-    if (normalized === county || normalized.startsWith(county)) {
+    if (stripped === county || stripped.startsWith(county)) {
       return { clean: county.charAt(0).toUpperCase() + county.slice(1), raw };
     }
   }
@@ -152,6 +167,7 @@ export function buildCanonicalPersonObservations(rawRecords, editions) {
       sex: canonicalSex(entry.raw),
       birthplace: birthplace.clean,
       birthplaceRaw: birthplace.raw,
+      occupation: canonicalOccupation(entry.raw),
       raw: entry.raw,
     };
   });

@@ -1,21 +1,39 @@
 "use client";
 
 import { useEffect, useRef } from "react";
-
-function formatRelation(relation) {
-  if (!relation) return null;
-  return relation.replace(/^Head of Family$/i, "Head");
-}
+import { formatRegime, formatRelation } from "./format";
 
 function MemberRow({ member }) {
   const relation = formatRelation(member.relation);
+  const details = [];
+  if (relation) details.push(relation);
+  if (member.age != null) details.push(`age ${member.age}`);
+
   return (
     <li className="roster-panel__member">
-      <span className="roster-panel__member-name">{member.firstName}</span>
-      <span className="roster-panel__member-meta">
-        {relation ? <span>{relation}</span> : null}
-        {member.age != null ? <span>age {member.age}</span> : null}
-      </span>
+      <a
+        href={member.sourceRecordUrl}
+        target="_blank"
+        rel="noreferrer"
+        className="roster-panel__member-link"
+        aria-label={`View ${member.firstName}'s original record at the National Archives of Ireland`}
+      >
+        <span className="roster-panel__member-name">{member.firstName}</span>
+        {details.length ? (
+          <span className="roster-panel__member-meta">{details.join(" · ")}</span>
+        ) : null}
+        {member.occupation ? (
+          <span className="roster-panel__member-note">{member.occupation}</span>
+        ) : null}
+        {member.birthplace ? (
+          <span className="roster-panel__member-note muted">
+            Born in Co. {member.birthplace}
+          </span>
+        ) : null}
+        <span className="roster-panel__member-arrow" aria-hidden="true">
+          ↗
+        </span>
+      </a>
     </li>
   );
 }
@@ -25,26 +43,15 @@ function YearCard({ record }) {
     <section className="roster-panel__year" aria-label={`${record.year} census`}>
       <header className="roster-panel__year-header">
         <h3>{record.year}</h3>
-        <span className="roster-panel__year-regime">{record.regime}</span>
+        <span className="roster-panel__year-regime">
+          {formatRegime(record.regime)}
+        </span>
       </header>
       <ul className="roster-panel__members">
         {record.members.map((member, index) => (
           <MemberRow key={`${record.year}-${member.firstName}-${index}`} member={member} />
         ))}
       </ul>
-      <p className="roster-panel__sources">
-        {record.members.map((member, index) => (
-          <a
-            key={`src-${record.year}-${index}`}
-            href={member.sourceRecordUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="roster-panel__source-link"
-          >
-            {member.firstName}
-          </a>
-        ))}
-      </p>
     </section>
   );
 }
@@ -104,7 +111,8 @@ export default function RosterPanel({ line, onClose }) {
           ))}
         </div>
         <footer className="roster-panel__footer">
-          Links open the original record at the National Archives of Ireland.
+          Each name links to the original record at the National Archives of
+          Ireland.
         </footer>
       </aside>
     </>

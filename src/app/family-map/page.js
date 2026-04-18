@@ -1,12 +1,13 @@
 import Link from "next/link";
 import FamilyMapClient from "@/components/family-map/FamilyMapClient";
+import PrintRosters from "@/components/family-map/PrintRosters";
 import mapData from "@/data/quish-map-data.json";
 import "./family-map.css";
 
 export const metadata = {
   title: "Quish Family Map — south Limerick, 1901–1926",
   description:
-    "Six proven Quish family lines pinned on a historic map of south Limerick across the 1901, 1911, and 1926 censuses.",
+    "Our family lines pinned on a historic map of south Limerick across the 1901, 1911 and 1926 censuses.",
 };
 
 function formatYears(years) {
@@ -24,16 +25,17 @@ export default function FamilyMapPage() {
         </Link>
         <h1 className="map-page__title">The Quishes of south Limerick</h1>
         <p className="map-page__subtitle">
-          Six family lines, recorded in the censuses of 1901, 1911 and 1926.
-          Each pin is a household that stayed in the same townland across the
-          years covered.
+          Our family lines, recorded in the censuses of 1901, 1911 and 1926.
+          Each pin marks a household that stayed in the same townland across
+          the years covered.
         </p>
+        <p className="map-page__hint">Tap a pin to see the household.</p>
       </header>
 
       <FamilyMapClient lines={lines} />
 
-      <section className="map-page__fallback" aria-label="All family lines">
-        <h2>The six lines</h2>
+      <section className="map-page__fallback" aria-label="Our family lines">
+        <h2>Our family lines</h2>
         <ul className="map-page__lines">
           {lines.map((line) => (
             <li key={line.id}>
@@ -44,6 +46,8 @@ export default function FamilyMapPage() {
           ))}
         </ul>
       </section>
+
+      <PrintRosters lines={lines} />
 
       <footer className="map-page__footer">
         <p>

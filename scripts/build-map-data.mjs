@@ -72,6 +72,7 @@ function buildLineEntry(line) {
       relation: member.relation,
       sex: member.sex,
       birthplace: member.birthplace || null,
+      occupation: member.occupation || null,
       sourceRecordUrl: sourceRecordUrl(member),
     })),
   }));

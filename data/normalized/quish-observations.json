@@ -50,8 +50,9 @@
       "relation": "Boarder",
       "age": 29,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Railway Ticket Checker",
       "raw": {
         "id": 5195852,
         "census_year": 1901,
@@ -171,6 +172,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": "Pupil",
       "raw": {
         "id": 5332989,
         "census_year": 1901,
@@ -264,8 +266,9 @@
       "relation": "Lodger",
       "age": 19,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Coach Body Maker",
       "raw": {
         "id": 6330074,
         "census_year": 1901,
@@ -371,8 +374,9 @@
       "relation": "Lodger",
       "age": 21,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Coach Wheeler",
       "raw": {
         "id": 6330075,
         "census_year": 1901,
@@ -478,8 +482,9 @@
       "relation": "Head of Family",
       "age": 68,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 6917888,
         "census_year": 1901,
@@ -561,8 +566,9 @@
       "relation": "Wife",
       "age": 58,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 6917889,
         "census_year": 1901,
@@ -644,8 +650,9 @@
       "relation": "Daughter",
       "age": 30,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 6917890,
         "census_year": 1901,
@@ -727,8 +734,9 @@
       "relation": "Son",
       "age": 28,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Son",
       "raw": {
         "id": 6917891,
         "census_year": 1901,
@@ -810,8 +818,9 @@
       "relation": "Daughter",
       "age": 26,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 6917892,
         "census_year": 1901,
@@ -893,8 +902,9 @@
       "relation": "Daughter",
       "age": 24,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 6917893,
         "census_year": 1901,
@@ -976,8 +986,9 @@
       "relation": "Head of Family",
       "age": 55,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Cooper Unemployed",
       "raw": {
         "id": 6921810,
         "census_year": 1901,
@@ -1071,8 +1082,9 @@
       "relation": "Wife",
       "age": 50,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "House Keeping",
       "raw": {
         "id": 6921811,
         "census_year": 1901,
@@ -1166,8 +1178,9 @@
       "relation": "Son",
       "age": 31,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Butter Making",
       "raw": {
         "id": 6921812,
         "census_year": 1901,
@@ -1261,8 +1274,9 @@
       "relation": "Daughter",
       "age": 17,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Nil",
       "raw": {
         "id": 6921813,
         "census_year": 1901,
@@ -1356,8 +1370,9 @@
       "relation": "Son",
       "age": 13,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 6921814,
         "census_year": 1901,
@@ -1451,8 +1466,9 @@
       "relation": "Head of Family",
       "age": 37,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 6922890,
         "census_year": 1901,
@@ -1534,8 +1550,9 @@
       "relation": "Sister",
       "age": 36,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 6922891,
         "census_year": 1901,
@@ -1617,8 +1634,9 @@
       "relation": "Niece",
       "age": 6,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 6922892,
         "census_year": 1901,
@@ -1700,8 +1718,9 @@
       "relation": "Head of Family",
       "age": 60,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Retired Farmer",
       "raw": {
         "id": 6922901,
         "census_year": 1901,
@@ -1783,8 +1802,9 @@
       "relation": "Head of Family",
       "age": 40,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 6922909,
         "census_year": 1901,
@@ -1866,8 +1886,9 @@
       "relation": "Brother",
       "age": 30,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Son",
       "raw": {
         "id": 6922910,
         "census_year": 1901,
@@ -1949,8 +1970,9 @@
       "relation": "Aunt in Law",
       "age": 65,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Retired Farmer",
       "raw": {
         "id": 6923209,
         "census_year": 1901,
@@ -2032,8 +2054,9 @@
       "relation": "Head of Family",
       "age": 48,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 6923211,
         "census_year": 1901,
@@ -2117,6 +2140,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Co Limk",
+      "occupation": null,
       "raw": {
         "id": 6923212,
         "census_year": 1901,
@@ -2198,8 +2222,9 @@
       "relation": "Son",
       "age": 4,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 6923213,
         "census_year": 1901,
@@ -2281,8 +2306,9 @@
       "relation": "Daughter",
       "age": 0,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 6923214,
         "census_year": 1901,
@@ -2364,8 +2390,9 @@
       "relation": "Uncle",
       "age": 74,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Retired Farmer",
       "raw": {
         "id": 6923215,
         "census_year": 1901,
@@ -2447,8 +2474,9 @@
       "relation": "Head of Family",
       "age": 60,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 7130324,
         "census_year": 1901,
@@ -2536,8 +2564,9 @@
       "relation": "Wife",
       "age": 48,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7130325,
         "census_year": 1901,
@@ -2625,8 +2654,9 @@
       "relation": "Head of Family",
       "age": 45,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 7130326,
         "census_year": 1901,
@@ -2714,8 +2744,9 @@
       "relation": "Daughter",
       "age": 22,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 7130327,
         "census_year": 1901,
@@ -2803,8 +2834,9 @@
       "relation": "Son",
       "age": 20,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Son",
       "raw": {
         "id": 7130328,
         "census_year": 1901,
@@ -2892,8 +2924,9 @@
       "relation": "Daughter",
       "age": 19,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 7130329,
         "census_year": 1901,
@@ -2981,8 +3014,9 @@
       "relation": "Son",
       "age": 18,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Son",
       "raw": {
         "id": 7130330,
         "census_year": 1901,
@@ -3072,6 +3106,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "County Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 7130343,
         "census_year": 1901,
@@ -3159,8 +3194,9 @@
       "relation": "Wife",
       "age": 50,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7130344,
         "census_year": 1901,
@@ -3248,8 +3284,9 @@
       "relation": "Daughter",
       "age": 22,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 7130345,
         "census_year": 1901,
@@ -3337,8 +3374,9 @@
       "relation": "Son",
       "age": 14,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 7130346,
         "census_year": 1901,
@@ -3426,8 +3464,9 @@
       "relation": "Daughter",
       "age": 9,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 7130347,
         "census_year": 1901,
@@ -3515,8 +3554,9 @@
       "relation": "Daughter",
       "age": 5,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7130348,
         "census_year": 1901,
@@ -3604,8 +3644,9 @@
       "relation": "Head of Family",
       "age": 38,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 7131866,
         "census_year": 1901,
@@ -3711,8 +3752,9 @@
       "relation": "Wife",
       "age": 32,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7131867,
         "census_year": 1901,
@@ -3818,8 +3860,9 @@
       "relation": "Daughter",
       "age": 6,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7131868,
         "census_year": 1901,
@@ -3925,8 +3968,9 @@
       "relation": "Son",
       "age": 5,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7131869,
         "census_year": 1901,
@@ -4032,8 +4076,9 @@
       "relation": "Son",
       "age": 4,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7131870,
         "census_year": 1901,
@@ -4139,8 +4184,9 @@
       "relation": "Son",
       "age": 2,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7131871,
         "census_year": 1901,
@@ -4246,8 +4292,9 @@
       "relation": "Daughter",
       "age": 1,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7131872,
         "census_year": 1901,
@@ -4353,8 +4400,9 @@
       "relation": "Daughter",
       "age": 0,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 7131873,
         "census_year": 1901,
@@ -4462,6 +4510,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "In Ireland, County Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 7131981,
         "census_year": 1901,
@@ -4545,6 +4594,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "In Ireland, County Limerick",
+      "occupation": "Farmer's Sister",
       "raw": {
         "id": 7131982,
         "census_year": 1901,
@@ -4628,6 +4678,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "In Ireland, County Limerick",
+      "occupation": "Farmer's Sister",
       "raw": {
         "id": 7131983,
         "census_year": 1901,
@@ -4709,8 +4760,9 @@
       "relation": "Head of Family",
       "age": 60,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 7388542,
         "census_year": 1901,
@@ -4798,8 +4850,9 @@
       "relation": "Son",
       "age": 25,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Son",
       "raw": {
         "id": 7388543,
         "census_year": 1901,
@@ -4887,8 +4940,9 @@
       "relation": "Daughter",
       "age": 20,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 7388544,
         "census_year": 1901,
@@ -4976,8 +5030,9 @@
       "relation": "Son",
       "age": 15,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 7388545,
         "census_year": 1901,
@@ -5065,8 +5120,9 @@
       "relation": "Head of Family",
       "age": 65,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 7388547,
         "census_year": 1901,
@@ -5154,8 +5210,9 @@
       "relation": "Son",
       "age": 19,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 7388548,
         "census_year": 1901,
@@ -5243,8 +5300,9 @@
       "relation": "Head of Family",
       "age": 65,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer",
       "raw": {
         "id": 8227729,
         "census_year": 1901,
@@ -5326,8 +5384,9 @@
       "relation": "Wife",
       "age": 53,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer's Wife",
       "raw": {
         "id": 8227730,
         "census_year": 1901,
@@ -5409,8 +5468,9 @@
       "relation": "Son",
       "age": 20,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer's Son",
       "raw": {
         "id": 8227731,
         "census_year": 1901,
@@ -5492,8 +5552,9 @@
       "relation": "Daughter",
       "age": 18,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 8227732,
         "census_year": 1901,
@@ -5575,8 +5636,9 @@
       "relation": "Daughter",
       "age": 17,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 8227733,
         "census_year": 1901,
@@ -5658,8 +5720,9 @@
       "relation": "Daughter",
       "age": 16,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 8227734,
         "census_year": 1901,
@@ -5741,8 +5804,9 @@
       "relation": "Daughter",
       "age": 14,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 8227735,
         "census_year": 1901,
@@ -5824,8 +5888,9 @@
       "relation": "Head of Family",
       "age": 50,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer",
       "raw": {
         "id": 8228714,
         "census_year": 1901,
@@ -5907,8 +5972,9 @@
       "relation": "Wife",
       "age": 43,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 8228715,
         "census_year": 1901,
@@ -5990,8 +6056,9 @@
       "relation": "Daughter",
       "age": 14,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8228716,
         "census_year": 1901,
@@ -6073,8 +6140,9 @@
       "relation": "Daughter",
       "age": 12,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8228717,
         "census_year": 1901,
@@ -6156,8 +6224,9 @@
       "relation": "Daughter",
       "age": 10,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8228718,
         "census_year": 1901,
@@ -6239,8 +6308,9 @@
       "relation": "Son",
       "age": 8,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8228719,
         "census_year": 1901,
@@ -6322,8 +6392,9 @@
       "relation": "Son",
       "age": 6,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8228720,
         "census_year": 1901,
@@ -6405,8 +6476,9 @@
       "relation": "Daughter",
       "age": 5,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8228721,
         "census_year": 1901,
@@ -6488,8 +6560,9 @@
       "relation": "Son",
       "age": 2,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 8228722,
         "census_year": 1901,
@@ -6571,8 +6644,9 @@
       "relation": "Daughter",
       "age": 0,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 8228723,
         "census_year": 1901,
@@ -6654,8 +6728,9 @@
       "relation": "Head of Family",
       "age": 47,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Agricultural Labr",
       "raw": {
         "id": 8230055,
         "census_year": 1901,
@@ -6737,8 +6812,9 @@
       "relation": "Wife",
       "age": 38,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Agricultural Labourer",
       "raw": {
         "id": 8230056,
         "census_year": 1901,
@@ -6820,8 +6896,9 @@
       "relation": "Daughter",
       "age": 9,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8230057,
         "census_year": 1901,
@@ -6903,8 +6980,9 @@
       "relation": "Son",
       "age": 8,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8230058,
         "census_year": 1901,
@@ -6986,8 +7064,9 @@
       "relation": "Daughter",
       "age": 6,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 8230059,
         "census_year": 1901,
@@ -7069,8 +7148,9 @@
       "relation": "Son",
       "age": 4,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 8230060,
         "census_year": 1901,
@@ -7152,8 +7232,9 @@
       "relation": "Boarder",
       "age": 38,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Railway Passenger Ticket Checker",
       "raw": {
         "id": 273210,
         "census_year": 1911,
@@ -7285,6 +7366,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick Co",
+      "occupation": "Scolar",
       "raw": {
         "id": 1434881,
         "census_year": 1911,
@@ -7378,8 +7460,9 @@
       "relation": "Head of Family",
       "age": 80,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 2519539,
         "census_year": 1911,
@@ -7485,8 +7568,9 @@
       "relation": "Wife",
       "age": 70,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 2519540,
         "census_year": 1911,
@@ -7592,8 +7676,9 @@
       "relation": "Daughter",
       "age": 44,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 2519541,
         "census_year": 1911,
@@ -7699,8 +7784,9 @@
       "relation": "Son",
       "age": 40,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 2519542,
         "census_year": 1911,
@@ -7806,8 +7892,9 @@
       "relation": "Daughter",
       "age": 34,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 2519543,
         "census_year": 1911,
@@ -7913,8 +8000,9 @@
       "relation": "Boarder",
       "age": 60,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "General Labourer",
       "raw": {
         "id": 2519702,
         "census_year": 1911,
@@ -8164,8 +8252,9 @@
       "relation": "Head of Family",
       "age": 72,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3165863,
         "census_year": 1911,
@@ -8271,8 +8360,9 @@
       "relation": "Wife",
       "age": 60,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3165864,
         "census_year": 1911,
@@ -8378,8 +8468,9 @@
       "relation": "Daughter",
       "age": 31,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3165865,
         "census_year": 1911,
@@ -8485,8 +8576,9 @@
       "relation": "Son",
       "age": 24,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3165866,
         "census_year": 1911,
@@ -8592,8 +8684,9 @@
       "relation": "Daughter",
       "age": 19,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3165867,
         "census_year": 1911,
@@ -8699,8 +8792,9 @@
       "relation": "Head of Family",
       "age": 70,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3165891,
         "census_year": 1911,
@@ -8808,6 +8902,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "id": 3165892,
         "census_year": 1911,
@@ -8915,6 +9010,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "County Limk",
+      "occupation": "Farmer",
       "raw": {
         "id": 3165893,
         "census_year": 1911,
@@ -9022,6 +9118,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Co Lmk",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 3165894,
         "census_year": 1911,
@@ -9129,6 +9226,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Co Lmk",
+      "occupation": "Farmer's Son",
       "raw": {
         "id": 3165895,
         "census_year": 1911,
@@ -9236,6 +9334,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Co Lmk",
+      "occupation": "Farmer's Daughter",
       "raw": {
         "id": 3165896,
         "census_year": 1911,
@@ -9341,8 +9440,9 @@
       "relation": "Head of Family",
       "age": 48,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3167257,
         "census_year": 1911,
@@ -9484,8 +9584,9 @@
       "relation": "Wife",
       "age": 43,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3167258,
         "census_year": 1911,
@@ -9627,8 +9728,9 @@
       "relation": "Son",
       "age": 15,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3167259,
         "census_year": 1911,
@@ -9770,8 +9872,9 @@
       "relation": "Son",
       "age": 14,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3167260,
         "census_year": 1911,
@@ -9913,8 +10016,9 @@
       "relation": "Son",
       "age": 12,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3167261,
         "census_year": 1911,
@@ -10056,8 +10160,9 @@
       "relation": "Daughter",
       "age": 11,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3167262,
         "census_year": 1911,
@@ -10199,8 +10304,9 @@
       "relation": "Daughter",
       "age": 10,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3167263,
         "census_year": 1911,
@@ -10342,8 +10448,9 @@
       "relation": "Son",
       "age": 5,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3167264,
         "census_year": 1911,
@@ -10485,8 +10592,9 @@
       "relation": "Son",
       "age": 4,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3167265,
         "census_year": 1911,
@@ -10628,8 +10736,9 @@
       "relation": "Son",
       "age": 3,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3167266,
         "census_year": 1911,
@@ -10771,8 +10880,9 @@
       "relation": "Head of Family",
       "age": 96,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3167399,
         "census_year": 1911,
@@ -10878,8 +10988,9 @@
       "relation": "Sister",
       "age": 80,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3167400,
         "census_year": 1911,
@@ -10985,8 +11096,9 @@
       "relation": "Head of Family",
       "age": 28,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3236917,
         "census_year": 1911,
@@ -11092,8 +11204,9 @@
       "relation": "Relative",
       "age": 30,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Carpenter",
       "raw": {
         "id": 3236918,
         "census_year": 1911,
@@ -11199,8 +11312,9 @@
       "relation": "Head of Family",
       "age": 68,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3236944,
         "census_year": 1911,
@@ -11306,8 +11420,9 @@
       "relation": "Son",
       "age": 36,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3236945,
         "census_year": 1911,
@@ -11413,8 +11528,9 @@
       "relation": "Son",
       "age": 26,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3236946,
         "census_year": 1911,
@@ -11520,8 +11636,9 @@
       "relation": "Daughter",
       "age": 32,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3236947,
         "census_year": 1911,
@@ -11627,8 +11744,9 @@
       "relation": "Head of Family",
       "age": 38,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Creamery Engine Driver",
       "raw": {
         "id": 3238618,
         "census_year": 1911,
@@ -11734,8 +11852,9 @@
       "relation": "Wife",
       "age": 32,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Cork",
       "birthplaceRaw": "Co Cork",
+      "occupation": null,
       "raw": {
         "id": 3238619,
         "census_year": 1911,
@@ -11841,8 +11960,9 @@
       "relation": "Daughter",
       "age": 8,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3238620,
         "census_year": 1911,
@@ -11948,8 +12068,9 @@
       "relation": "Son",
       "age": 7,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3238621,
         "census_year": 1911,
@@ -12055,8 +12176,9 @@
       "relation": "Son",
       "age": 5,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3238622,
         "census_year": 1911,
@@ -12162,8 +12284,9 @@
       "relation": "Son",
       "age": 2,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3238623,
         "census_year": 1911,
@@ -12269,8 +12392,9 @@
       "relation": "Son",
       "age": 0,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3238624,
         "census_year": 1911,
@@ -12376,8 +12500,9 @@
       "relation": "Head of Family",
       "age": 74,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Retired Cooper",
       "raw": {
         "id": 3239222,
         "census_year": 1911,
@@ -12495,8 +12620,9 @@
       "relation": "Wife",
       "age": 65,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Egg Dealer",
       "raw": {
         "id": 3239223,
         "census_year": 1911,
@@ -12614,8 +12740,9 @@
       "relation": "Daughter",
       "age": 36,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3239224,
         "census_year": 1911,
@@ -12733,8 +12860,9 @@
       "relation": "Daughter",
       "age": 26,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3239225,
         "census_year": 1911,
@@ -12852,8 +12980,9 @@
       "relation": "Son",
       "age": 23,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "General Labourer",
       "raw": {
         "id": 3239226,
         "census_year": 1911,
@@ -12971,8 +13100,9 @@
       "relation": "Head of Family",
       "age": 45,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3240252,
         "census_year": 1911,
@@ -13078,8 +13208,9 @@
       "relation": "Wife",
       "age": 36,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3240253,
         "census_year": 1911,
@@ -13185,8 +13316,9 @@
       "relation": "Son",
       "age": 7,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3240254,
         "census_year": 1911,
@@ -13292,8 +13424,9 @@
       "relation": "Son",
       "age": 6,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3240255,
         "census_year": 1911,
@@ -13399,8 +13532,9 @@
       "relation": "Son",
       "age": 4,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3240256,
         "census_year": 1911,
@@ -13506,8 +13640,9 @@
       "relation": "Daughter",
       "age": 2,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3240257,
         "census_year": 1911,
@@ -13613,8 +13748,9 @@
       "relation": "Son",
       "age": 0,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3240258,
         "census_year": 1911,
@@ -13720,8 +13856,9 @@
       "relation": "Head of Family",
       "age": 53,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3240259,
         "census_year": 1911,
@@ -13827,8 +13964,9 @@
       "relation": "Sister",
       "age": 55,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3240260,
         "census_year": 1911,
@@ -13934,8 +14072,9 @@
       "relation": "Head of Family",
       "age": 66,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Farmer",
       "raw": {
         "id": 3240512,
         "census_year": 1911,
@@ -14041,8 +14180,9 @@
       "relation": "Wife",
       "age": 46,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3240513,
         "census_year": 1911,
@@ -14148,8 +14288,9 @@
       "relation": "Son",
       "age": 14,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3240514,
         "census_year": 1911,
@@ -14255,8 +14396,9 @@
       "relation": "Daughter",
       "age": 10,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3240515,
         "census_year": 1911,
@@ -14362,8 +14504,9 @@
       "relation": "Daughter",
       "age": 9,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3240516,
         "census_year": 1911,
@@ -14469,8 +14612,9 @@
       "relation": "Son",
       "age": 6,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3240517,
         "census_year": 1911,
@@ -14576,8 +14720,9 @@
       "relation": "Son",
       "age": 5,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": "Scholar",
       "raw": {
         "id": 3240518,
         "census_year": 1911,
@@ -14683,8 +14828,9 @@
       "relation": "Daughter",
       "age": 2,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Limerick",
       "birthplaceRaw": "Co Limerick",
+      "occupation": null,
       "raw": {
         "id": 3240519,
         "census_year": 1911,
@@ -14792,6 +14938,7 @@
       "sex": "M",
       "birthplace": "Tipperary",
       "birthplaceRaw": "Tipperary",
+      "occupation": "Store Keeper and Boiler Attendant",
       "raw": {
         "id": 3424296,
         "census_year": 1911,
@@ -14897,8 +15044,9 @@
       "relation": "Head of Family",
       "age": 63,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 4112831,
         "census_year": 1911,
@@ -15004,8 +15152,9 @@
       "relation": "Son",
       "age": 30,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 4112832,
         "census_year": 1911,
@@ -15111,8 +15260,9 @@
       "relation": "Daughter",
       "age": 29,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 4112833,
         "census_year": 1911,
@@ -15218,8 +15368,9 @@
       "relation": "Daughter",
       "age": 24,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 4112834,
         "census_year": 1911,
@@ -15325,8 +15476,9 @@
       "relation": "Head of Family",
       "age": 56,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 4113771,
         "census_year": 1911,
@@ -15432,8 +15584,9 @@
       "relation": "Son",
       "age": 18,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Farmer",
       "raw": {
         "id": 4113772,
         "census_year": 1911,
@@ -15539,8 +15692,9 @@
       "relation": "Son",
       "age": 16,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Attending School",
       "raw": {
         "id": 4113773,
         "census_year": 1911,
@@ -15646,8 +15800,9 @@
       "relation": "Daughter",
       "age": 15,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Attending School",
       "raw": {
         "id": 4113774,
         "census_year": 1911,
@@ -15753,8 +15908,9 @@
       "relation": "Son",
       "age": 12,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Attending School",
       "raw": {
         "id": 4113775,
         "census_year": 1911,
@@ -15860,8 +16016,9 @@
       "relation": "Daughter",
       "age": 10,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Attending School",
       "raw": {
         "id": 4113776,
         "census_year": 1911,
@@ -15967,8 +16124,9 @@
       "relation": "Head of Family",
       "age": 56,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Agricultural Labourer",
       "raw": {
         "id": 4115004,
         "census_year": 1911,
@@ -16074,8 +16232,9 @@
       "relation": "Wife",
       "age": 41,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": null,
       "raw": {
         "id": 4115005,
         "census_year": 1911,
@@ -16181,8 +16340,9 @@
       "relation": "Son",
       "age": 17,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 4115006,
         "census_year": 1911,
@@ -16288,8 +16448,9 @@
       "relation": "Son",
       "age": 13,
       "sex": "M",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 4115007,
         "census_year": 1911,
@@ -16395,8 +16556,9 @@
       "relation": "Daughter",
       "age": 7,
       "sex": "F",
-      "birthplace": null,
+      "birthplace": "Tipperary",
       "birthplaceRaw": "Co Tipperary",
+      "occupation": "Scholar",
       "raw": {
         "id": 4115008,
         "census_year": 1911,
@@ -16504,6 +16666,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "County Limerick",
+      "occupation": "Railway Porter",
       "raw": {
         "id": 4322029,
         "census_year": 1911,
@@ -16611,6 +16774,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Knockainy Town_2518_0015_0017_0_00033.pdf",
         "county": "Limerick",
@@ -16665,6 +16829,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Knockainy Town_2518_0015_0021_0_00041.pdf",
         "county": "Limerick",
@@ -16719,6 +16884,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Knockainy Town_2518_0015_0021_0_00041.pdf",
         "county": "Limerick",
@@ -16773,6 +16939,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Knockainy Town_2518_0015_0021_0_00041.pdf",
         "county": "Limerick",
@@ -16827,6 +16994,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Knockainy Town_2518_0015_0021_0_00041.pdf",
         "county": "Limerick",
@@ -16881,6 +17049,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Ballinacurra Town_2625_0016_0031_0_00061.pdf",
         "county": "Limerick",
@@ -16935,6 +17104,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Killeen_2607_0011_0013_0_00025.pdf",
         "county": "Limerick",
@@ -16989,6 +17159,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Killeen_2607_0011_0013_0_00025.pdf",
         "county": "Limerick",
@@ -17043,6 +17214,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Killeen_2607_0011_0013_0_00025.pdf",
         "county": "Limerick",
@@ -17097,6 +17269,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Darragh Moore_2513_0004_0007_0_00013.pdf",
         "county": "Limerick",
@@ -17151,6 +17324,7 @@
       "sex": "F",
       "birthplace": "Cork",
       "birthplaceRaw": "Cork.",
+      "occupation": null,
       "raw": {
         "aform_name": "Darragh Moore_2513_0004_0007_0_00013.pdf",
         "county": "Limerick",
@@ -17205,6 +17379,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Darragh Moore_2513_0004_0007_0_00013.pdf",
         "county": "Limerick",
@@ -17259,6 +17434,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Darragh Moore_2513_0004_0007_0_00013.pdf",
         "county": "Limerick",
@@ -17313,6 +17489,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Darragh Moore_2513_0004_0007_0_00013.pdf",
         "county": "Limerick",
@@ -17367,6 +17544,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Laineuck",
+      "occupation": null,
       "raw": {
         "aform_name": "Darragh Moore_2513_0004_0007_0_00013.pdf",
         "county": "Limerick",
@@ -17421,6 +17599,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Timewell",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17475,6 +17654,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Eintrzeugues",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17529,6 +17709,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Duntryleague",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17583,6 +17764,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Dunny",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17637,6 +17819,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Lennox",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17691,6 +17874,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17745,6 +17929,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Summers",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17799,6 +17984,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Summers",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17853,6 +18039,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Duntryleague_2554_0021_0017_0_00033.pdf",
         "county": "Limerick",
@@ -17907,6 +18094,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Newtown_2554_0024_0007_0_00013.pdf",
         "county": "Limerick",
@@ -17961,6 +18149,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Limit.",
+      "occupation": null,
       "raw": {
         "aform_name": "Newtown_2554_0024_0007_0_00013.pdf",
         "county": "Limerick",
@@ -18015,6 +18204,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Link",
+      "occupation": null,
       "raw": {
         "aform_name": "Newtown_2554_0024_0007_0_00013.pdf",
         "county": "Limerick",
@@ -18069,6 +18259,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Cush_2579_0007_0002_0_00003.pdf",
         "county": "Limerick",
@@ -18123,6 +18314,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Cush_2579_0007_0002_0_00003.pdf",
         "county": "Limerick",
@@ -18177,6 +18369,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Elton_2579_0014_0002_0_00003.pdf",
         "county": "Limerick",
@@ -18231,6 +18424,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18285,6 +18479,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18339,6 +18534,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18393,6 +18589,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18447,6 +18644,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18501,6 +18699,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18555,6 +18754,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18609,6 +18809,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18663,6 +18864,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0004_0_00007.pdf",
         "county": "Limerick",
@@ -18717,6 +18919,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0009_0_00017.pdf",
         "county": "Limerick",
@@ -18771,6 +18974,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0009_0_00017.pdf",
         "county": "Limerick",
@@ -18825,6 +19029,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Ballyfroota_2579_0018_0009_0_00017.pdf",
         "county": "Limerick",
@@ -18879,6 +19084,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Knockaunavlyman_2579_0024_0003_0_00005.pdf",
         "county": "Limerick",
@@ -18933,6 +19139,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Knockaunavlyman_2579_0024_0003_0_00005.pdf",
         "county": "Limerick",
@@ -18987,6 +19194,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Knockaunavlyman_2579_0024_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19041,6 +19249,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Knockaunavlyman_2579_0024_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19095,6 +19304,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Knockaunavlyman_2579_0024_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19149,6 +19359,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Limfrog",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballycahill_2551_0021_0010_0_00019.pdf",
         "county": "Limerick",
@@ -19203,6 +19414,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Cuman",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballycahill_2551_0021_0010_0_00019.pdf",
         "county": "Limerick",
@@ -19257,6 +19469,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Finney",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballycahill_2551_0021_0010_0_00019.pdf",
         "county": "Limerick",
@@ -19311,6 +19524,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Ballyhone",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballycahill_2551_0021_0010_0_00019.pdf",
         "county": "Limerick",
@@ -19365,6 +19579,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Lenered",
+      "occupation": null,
       "raw": {
         "aform_name": "Portboy_2551_0020_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19419,6 +19634,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Portboy_2551_0020_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19473,6 +19689,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Portboy_2551_0020_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19527,6 +19744,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Portboy_2551_0020_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19581,6 +19799,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Portboy_2551_0020_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19635,6 +19854,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Portboy_2551_0020_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19689,6 +19909,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Portboy_2551_0020_0003_0_00005.pdf",
         "county": "Limerick",
@@ -19743,6 +19964,7 @@
       "sex": "M",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerick",
+      "occupation": null,
       "raw": {
         "aform_name": "Garryarthur_2520_0021_0008_0_00015.pdf",
         "county": "Limerick",
@@ -19797,6 +20019,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Tipp.",
+      "occupation": null,
       "raw": {
         "aform_name": "Ardnagassane_2957_0001_0003_0_00005.pdf",
         "county": "Tipperary",
@@ -19851,6 +20074,7 @@
       "sex": "F",
       "birthplace": "Tipperary",
       "birthplaceRaw": "Tipperary",
+      "occupation": null,
       "raw": {
         "aform_name": "Ballynulty_2932_0001_0018_0_00035.pdf",
         "county": "Tipperary",
@@ -19905,6 +20129,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Nickers_3101_0016_0002_0_00003.pdf",
         "county": "Tipperary",
@@ -19959,6 +20184,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Nickers_3101_0016_0002_0_00003.pdf",
         "county": "Tipperary",
@@ -20013,6 +20239,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Nickers_3101_0016_0002_0_00003.pdf",
         "county": "Tipperary",
@@ -20067,6 +20294,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": null,
+      "occupation": null,
       "raw": {
         "aform_name": "Nickers_3101_0016_0002_0_00003.pdf",
         "county": "Tipperary",
@@ -20121,6 +20349,7 @@
       "sex": "F",
       "birthplace": "Limerick",
       "birthplaceRaw": "Limerickly",
+      "occupation": null,
       "raw": {
         "aform_name": "Grogan's Road_3116_0012_0010_0_00019.pdf",
         "county": "Wexford",
@@ -20175,6 +20404,7 @@
       "sex": "M",
       "birthplace": null,
       "birthplaceRaw": "Municipal",
+      "occupation": null,
       "raw": {
         "aform_name": "Donegal_2053_0012_0012_0_00023.pdf",
         "county": "Cork",
@@ -20229,6 +20459,7 @@
       "sex": "F",
       "birthplace": "Cork",
       "birthplaceRaw": "Cork.",
+      "occupation": null,
       "raw": {
         "aform_name": "Donegal_2053_0012_0012_0_00023.pdf",
         "county": "Cork",
@@ -20283,6 +20514,7 @@
       "sex": "F",
       "birthplace": null,
       "birthplaceRaw": "Tipper",
+      "occupation": null,
       "raw": {
         "aform_name": "Middle Glanmire Road_0391_0010_0071_0_00075.pdf",
         "county": "Cork",

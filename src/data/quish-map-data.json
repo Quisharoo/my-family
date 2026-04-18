@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T15:08:55.591Z",
+  "generatedAt": "2026-04-18T15:23:35.911Z",
   "lineCount": 7,
   "missingCoordinateCount": 0,
   "lines": [
@@ -31,7 +31,8 @@
               "age": 38,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131866"
             },
             {
@@ -39,7 +40,8 @@
               "age": 32,
               "relation": "Wife",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131867"
             },
             {
@@ -47,7 +49,8 @@
               "age": 6,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131868"
             },
             {
@@ -55,7 +58,8 @@
               "age": 5,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131869"
             },
             {
@@ -63,7 +67,8 @@
               "age": 4,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131870"
             },
             {
@@ -71,7 +76,8 @@
               "age": 2,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131871"
             },
             {
@@ -79,7 +85,8 @@
               "age": 1,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131872"
             },
             {
@@ -87,7 +94,8 @@
               "age": 0,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131873"
             }
           ]
@@ -103,7 +111,8 @@
               "age": 48,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167257"
             },
             {
@@ -111,7 +120,8 @@
               "age": 43,
               "relation": "Wife",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167258"
             },
             {
@@ -119,7 +129,8 @@
               "age": 15,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167259"
             },
             {
@@ -127,7 +138,8 @@
               "age": 14,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167260"
             },
             {
@@ -135,7 +147,8 @@
               "age": 12,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167261"
             },
             {
@@ -143,7 +156,8 @@
               "age": 11,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167262"
             },
             {
@@ -151,7 +165,8 @@
               "age": 10,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167263"
             },
             {
@@ -159,7 +174,8 @@
               "age": 5,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167264"
             },
             {
@@ -167,7 +183,8 @@
               "age": 4,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167265"
             },
             {
@@ -175,7 +192,8 @@
               "age": 3,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167266"
             }
           ]
@@ -192,6 +210,7 @@
               "relation": "Head",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504942"
             },
             {
@@ -200,6 +219,7 @@
               "relation": "Wife",
               "sex": "F",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504943"
             },
             {
@@ -208,6 +228,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504944"
             },
             {
@@ -216,6 +237,7 @@
               "relation": "Daughter",
               "sex": "F",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504945"
             },
             {
@@ -224,6 +246,7 @@
               "relation": "Daughter",
               "sex": "F",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504946"
             },
             {
@@ -232,6 +255,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504947"
             },
             {
@@ -240,6 +264,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504948"
             },
             {
@@ -248,6 +273,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504949"
             },
             {
@@ -256,6 +282,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1504950"
             }
           ]
@@ -290,7 +317,8 @@
               "age": 48,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923211"
             },
             {
@@ -298,7 +326,8 @@
               "age": 74,
               "relation": "Uncle",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Retired Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923215"
             },
             {
@@ -307,6 +336,7 @@
               "relation": "Wife",
               "sex": "F",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923212"
             },
             {
@@ -314,7 +344,8 @@
               "age": 4,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923213"
             },
             {
@@ -322,7 +353,8 @@
               "age": 0,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6923214"
             }
           ]
@@ -338,7 +370,8 @@
               "age": 66,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240512"
             },
             {
@@ -346,7 +379,8 @@
               "age": 46,
               "relation": "Wife",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240513"
             },
             {
@@ -354,7 +388,8 @@
               "age": 14,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240514"
             },
             {
@@ -362,7 +397,8 @@
               "age": 10,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240515"
             },
             {
@@ -370,7 +406,8 @@
               "age": 9,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240516"
             },
             {
@@ -378,7 +415,8 @@
               "age": 6,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240517"
             },
             {
@@ -386,7 +424,8 @@
               "age": 5,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240518"
             },
             {
@@ -394,7 +433,8 @@
               "age": 2,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240519"
             }
           ]
@@ -411,6 +451,7 @@
               "relation": "Head",
               "sex": "F",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518171"
             },
             {
@@ -419,6 +460,7 @@
               "relation": "Daughter",
               "sex": "F",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518174"
             },
             {
@@ -427,6 +469,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518172"
             },
             {
@@ -435,6 +478,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518173"
             },
             {
@@ -443,6 +487,7 @@
               "relation": "Daughter",
               "sex": "F",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1518175"
             }
           ]
@@ -478,6 +523,7 @@
               "relation": "Head of Family",
               "sex": "M",
               "birthplace": null,
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130343"
             },
             {
@@ -485,7 +531,8 @@
               "age": 50,
               "relation": "Wife",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130344"
             },
             {
@@ -493,7 +540,8 @@
               "age": 22,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer's Daughter",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130345"
             },
             {
@@ -501,7 +549,8 @@
               "age": 14,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130346"
             },
             {
@@ -509,7 +558,8 @@
               "age": 9,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130347"
             },
             {
@@ -517,7 +567,8 @@
               "age": 5,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7130348"
             }
           ]
@@ -533,7 +584,8 @@
               "age": 72,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165863"
             },
             {
@@ -541,7 +593,8 @@
               "age": 60,
               "relation": "Wife",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165864"
             },
             {
@@ -549,7 +602,8 @@
               "age": 31,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165865"
             },
             {
@@ -557,7 +611,8 @@
               "age": 24,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165866"
             },
             {
@@ -565,7 +620,8 @@
               "age": 19,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3165867"
             }
           ]
@@ -582,6 +638,7 @@
               "relation": "Head",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1361507"
             },
             {
@@ -590,6 +647,7 @@
               "relation": "Mother",
               "sex": "F",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1361508"
             },
             {
@@ -598,6 +656,7 @@
               "relation": "Sister",
               "sex": "F",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1361509"
             }
           ]
@@ -632,7 +691,8 @@
               "age": 55,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Cooper Unemployed",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921810"
             },
             {
@@ -640,7 +700,8 @@
               "age": 50,
               "relation": "Wife",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "House Keeping",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921811"
             },
             {
@@ -648,7 +709,8 @@
               "age": 31,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Butter Making",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921812"
             },
             {
@@ -656,7 +718,8 @@
               "age": 17,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Nil",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921813"
             },
             {
@@ -664,7 +727,8 @@
               "age": 13,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6921814"
             }
           ]
@@ -680,7 +744,8 @@
               "age": 74,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Retired Cooper",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239222"
             },
             {
@@ -688,7 +753,8 @@
               "age": 65,
               "relation": "Wife",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Egg Dealer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239223"
             },
             {
@@ -696,7 +762,8 @@
               "age": 36,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239224"
             },
             {
@@ -704,7 +771,8 @@
               "age": 26,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239225"
             },
             {
@@ -712,7 +780,8 @@
               "age": 23,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "General Labourer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3239226"
             }
           ]
@@ -729,6 +798,7 @@
               "relation": "Head",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1506829"
             },
             {
@@ -737,6 +807,7 @@
               "relation": "Sister",
               "sex": "F",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1506830"
             }
           ]
@@ -771,7 +842,8 @@
               "age": 60,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7388542"
             },
             {
@@ -779,7 +851,8 @@
               "age": 25,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer's Son",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7388543"
             },
             {
@@ -787,7 +860,8 @@
               "age": 20,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer's Daughter",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7388544"
             },
             {
@@ -795,7 +869,8 @@
               "age": 15,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=7388545"
             }
           ]
@@ -811,7 +886,8 @@
               "age": 68,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3236944"
             },
             {
@@ -819,7 +895,8 @@
               "age": 36,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3236945"
             },
             {
@@ -827,7 +904,8 @@
               "age": 32,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3236947"
             },
             {
@@ -835,7 +913,8 @@
               "age": 26,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3236946"
             }
           ]
@@ -852,6 +931,7 @@
               "relation": "Head",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=983488"
             },
             {
@@ -860,6 +940,7 @@
               "relation": "Cousin",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=983491"
             },
             {
@@ -868,6 +949,7 @@
               "relation": "Brother",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=983489"
             },
             {
@@ -876,6 +958,7 @@
               "relation": "Cousin",
               "sex": "F",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=983490"
             }
           ]
@@ -910,7 +993,8 @@
               "age": 37,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6922890"
             },
             {
@@ -918,7 +1002,8 @@
               "age": 36,
               "relation": "Sister",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6922891"
             },
             {
@@ -926,7 +1011,8 @@
               "age": 6,
               "relation": "Niece",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=6922892"
             }
           ]
@@ -942,7 +1028,8 @@
               "age": 53,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240259"
             },
             {
@@ -950,7 +1037,8 @@
               "age": 55,
               "relation": "Sister",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240260"
             }
           ]
@@ -967,6 +1055,7 @@
               "relation": "Head",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517919"
             },
             {
@@ -975,6 +1064,7 @@
               "relation": "Sister",
               "sex": "F",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517920"
             },
             {
@@ -983,6 +1073,7 @@
               "relation": "Niece",
               "sex": "F",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517921"
             }
           ]
@@ -1016,7 +1107,8 @@
               "age": 45,
               "relation": "Head of Family",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Farmer",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240252"
             },
             {
@@ -1024,7 +1116,8 @@
               "age": 36,
               "relation": "Wife",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240253"
             },
             {
@@ -1032,7 +1125,8 @@
               "age": 7,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240254"
             },
             {
@@ -1040,7 +1134,8 @@
               "age": 6,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": "Scholar",
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240255"
             },
             {
@@ -1048,7 +1143,8 @@
               "age": 4,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240256"
             },
             {
@@ -1056,7 +1152,8 @@
               "age": 2,
               "relation": "Daughter",
               "sex": "F",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240257"
             },
             {
@@ -1064,7 +1161,8 @@
               "age": 0,
               "relation": "Son",
               "sex": "M",
-              "birthplace": null,
+              "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/collections/search-the-census/census-record/#id=3240258"
             }
           ]
@@ -1081,6 +1179,7 @@
               "relation": "Head",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517887"
             },
             {
@@ -1089,6 +1188,7 @@
               "relation": "Wife",
               "sex": "F",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517888"
             },
             {
@@ -1097,6 +1197,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517889"
             },
             {
@@ -1105,6 +1206,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517890"
             },
             {
@@ -1113,6 +1215,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517891"
             },
             {
@@ -1121,6 +1224,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517892"
             },
             {
@@ -1129,6 +1233,7 @@
               "relation": "Daughter",
               "sex": "F",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517893"
             },
             {
@@ -1137,6 +1242,7 @@
               "relation": "Son",
               "sex": "M",
               "birthplace": null,
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517894"
             },
             {
@@ -1145,6 +1251,7 @@
               "relation": "Daughter",
               "sex": "F",
               "birthplace": "Limerick",
+              "occupation": null,
               "sourceRecordUrl": "https://nationalarchives.ie/kiosk-1926-census/census-record/#a_id=1517895"
             }
           ]
