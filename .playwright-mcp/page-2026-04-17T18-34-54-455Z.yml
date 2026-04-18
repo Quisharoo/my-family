@@ -1,0 +1,154 @@
+- generic [active] [ref=e1]:
+  - alertdialog "Cookie Consent Prompt" [ref=e2]:
+    - generic [ref=e4]:
+      - generic [ref=e5]:
+        - text: We use essential cookies to make our site work. With your consent, we may also use non-essential cookies to improve user experience and analyze website traffic. By clicking “Accept,” you agree to our website's cookie use as described in our
+        - button "Cookie Policy" [ref=e6] [cursor=pointer]
+        - text: . You can change your cookie settings at any time by clicking “
+        - button "Preferences" [ref=e7] [cursor=pointer]
+        - text: .”
+      - generic [ref=e8]:
+        - button "Preferences" [ref=e9] [cursor=pointer]
+        - button "Decline" [ref=e10] [cursor=pointer]
+        - button "Accept" [ref=e11] [cursor=pointer]
+  - link "Skip to Main Content" [ref=e12] [cursor=pointer]:
+    - /url: "#main-content"
+  - banner [ref=e13]:
+    - generic [ref=e14]:
+      - link "National Archives logo" [ref=e16] [cursor=pointer]:
+        - /url: https://nationalarchives.ie/
+        - img "National Archives logo" [ref=e17]
+      - button "Toggle navigation menu" [ref=e18] [cursor=pointer]
+  - main [ref=e22]:
+    - generic [ref=e23]:
+      - navigation "breadcrumb" [ref=e24]:
+        - generic [ref=e25]:
+          - link "Home" [ref=e27] [cursor=pointer]:
+            - /url: https://nationalarchives.ie
+          - img [ref=e28]
+          - link "Search the collections" [ref=e31] [cursor=pointer]:
+            - /url: https://nationalarchives.ie/collections/
+          - img [ref=e32]
+          - link "Search the Census Records" [ref=e35] [cursor=pointer]:
+            - /url: https://nationalarchives.ie/collections/search-the-census/
+          - img [ref=e36]
+          - generic [ref=e38]: Census record
+      - generic [ref=e40]:
+        - heading [level=2]
+        - generic [ref=e41]:
+          - button "Download record" [ref=e42] [cursor=pointer]:
+            - generic [ref=e43]: Download record
+            - img [ref=e45]
+          - button "Print" [ref=e48] [cursor=pointer]:
+            - generic [ref=e49]: Print
+            - img [ref=e51]
+          - button "Link to record Link copied to clipboard!" [ref=e53] [cursor=pointer]:
+            - generic [ref=e54]: Link to record
+            - img [ref=e56]
+            - text: Link copied to clipboard!
+      - tablist [ref=e61]:
+        - tab "View single record" [selected] [ref=e62] [cursor=pointer]
+        - tab "View household record" [ref=e63] [cursor=pointer]
+      - tabpanel "View single record" [ref=e65]:
+        - generic [ref=e66]:
+          - generic [ref=e68]:
+            - paragraph [ref=e70]: Loading data…
+            - generic [ref=e71]:
+              - link "Back to results" [ref=e72] [cursor=pointer]:
+                - /url: /collections/search-the-census/search-results/#
+                - img [ref=e74]
+                - generic [ref=e76]: Back to results
+              - link "Report error" [ref=e77] [cursor=pointer]:
+                - /url: /collections/search-the-census/search-results/#
+                - generic [ref=e78]: Report error
+          - heading "View census images" [level=3] [ref=e81]
+  - contentinfo [ref=e82]:
+    - generic [ref=e83]:
+      - link "National Archives logo" [ref=e84] [cursor=pointer]:
+        - /url: https://nationalarchives.ie/
+        - img "National Archives logo" [ref=e85]
+      - link "Back to top back to top of the page" [ref=e86] [cursor=pointer]:
+        - /url: "#"
+        - generic [ref=e87]:
+          - text: Back to top
+          - img "back to top of the page" [ref=e88]
+    - generic [ref=e90]:
+      - region [ref=e91]:
+        - heading "Help with research" [level=3] [ref=e92]
+        - navigation "Help with research"
+      - region "Plan a visit" [ref=e93]:
+        - heading "Plan a visit" [level=3] [ref=e94]
+        - navigation "Plan a visit"
+      - region "Engage and learn" [ref=e95]:
+        - heading "Engage and learn" [level=3] [ref=e96]
+        - navigation "Engage and learn"
+        - navigation "Highlight" [ref=e97]:
+          - list [ref=e98]:
+            - listitem [ref=e99]:
+              - link "Government services" [ref=e100] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/government-services/
+            - listitem [ref=e101]:
+              - link "About" [ref=e102] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/about/
+            - listitem [ref=e103]:
+              - link "Contact us" [ref=e104] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/contact-us/
+      - generic [ref=e105]:
+        - navigation "Additional Links" [ref=e106]:
+          - list [ref=e107]:
+            - listitem [ref=e108]:
+              - link "Newsletter signup" [ref=e109] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/newsletter-signup/
+        - navigation "Social Media" [ref=e110]:
+          - list [ref=e111]:
+            - listitem [ref=e112]:
+              - link "National Archives - Soundcloud" [ref=e113] [cursor=pointer]:
+                - /url: https://soundcloud.com/national-archives-ireland
+                - img "National Archives - Soundcloud" [ref=e114]
+            - listitem [ref=e115]:
+              - link "National Archives - LinkedIn" [ref=e116] [cursor=pointer]:
+                - /url: https://www.linkedin.com/in/national-archives-ireland-b222a9310/
+                - img "National Archives - LinkedIn" [ref=e117]
+            - listitem [ref=e118]:
+              - link "National Archives - YouTube" [ref=e119] [cursor=pointer]:
+                - /url: https://www.youtube.com/channel/UCPfbFNJYjddMlnDzc8CazoA
+                - img "National Archives - YouTube" [ref=e120]
+            - listitem [ref=e121]:
+              - link "National Archives - Instagram" [ref=e122] [cursor=pointer]:
+                - /url: https://www.instagram.com/narireland/
+                - img "National Archives - Instagram" [ref=e123]
+            - listitem [ref=e124]:
+              - link "National Archives - X" [ref=e125] [cursor=pointer]:
+                - /url: https://x.com/narireland
+                - img "National Archives - X" [ref=e126]
+    - generic [ref=e127]:
+      - paragraph [ref=e129]:
+        - text: National Archives, Bishop Street, Dublin 8, D08 DF85, Ireland. (
+        - link "Map" [ref=e130] [cursor=pointer]:
+          - /url: https://maps.app.goo.gl/5xSbVk9LVNaFf6619
+        - text: ") Tel: (01) 407 2300"
+      - separator [ref=e131]
+      - generic [ref=e132]:
+        - navigation "Footer Navigation" [ref=e133]:
+          - list [ref=e134]:
+            - listitem [ref=e135]:
+              - link "Freedom of Information" [ref=e136] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/freedom-of-information/
+            - listitem [ref=e137]:
+              - link "Privacy statement" [ref=e138] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/privacy-statement/
+            - listitem [ref=e139]:
+              - link "Website accessibility" [ref=e140] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/website-accessibility/
+            - listitem [ref=e141]:
+              - link "Cookies policy" [ref=e142] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/cookies-policy/
+            - listitem [ref=e143]:
+              - link "Site usage policy" [ref=e144] [cursor=pointer]:
+                - /url: https://nationalarchives.ie/site-usage-policy/
+        - paragraph [ref=e145]:
+          - text: Site by
+          - link "Ebow Ebow" [ref=e146] [cursor=pointer]:
+            - /url: https://ebowdigital.com
+            - generic [ref=e147]: Ebow
+            - text: Ebow

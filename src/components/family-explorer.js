@@ -3,20 +3,108 @@
 import { useEffect, useMemo, useState } from "react";
 
 function placeText(household) {
-  return household.placeLabel || "";
+  const raw = household.placeLabel || "";
+  const parts = raw.split(",").map((p) => p.trim()).filter(Boolean);
+  const deduped = [];
+  const seen = new Set();
+  for (const part of parts) {
+    const normalized = part.toLowerCase();
+    if (!seen.has(normalized)) {
+      deduped.push(part);
+      seen.add(normalized);
+    }
+  }
+  return deduped.join(", ");
 }
 
 function headAndSpouseNames(household) {
   const hs = household.groupedMembers?.headAndSpouse || [];
   if (hs.length >= 2) return `${hs[0].firstname} & ${hs[1].firstname} Quish`;
   if (hs.length === 1) return `${hs[0].firstname} Quish`;
+  const first = household.members?.[0];
+  if (first?.firstname) return `${first.firstname} Quish`;
   return household.familyLabel || "Quish household";
+}
+
+function ageBit(age) {
+  if (age == null) return "";
+  if (age === 0) return ", under 1";
+  return `, ${age}`;
 }
 
 function prettyRelation(relation) {
   if (!relation) return "";
   const r = relation.trim();
   return r.charAt(0).toUpperCase() + r.slice(1).toLowerCase();
+}
+
+function PersonCard({ member, compact = false }) {
+  const sourceUrl = member.formAPdfUrl || member.recordUrl || null;
+  const sourceLabel = member.formAPdfUrl
+    ? "View original census page"
+    : "View original record";
+
+  return (
+    <article className={`person ${compact ? "person-compact" : ""}`}>
+      <div className="person-name">
+        {member.firstname}
+        {ageBit(member.age)}
+      </div>
+      {member.relation ? (
+        <div className="person-line muted">{prettyRelation(member.relation)}</div>
+      ) : null}
+      {member.birthplace ? (
+        <div className="person-line muted">Born in {member.birthplace}</div>
+      ) : null}
+      {member.occupation ? (
+        <div className="person-line muted">{member.occupation}</div>
+      ) : null}
+      {sourceUrl ? (
+        <a
+          className="record-link"
+          href={sourceUrl}
+          target="_blank"
+          rel="noreferrer"
+        >
+          {sourceLabel}
+        </a>
+      ) : null}
+    </article>
+  );
+}
+
+function familyTree(household) {
+  const parents = household.groupedMembers?.headAndSpouse || [];
+  const children = household.groupedMembers?.children || [];
+  if (!parents.length && !children.length) return null;
+
+  return (
+    <section className="detail-section family-tree-section">
+      <h2>Family tree</h2>
+      <div className="family-tree">
+        {parents.length ? (
+          <div className={`tree-parents tree-parents-${Math.min(parents.length, 2)}`}>
+            {parents.map((member) => (
+              <PersonCard key={member.id} member={member} compact />
+            ))}
+          </div>
+        ) : null}
+
+        {children.length ? (
+          <div className="tree-children-wrap">
+            <div className="tree-children-label">Children</div>
+            <div className="tree-children">
+              {children.map((member) => (
+                <div className="tree-child" key={member.id}>
+                  <PersonCard member={member} compact />
+                </div>
+              ))}
+            </div>
+          </div>
+        ) : null}
+      </div>
+    </section>
+  );
 }
 
 function personBlocks(members, heading) {
@@ -26,31 +114,7 @@ function personBlocks(members, heading) {
       <h2>{heading}</h2>
       <div className="person-list">
         {members.map((m) => (
-          <article className="person" key={m.id}>
-            <div className="person-name">
-              {m.firstname}
-              {m.age != null ? `, ${m.age}` : ""}
-            </div>
-            {m.relation ? (
-              <div className="person-line muted">{prettyRelation(m.relation)}</div>
-            ) : null}
-            {m.birthplace ? (
-              <div className="person-line muted">Born in {m.birthplace}</div>
-            ) : null}
-            {m.occupation ? (
-              <div className="person-line muted">{m.occupation}</div>
-            ) : null}
-            {m.recordUrl ? (
-              <a
-                className="record-link"
-                href={m.recordUrl}
-                target="_blank"
-                rel="noreferrer"
-              >
-                View original record
-              </a>
-            ) : null}
-          </article>
+          <PersonCard key={m.id} member={m} />
         ))}
       </div>
     </section>
@@ -250,14 +314,7 @@ export default function FamilyExplorer({ data, initialSlug = null }) {
                 {placeText(selected)} · {selected.censusYear}
               </p>
 
-              {personBlocks(
-                selected.groupedMembers?.headAndSpouse || [],
-                "Parents"
-              )}
-              {personBlocks(
-                selected.groupedMembers?.children || [],
-                "Children"
-              )}
+              {familyTree(selected)}
               {personBlocks(
                 selected.groupedMembers?.otherRelatives || [],
                 "Other relatives"

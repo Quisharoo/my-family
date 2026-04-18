@@ -1,0 +1,68 @@
+- generic [active] [ref=e1]:
+  - generic [ref=e175]:
+    - button "Back" [ref=e177] [cursor=pointer]:
+      - img [ref=e178]
+      - generic [ref=e180]: Back
+    - main [ref=e181]:
+      - heading "Martin & Margaret Quish" [level=1] [ref=e182]
+      - paragraph [ref=e183]: Duntryleague, Duntryleague, Limerick · 1901
+      - generic [ref=e184]:
+        - heading "Parents" [level=2] [ref=e185]
+        - generic [ref=e186]:
+          - article [ref=e187]:
+            - generic [ref=e188]: Martin, 38
+            - generic [ref=e189]: Head of family
+            - generic [ref=e190]: Born in Co Limerick
+            - generic [ref=e191]: Farmer
+            - link "View original record" [ref=e192] [cursor=pointer]:
+              - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131866
+          - article [ref=e193]:
+            - generic [ref=e194]: Margaret, 32
+            - generic [ref=e195]: Wife
+            - generic [ref=e196]: Born in Co Limerick
+            - link "View original record" [ref=e197] [cursor=pointer]:
+              - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131867
+      - generic [ref=e198]:
+        - heading "Children" [level=2] [ref=e199]
+        - generic [ref=e200]:
+          - article [ref=e201]:
+            - generic [ref=e202]: Thomas John, 2
+            - generic [ref=e203]: Son
+            - generic [ref=e204]: Born in Co Limerick
+            - link "View original record" [ref=e205] [cursor=pointer]:
+              - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131871
+          - article [ref=e206]:
+            - generic [ref=e207]: Denis, 4
+            - generic [ref=e208]: Son
+            - generic [ref=e209]: Born in Co Limerick
+            - link "View original record" [ref=e210] [cursor=pointer]:
+              - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131870
+          - article [ref=e211]:
+            - generic [ref=e212]: Michael, 5
+            - generic [ref=e213]: Son
+            - generic [ref=e214]: Born in Co Limerick
+            - link "View original record" [ref=e215] [cursor=pointer]:
+              - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131869
+          - article [ref=e216]:
+            - generic [ref=e217]: Josephine, 0
+            - generic [ref=e218]: Daughter
+            - generic [ref=e219]: Born in Co Limerick
+            - link "View original record" [ref=e220] [cursor=pointer]:
+              - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131873
+          - article [ref=e221]:
+            - generic [ref=e222]: Nora, 1
+            - generic [ref=e223]: Daughter
+            - generic [ref=e224]: Born in Co Limerick
+            - link "View original record" [ref=e225] [cursor=pointer]:
+              - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131872
+          - article [ref=e226]:
+            - generic [ref=e227]: Mary, 6
+            - generic [ref=e228]: Daughter
+            - generic [ref=e229]: Born in Co Limerick
+            - link "View original record" [ref=e230] [cursor=pointer]:
+              - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131868
+      - button "Likely the same family in 1911 Martin & Margaret Quish Duntryleague, Duntryleague, Limerick" [ref=e232] [cursor=pointer]:
+        - generic [ref=e233]: Likely the same family in 1911
+        - generic [ref=e234]: Martin & Margaret Quish
+        - generic [ref=e235]: Duntryleague, Duntryleague, Limerick
+  - alert [ref=e174]

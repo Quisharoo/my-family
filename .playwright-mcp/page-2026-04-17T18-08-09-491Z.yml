@@ -1,0 +1,415 @@
+- generic [active] [ref=e1]:
+  - main [ref=e2]:
+    - generic [ref=e3]:
+      - generic [ref=e4]:
+        - paragraph [ref=e5]: Irish family history from the census
+        - heading "The Quish family story" [level=1] [ref=e6]
+        - paragraph [ref=e7]: This brings together Quish homes from the Irish census and lays them out like a family tree. Where the same names, place, and ages appear again ten years later, I treat that as probably the same family.
+        - generic [ref=e8]:
+          - generic [ref=e9]: "Census years: 1901 · 1911"
+          - generic [ref=e10]: Ready for 1926
+      - generic [ref=e11]:
+        - article [ref=e12]:
+          - generic [ref=e13]: People found
+          - strong [ref=e14]: "163"
+        - article [ref=e15]:
+          - generic [ref=e16]: Homes found
+          - strong [ref=e17]: "41"
+        - article [ref=e18]:
+          - generic [ref=e19]: Families seen again
+          - strong [ref=e20]: "13"
+        - article [ref=e21]:
+          - generic [ref=e22]: Homes seen once
+          - strong [ref=e23]: "15"
+    - generic [ref=e24]:
+      - generic [ref=e25]:
+        - generic [ref=e26]: County
+        - combobox "County" [ref=e27]:
+          - option "All counties" [selected]
+          - option "Cork"
+          - option "Dublin"
+          - option "Limerick"
+          - option "Londonderry"
+          - option "Tipperary"
+          - option "Wicklow"
+      - generic [ref=e28]:
+        - generic [ref=e29]: Search by name or place
+        - searchbox "Search by name or place" [ref=e30]
+      - generic [ref=e31]:
+        - generic [ref=e32]: Show homes found only once
+        - checkbox "Show homes found only once" [ref=e33]
+      - generic [ref=e34]:
+        - generic [ref=e35]: Census years
+        - generic [ref=e36]:
+          - button "1901" [ref=e37] [cursor=pointer]
+          - button "1911" [ref=e38] [cursor=pointer]
+    - generic [ref=e39]:
+      - generic [ref=e40]:
+        - generic [ref=e41]:
+          - generic [ref=e42]:
+            - paragraph [ref=e43]: Chosen family
+            - heading "Martin + Margaret Quish family" [level=2] [ref=e44]
+            - paragraph [ref=e45]: Limerick, Duntryleague, Duntryleague
+          - generic [ref=e46]:
+            - generic [ref=e47]: Same family found again
+            - button "Copy family link" [ref=e48]
+        - generic [ref=e49]:
+          - generic [ref=e50]:
+            - paragraph [ref=e51]: What this looks like
+            - heading "Same family found again" [level=3] [ref=e52]
+          - paragraph [ref=e53]: The names, place, and ages line up very well, so this looks like the same family ten years later.
+        - generic [ref=e54]:
+          - generic [ref=e55]:
+            - generic [ref=e56]:
+              - generic [ref=e57]:
+                - text: "1901"
+                - paragraph [ref=e58]: 1 home on the census
+              - article [ref=e60]:
+                - generic [ref=e61]:
+                  - generic [ref=e62]:
+                    - paragraph [ref=e63]: "1901"
+                    - heading "Martin + Margaret Quish family" [level=3] [ref=e64]
+                    - paragraph [ref=e65]: Duntryleague, Duntryleague, Limerick
+                  - generic [ref=e66]:
+                    - generic [ref=e67]: House 15
+                    - generic [ref=e68]: 8 people
+                - generic [ref=e69]:
+                  - paragraph [ref=e70]: Parents / couple
+                  - generic [ref=e71]:
+                    - article [ref=e72]:
+                      - link "Martin, 38" [ref=e73] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131866
+                      - paragraph [ref=e74]: Head of Family
+                      - paragraph [ref=e75]: Co Limerick
+                      - paragraph [ref=e76]: Farmer
+                      - generic [ref=e77]:
+                        - link "See census page" [ref=e78] [cursor=pointer]:
+                          - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131866
+                        - link "Open household form" [ref=e79] [cursor=pointer]:
+                          - /url: https://api-census.nationalarchives.ie/census/image/nai001006012.pdf
+                    - article [ref=e80]:
+                      - link "Margaret, 32" [ref=e81] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131867
+                      - paragraph [ref=e82]: Wife
+                      - paragraph [ref=e83]: Co Limerick
+                      - paragraph [ref=e84]: Occupation not stated
+                      - generic [ref=e85]:
+                        - link "See census page" [ref=e86] [cursor=pointer]:
+                          - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131867
+                        - link "Open household form" [ref=e87] [cursor=pointer]:
+                          - /url: https://api-census.nationalarchives.ie/census/image/nai001006012.pdf
+                - generic [ref=e89]:
+                  - paragraph [ref=e90]: Children
+                  - generic [ref=e91]:
+                    - article [ref=e92]:
+                      - link "Thomas John, 2" [ref=e93] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131871
+                      - paragraph [ref=e94]: Son
+                      - paragraph [ref=e95]: Co Limerick
+                      - paragraph [ref=e96]: Occupation not stated
+                      - generic [ref=e97]:
+                        - link "See census page" [ref=e98] [cursor=pointer]:
+                          - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131871
+                        - link "Open household form" [ref=e99] [cursor=pointer]:
+                          - /url: https://api-census.nationalarchives.ie/census/image/nai001006012.pdf
+                    - article [ref=e100]:
+                      - link "Denis, 4" [ref=e101] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131870
+                      - paragraph [ref=e102]: Son
+                      - paragraph [ref=e103]: Co Limerick
+                      - paragraph [ref=e104]: Occupation not stated
+                      - generic [ref=e105]:
+                        - link "See census page" [ref=e106] [cursor=pointer]:
+                          - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131870
+                        - link "Open household form" [ref=e107] [cursor=pointer]:
+                          - /url: https://api-census.nationalarchives.ie/census/image/nai001006012.pdf
+                    - article [ref=e108]:
+                      - link "Michael, 5" [ref=e109] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131869
+                      - paragraph [ref=e110]: Son
+                      - paragraph [ref=e111]: Co Limerick
+                      - paragraph [ref=e112]: Occupation not stated
+                      - generic [ref=e113]:
+                        - link "See census page" [ref=e114] [cursor=pointer]:
+                          - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131869
+                        - link "Open household form" [ref=e115] [cursor=pointer]:
+                          - /url: https://api-census.nationalarchives.ie/census/image/nai001006012.pdf
+                    - article [ref=e116]:
+                      - link "Josephine" [ref=e117] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131873
+                      - paragraph [ref=e118]: Daughter
+                      - paragraph [ref=e119]: Co Limerick
+                      - paragraph [ref=e120]: Occupation not stated
+                      - generic [ref=e121]:
+                        - link "See census page" [ref=e122] [cursor=pointer]:
+                          - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131873
+                        - link "Open household form" [ref=e123] [cursor=pointer]:
+                          - /url: https://api-census.nationalarchives.ie/census/image/nai001006012.pdf
+                    - article [ref=e124]:
+                      - link "Nora, 1" [ref=e125] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131872
+                      - paragraph [ref=e126]: Daughter
+                      - paragraph [ref=e127]: Co Limerick
+                      - paragraph [ref=e128]: Occupation not stated
+                      - generic [ref=e129]:
+                        - link "See census page" [ref=e130] [cursor=pointer]:
+                          - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131872
+                        - link "Open household form" [ref=e131] [cursor=pointer]:
+                          - /url: https://api-census.nationalarchives.ie/census/image/nai001006012.pdf
+                    - article [ref=e132]:
+                      - link "Mary, 6" [ref=e133] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131868
+                      - paragraph [ref=e134]: Daughter
+                      - paragraph [ref=e135]: Co Limerick
+                      - paragraph [ref=e136]: Occupation not stated
+                      - generic [ref=e137]:
+                        - link "See census page" [ref=e138] [cursor=pointer]:
+                          - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=7131868
+                        - link "Open household form" [ref=e139] [cursor=pointer]:
+                          - /url: https://api-census.nationalarchives.ie/census/image/nai001006012.pdf
+            - generic [ref=e141]: Same family found again
+          - generic [ref=e143]:
+            - generic [ref=e144]:
+              - text: "1911"
+              - paragraph [ref=e145]: 1 home on the census
+            - article [ref=e147]:
+              - generic [ref=e148]:
+                - generic [ref=e149]:
+                  - paragraph [ref=e150]: "1911"
+                  - heading "Martin + Margaret Quish family" [level=3] [ref=e151]
+                  - paragraph [ref=e152]: Duntryleague, Duntryleague, Limerick
+                - generic [ref=e153]:
+                  - generic [ref=e154]: House 4
+                  - generic [ref=e155]: 10 people
+              - generic [ref=e156]:
+                - paragraph [ref=e157]: Parents / couple
+                - generic [ref=e158]:
+                  - article [ref=e159]:
+                    - link "Martin, 48" [ref=e160] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167257
+                    - paragraph [ref=e161]: Head of Family
+                    - paragraph [ref=e162]: Co Limerick
+                    - paragraph [ref=e163]: Farmer
+                    - generic [ref=e164]:
+                      - link "See census page" [ref=e165] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167257
+                      - link "Open household form" [ref=e166] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+                  - article [ref=e167]:
+                    - link "Margaret, 43" [ref=e168] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167258
+                    - paragraph [ref=e169]: Wife
+                    - paragraph [ref=e170]: Co Limerick
+                    - paragraph [ref=e171]: Occupation not stated
+                    - generic [ref=e172]:
+                      - link "See census page" [ref=e173] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167258
+                      - link "Open household form" [ref=e174] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+              - generic [ref=e176]:
+                - paragraph [ref=e177]: Children
+                - generic [ref=e178]:
+                  - article [ref=e179]:
+                    - link "John, 3" [ref=e180] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167266
+                    - paragraph [ref=e181]: Son
+                    - paragraph [ref=e182]: Co Limerick
+                    - paragraph [ref=e183]: Occupation not stated
+                    - generic [ref=e184]:
+                      - link "See census page" [ref=e185] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167266
+                      - link "Open household form" [ref=e186] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+                  - article [ref=e187]:
+                    - link "Patrick, 4" [ref=e188] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167265
+                    - paragraph [ref=e189]: Son
+                    - paragraph [ref=e190]: Co Limerick
+                    - paragraph [ref=e191]: Occupation not stated
+                    - generic [ref=e192]:
+                      - link "See census page" [ref=e193] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167265
+                      - link "Open household form" [ref=e194] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+                  - article [ref=e195]:
+                    - link "Martin, 5" [ref=e196] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167264
+                    - paragraph [ref=e197]: Son
+                    - paragraph [ref=e198]: Co Limerick
+                    - paragraph [ref=e199]: Occupation not stated
+                    - generic [ref=e200]:
+                      - link "See census page" [ref=e201] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167264
+                      - link "Open household form" [ref=e202] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+                  - article [ref=e203]:
+                    - link "Thomas, 12" [ref=e204] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167261
+                    - paragraph [ref=e205]: Son
+                    - paragraph [ref=e206]: Co Limerick
+                    - paragraph [ref=e207]: Scholar
+                    - generic [ref=e208]:
+                      - link "See census page" [ref=e209] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167261
+                      - link "Open household form" [ref=e210] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+                  - article [ref=e211]:
+                    - link "Denis, 14" [ref=e212] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167260
+                    - paragraph [ref=e213]: Son
+                    - paragraph [ref=e214]: Co Limerick
+                    - paragraph [ref=e215]: Scholar
+                    - generic [ref=e216]:
+                      - link "See census page" [ref=e217] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167260
+                      - link "Open household form" [ref=e218] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+                  - article [ref=e219]:
+                    - link "Michael, 15" [ref=e220] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167259
+                    - paragraph [ref=e221]: Son
+                    - paragraph [ref=e222]: Co Limerick
+                    - paragraph [ref=e223]: Scholar
+                    - generic [ref=e224]:
+                      - link "See census page" [ref=e225] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167259
+                      - link "Open household form" [ref=e226] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+                  - article [ref=e227]:
+                    - link "Josephine, 10" [ref=e228] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167263
+                    - paragraph [ref=e229]: Daughter
+                    - paragraph [ref=e230]: Co Limerick
+                    - paragraph [ref=e231]: Scholar
+                    - generic [ref=e232]:
+                      - link "See census page" [ref=e233] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167263
+                      - link "Open household form" [ref=e234] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+                  - article [ref=e235]:
+                    - link "Norah, 11" [ref=e236] [cursor=pointer]:
+                      - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167262
+                    - paragraph [ref=e237]: Daughter
+                    - paragraph [ref=e238]: Co Limerick
+                    - paragraph [ref=e239]: Scholar
+                    - generic [ref=e240]:
+                      - link "See census page" [ref=e241] [cursor=pointer]:
+                        - /url: https://nationalarchives.ie/collections/search-the-census/census-record/#id=3167262
+                      - link "Open household form" [ref=e242] [cursor=pointer]:
+                        - /url: https://api-census.nationalarchives.ie/census/image/nai002770513.pdf
+        - group [ref=e243]:
+          - generic "How I matched these families" [ref=e244] [cursor=pointer]
+      - complementary [ref=e245]:
+        - generic [ref=e246]:
+          - generic [ref=e247]:
+            - paragraph [ref=e248]: Pick a family
+            - heading "Families to browse" [level=2] [ref=e249]
+          - paragraph [ref=e250]: 13 shown
+        - generic [ref=e251]:
+          - button "Same family found again Martin + Margaret Quish family 1901 · 1911 Limerick, Duntryleague, Duntryleague The names, place, and ages line up very well, so this looks like the same family ten years later." [ref=e252] [cursor=pointer]:
+            - generic [ref=e253]:
+              - generic [ref=e254]:
+                - paragraph [ref=e255]: Same family found again
+                - heading "Martin + Margaret Quish family" [level=3] [ref=e256]
+              - generic [ref=e257]: 1901 · 1911
+            - paragraph [ref=e258]: Limerick, Duntryleague, Duntryleague
+            - paragraph [ref=e259]: The names, place, and ages line up very well, so this looks like the same family ten years later.
+          - button "Same family found again John + Ellen Quish family 1901 · 1911 Limerick, Knockainy, Rathanny The names, place, and ages line up very well, so this looks like the same family ten years later." [ref=e260] [cursor=pointer]:
+            - generic [ref=e261]:
+              - generic [ref=e262]:
+                - paragraph [ref=e263]: Same family found again
+                - heading "John + Ellen Quish family" [level=3] [ref=e264]
+              - generic [ref=e265]: 1901 · 1911
+            - paragraph [ref=e266]: Limerick, Knockainy, Rathanny
+            - paragraph [ref=e267]: The names, place, and ages line up very well, so this looks like the same family ten years later.
+          - button "Probably the same family Patrick + Mary Quish family 1901 · 1911 Tipperary, Emly, Nickeres A good few names and ages line up, so this is probably the same family ten years later." [ref=e268] [cursor=pointer]:
+            - generic [ref=e269]:
+              - generic [ref=e270]:
+                - paragraph [ref=e271]: Probably the same family
+                - heading "Patrick + Mary Quish family" [level=3] [ref=e272]
+              - generic [ref=e273]: 1901 · 1911
+            - paragraph [ref=e274]: Tipperary, Emly, Nickeres
+            - paragraph [ref=e275]: A good few names and ages line up, so this is probably the same family ten years later.
+          - button "Probably the same family James + Mary Quish family 1901 · 1911 Tipperary, Shronell, Shronell Beg A good few names and ages line up, so this is probably the same family ten years later." [ref=e276] [cursor=pointer]:
+            - generic [ref=e277]:
+              - generic [ref=e278]:
+                - paragraph [ref=e279]: Probably the same family
+                - heading "James + Mary Quish family" [level=3] [ref=e280]
+              - generic [ref=e281]: 1901 · 1911
+            - paragraph [ref=e282]: Tipperary, Shronell, Shronell Beg
+            - paragraph [ref=e283]: A good few names and ages line up, so this is probably the same family ten years later.
+          - button "Probably the same family Patrick + Julia Quish family 1901 · 1911 Limerick, Ballylanders, Killeen A good few names and ages line up, so this is probably the same family ten years later." [ref=e284] [cursor=pointer]:
+            - generic [ref=e285]:
+              - generic [ref=e286]:
+                - paragraph [ref=e287]: Probably the same family
+                - heading "Patrick + Julia Quish family" [level=3] [ref=e288]
+              - generic [ref=e289]: 1901 · 1911
+            - paragraph [ref=e290]: Limerick, Ballylanders, Killeen
+            - paragraph [ref=e291]: A good few names and ages line up, so this is probably the same family ten years later.
+          - button "Maybe the same family Patrick + Bridget Quish family 1901 · 1911 Limerick, Glenbrohane, Knockaunavlyman There are signs this may be the same family ten years later, but it is not certain from the census alone." [ref=e292] [cursor=pointer]:
+            - generic [ref=e293]:
+              - generic [ref=e294]:
+                - paragraph [ref=e295]: Maybe the same family
+                - heading "Patrick + Bridget Quish family" [level=3] [ref=e296]
+              - generic [ref=e297]: 1901 · 1911
+            - paragraph [ref=e298]: Limerick, Glenbrohane, Knockaunavlyman
+            - paragraph [ref=e299]: There are signs this may be the same family ten years later, but it is not certain from the census alone.
+          - button "Maybe the same family Patrick + Eliza Quish family 1901 · 1911 Limerick, Emlygrennan, Cush There are signs this may be the same family ten years later, but it is not certain from the census alone." [ref=e300] [cursor=pointer]:
+            - generic [ref=e301]:
+              - generic [ref=e302]:
+                - paragraph [ref=e303]: Maybe the same family
+                - heading "Patrick + Eliza Quish family" [level=3] [ref=e304]
+              - generic [ref=e305]: 1901 · 1911
+            - paragraph [ref=e306]: Limerick, Emlygrennan, Cush
+            - paragraph [ref=e307]: There are signs this may be the same family ten years later, but it is not certain from the census alone.
+          - button "Maybe the same family Catherine Quish household 1901 · 1911 Limerick, Ballylanders, Killeen There are signs this may be the same family ten years later, but it is not certain from the census alone." [ref=e308] [cursor=pointer]:
+            - generic [ref=e309]:
+              - generic [ref=e310]:
+                - paragraph [ref=e311]: Maybe the same family
+                - heading "Catherine Quish household" [level=3] [ref=e312]
+              - generic [ref=e313]: 1901 · 1911
+            - paragraph [ref=e314]: Limerick, Ballylanders, Killeen
+            - paragraph [ref=e315]: There are signs this may be the same family ten years later, but it is not certain from the census alone.
+          - button "Maybe the same family James Quish household 1901 · 1911 Limerick, Duntryleague, Lackelly East There are signs this may be the same family ten years later, but it is not certain from the census alone." [ref=e316] [cursor=pointer]:
+            - generic [ref=e317]:
+              - generic [ref=e318]:
+                - paragraph [ref=e319]: Maybe the same family
+                - heading "James Quish household" [level=3] [ref=e320]
+              - generic [ref=e321]: 1901 · 1911
+            - paragraph [ref=e322]: Limerick, Duntryleague, Lackelly East
+            - paragraph [ref=e323]: There are signs this may be the same family ten years later, but it is not certain from the census alone.
+          - button "Maybe the same family Patrick Quish household 1901 · 1911 Limerick, Glenbrohane, Ballyfroota There are signs this may be the same family ten years later, but it is not certain from the census alone." [ref=e324] [cursor=pointer]:
+            - generic [ref=e325]:
+              - generic [ref=e326]:
+                - paragraph [ref=e327]: Maybe the same family
+                - heading "Patrick Quish household" [level=3] [ref=e328]
+              - generic [ref=e329]: 1901 · 1911
+            - paragraph [ref=e330]: Limerick, Glenbrohane, Ballyfroota
+            - paragraph [ref=e331]: There are signs this may be the same family ten years later, but it is not certain from the census alone.
+          - button "Maybe the same family Thomas Quish household 1901 · 1911 Limerick, Glenbrohane, Ballyfroota There are signs this may be the same family ten years later, but it is not certain from the census alone." [ref=e332] [cursor=pointer]:
+            - generic [ref=e333]:
+              - generic [ref=e334]:
+                - paragraph [ref=e335]: Maybe the same family
+                - heading "Thomas Quish household" [level=3] [ref=e336]
+              - generic [ref=e337]: 1901 · 1911
+            - paragraph [ref=e338]: Limerick, Glenbrohane, Ballyfroota
+            - paragraph [ref=e339]: There are signs this may be the same family ten years later, but it is not certain from the census alone.
+          - button "Maybe the same family Charles + Ellin Quish family 1901 · 1911 Limerick, Ballylanders, Killeen There are signs this may be the same family ten years later, but it is not certain from the census alone." [ref=e340] [cursor=pointer]:
+            - generic [ref=e341]:
+              - generic [ref=e342]:
+                - paragraph [ref=e343]: Maybe the same family
+                - heading "Charles + Ellin Quish family" [level=3] [ref=e344]
+              - generic [ref=e345]: 1901 · 1911
+            - paragraph [ref=e346]: Limerick, Ballylanders, Killeen
+            - paragraph [ref=e347]: There are signs this may be the same family ten years later, but it is not certain from the census alone.
+          - button "Maybe the same family Pat Quish household 1901 · 1911 Limerick, Hospital, Ballycahill There are signs this may be the same family ten years later, but it is not certain from the census alone." [ref=e348] [cursor=pointer]:
+            - generic [ref=e349]:
+              - generic [ref=e350]:
+                - paragraph [ref=e351]: Maybe the same family
+                - heading "Pat Quish household" [level=3] [ref=e352]
+              - generic [ref=e353]: 1901 · 1911
+            - paragraph [ref=e354]: Limerick, Hospital, Ballycahill
+            - paragraph [ref=e355]: There are signs this may be the same family ten years later, but it is not certain from the census alone.
+        - link "Open this family on its own page" [ref=e356] [cursor=pointer]:
+          - /url: /cluster/martin-margaret-quish-family-limerick-duntryleague-duntryleague-1901-1911
+  - alert [ref=e357]

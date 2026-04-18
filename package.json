@@ -2,7 +2,8 @@
   "name": "my-family",
   "private": true,
   "scripts": {
-    "data:build": "node scripts/build-viz-data.mjs",
+    "census:cache": "node scripts/cache-census-pdfs.mjs",
+    "data:build": "npm run census:cache && node scripts/build-viz-data.mjs",
     "dev": "npm run data:build && next dev",
     "build": "npm run data:build && next build",
     "start": "next start"

@@ -1,0 +1,234 @@
+- generic [active] [ref=e1]:
+  - list [ref=e2]:
+    - listitem:
+      - link "Skip Navigation" [ref=e3] [cursor=pointer]:
+        - /url: "#content"
+    - listitem:
+      - link "Main Navigation" [ref=e4] [cursor=pointer]:
+        - /url: "#nav2"
+  - link "National Archives logo" [ref=e7] [cursor=pointer]:
+    - /url: http://www.nationalarchives.ie
+    - img "National Archives logo" [ref=e8]
+  - generic [ref=e9]:
+    - link "GENEALOGY" [ref=e11] [cursor=pointer]:
+      - /url: http://genealogy.nationalarchives.ie
+    - list [ref=e12]:
+      - listitem [ref=e13]:
+        - link "Home" [ref=e14] [cursor=pointer]:
+          - /url: /
+      - listitem [ref=e15]:
+        - link "Search Census" [ref=e16] [cursor=pointer]:
+          - /url: /search/
+      - listitem [ref=e17]:
+        - link "Early 20th century Ireland" [ref=e18] [cursor=pointer]:
+          - /url: /exhibition/index.html
+          - text: Early 20
+          - superscript [ref=e19]: th
+          - text: century Ireland
+      - listitem [ref=e20]:
+        - link "Browse Census" [ref=e21] [cursor=pointer]:
+          - /url: /pages/
+      - listitem [ref=e22]:
+        - link "How to Search" [ref=e23] [cursor=pointer]:
+          - /url: /help/help.html
+  - generic [ref=e24]:
+    - heading "Important Notice (Updated February 2025)" [level=1] [ref=e25]
+    - paragraph [ref=e26]:
+      - text: This census records system has been replaced with a newer version available at
+      - link "https://nationalarchives.ie/collections/search-the-census/" [ref=e27] [cursor=pointer]:
+        - /url: https://nationalarchives.ie/collections/search-the-census/
+      - text: and will be coming offline in the coming months. Any updates made to the data will only be reflected in the new system and there will be no automated links established between the old and new census systems. Please ensure you make all necessary arrangements as soon as possible.
+  - generic [ref=e29]:
+    - generic [ref=e31]:
+      - list [ref=e32]:
+        - listitem [ref=e33]:
+          - link "Census Years" [ref=e34] [cursor=pointer]:
+            - /url: /pages/
+        - listitem [ref=e35]:
+          - link "1901" [ref=e36] [cursor=pointer]:
+            - /url: /pages/1901/
+        - listitem [ref=e37]:
+          - link "Limerick" [ref=e38] [cursor=pointer]:
+            - /url: /pages/1901/Limerick/
+        - listitem [ref=e39]:
+          - link "Hospital" [ref=e40] [cursor=pointer]:
+            - /url: /pages/1901/Limerick/Hospital/
+        - listitem [ref=e41]:
+          - link "Ballycahill" [ref=e42] [cursor=pointer]:
+            - /url: /pages/1901/Limerick/Hospital/Ballycahill/
+        - listitem [ref=e43]: Residents of a house
+      - heading "Residents of a house 12 in Ballycahill (Hospital, Limerick)" [level=1] [ref=e44]
+      - generic [ref=e45]:
+        - checkbox "Show all information" [ref=e46]
+        - text: Show all information
+      - table "Residents" [ref=e47]:
+        - rowgroup [ref=e48]:
+          - row "Surname Forename Age Sex Relation to head Religion" [ref=e49]:
+            - columnheader "Surname" [ref=e50]
+            - columnheader "Forename" [ref=e51]
+            - columnheader "Age" [ref=e52]
+            - columnheader "Sex" [ref=e53]
+            - columnheader "Relation to head" [ref=e54]
+            - columnheader "Religion" [ref=e55]
+        - rowgroup [ref=e56]:
+          - row "Quish Pat 60 Male Head of Family Roman Catholic" [ref=e57]:
+            - cell "Quish" [ref=e58]
+            - cell "Pat" [ref=e59]
+            - cell "60" [ref=e60]
+            - cell "Male" [ref=e61]
+            - cell "Head of Family" [ref=e62]
+            - cell "Roman Catholic" [ref=e63]
+          - row "Quish Andrew 25 Male Son Roman Catholic" [ref=e64]:
+            - cell "Quish" [ref=e65]
+            - cell "Andrew" [ref=e66]
+            - cell "25" [ref=e67]
+            - cell "Male" [ref=e68]
+            - cell "Son" [ref=e69]
+            - cell "Roman Catholic" [ref=e70]
+          - row "Quish Annie 20 Female Daughter Roman Catholic" [ref=e71]:
+            - cell "Quish" [ref=e72]
+            - cell "Annie" [ref=e73]
+            - cell "20" [ref=e74]
+            - cell "Female" [ref=e75]
+            - cell "Daughter" [ref=e76]
+            - cell "Roman Catholic" [ref=e77]
+          - row "Quish Pat 15 Male Son Roman Catholic" [ref=e78]:
+            - cell "Quish" [ref=e79]
+            - cell "Pat" [ref=e80]
+            - cell "15" [ref=e81]
+            - cell "Male" [ref=e82]
+            - cell "Son" [ref=e83]
+            - cell "Roman Catholic" [ref=e84]
+          - row "Haigney Julia 17 Female Servant Roman Catholic" [ref=e85]:
+            - cell "Haigney" [ref=e86]
+            - cell "Julia" [ref=e87]
+            - cell "17" [ref=e88]
+            - cell "Female" [ref=e89]
+            - cell "Servant" [ref=e90]
+            - cell "Roman Catholic" [ref=e91]
+      - link "Report any error in transcription" [ref=e92] [cursor=pointer]:
+        - /url: /feedback/1901/Limerick/Hospital/Ballycahill/1490918/
+    - generic [ref=e93]:
+      - generic [ref=e94]:
+        - heading "View census images" [level=2] [ref=e95]
+        - term [ref=e97]:
+          - link "Household Return (Form A)" [ref=e98] [cursor=pointer]:
+            - /url: /reels/nai000984463/
+        - heading "Other original census images available" [level=3] [ref=e99]
+        - generic [ref=e100]:
+          - term [ref=e101]:
+            - link "Enumerator's abstract (Form N)" [ref=e102] [cursor=pointer]:
+              - /url: /reels/nai000984447/
+          - term [ref=e103]:
+            - link "House and Building Return (Form B1)" [ref=e104] [cursor=pointer]:
+              - /url: /reels/nai000984448/
+          - definition [ref=e105]:
+            - text: "Additional Pages:"
+            - link "2" [ref=e106] [cursor=pointer]:
+              - /url: /reels/nai000984449/
+          - term [ref=e107]:
+            - link "Out-Offices and Farm-Steadings Return (Form B2)" [ref=e108] [cursor=pointer]:
+              - /url: /reels/nai000984450/
+      - generic [ref=e112]:
+        - heading "Search" [level=2] [ref=e113]
+        - paragraph [ref=e114]:
+          - generic [ref=e115]: Census year
+          - combobox "Census year" [ref=e116]:
+            - option "1911" [selected]
+            - option "1901"
+            - option "1851"
+            - option "1841"
+            - option "1831"
+            - option "1821"
+        - paragraph [ref=e117]:
+          - generic [ref=e118]: Surname
+          - textbox "Surname" [ref=e119]
+        - paragraph [ref=e120]:
+          - generic [ref=e121]: Forename
+          - textbox "Forename" [ref=e122]
+        - paragraph [ref=e123]:
+          - generic [ref=e124]: County
+          - combobox [ref=e125]:
+            - option "--any county--" [selected]
+            - option "Antrim"
+            - option "Armagh"
+            - option "Carlow"
+            - option "Cavan"
+            - option "Clare"
+            - option "Cork"
+            - option "Donegal"
+            - option "Down"
+            - option "Dublin"
+            - option "Fermanagh"
+            - option "Galway"
+            - option "Kerry"
+            - option "Kildare"
+            - option "Kilkenny"
+            - option "King's Co."
+            - option "Leitrim"
+            - option "Limerick"
+            - option "Londonderry"
+            - option "Longford"
+            - option "Louth"
+            - option "Mayo"
+            - option "Meath"
+            - option "Monaghan"
+            - option "Queen's Co."
+            - option "Roscommon"
+            - option "Sligo"
+            - option "Tipperary"
+            - option "Tyrone"
+            - option "Waterford"
+            - option "Westmeath"
+            - option "Wexford"
+            - option "Wicklow"
+        - paragraph [ref=e126]:
+          - generic [ref=e127]: Townland/street
+          - textbox "Townland/street" [ref=e128]
+        - paragraph [ref=e129]:
+          - generic [ref=e130]: DED
+          - textbox "DED" [ref=e131]
+        - paragraph [ref=e132]:
+          - generic [ref=e133]: Age + or - 5 years
+          - textbox "Age + or - 5 years" [ref=e134]
+        - paragraph [ref=e135]:
+          - generic [ref=e136]: Sex
+          - combobox "Sex" [ref=e137]:
+            - option "Both" [selected]
+            - option "Male"
+            - option "Female"
+        - paragraph [ref=e138]:
+          - button "Search" [ref=e139]
+          - checkbox "Exact matches only" [ref=e140]
+          - text: Exact matches only
+    - generic [ref=e142]:
+      - paragraph [ref=e143]: You will need Adobe Acrobat Reader to view the images.
+      - list [ref=e144]:
+        - listitem [ref=e145]:
+          - link "Get Acrobat" [ref=e146] [cursor=pointer]:
+            - /url: http://www.adobe.com/products/acrobat/readstep2.html
+        - listitem [ref=e147]:
+          - link "How do I view the images?" [ref=e148] [cursor=pointer]:
+            - /url: /help/images.html
+        - listitem [ref=e149]:
+          - link "Report errors in transcription" [ref=e150] [cursor=pointer]:
+            - /url: /feedback/1901/Limerick/Hospital/Ballycahill/1490918/
+        - listitem [ref=e151]:
+          - link "Visit Ireland" [ref=e152] [cursor=pointer]:
+            - /url: http://discoverireland.com/ire/
+  - list [ref=e153]:
+    - listitem [ref=e154]:
+      - link "Home" [ref=e155] [cursor=pointer]:
+        - /url: /
+    - listitem [ref=e156]:
+      - link "About the Census" [ref=e157] [cursor=pointer]:
+        - /url: /about/index.html
+    - listitem [ref=e158]:
+      - link "Search Census" [ref=e159] [cursor=pointer]:
+        - /url: /search/
+    - listitem [ref=e160]:
+      - link "Browse Census" [ref=e161] [cursor=pointer]:
+        - /url: /pages/1911/
+    - listitem [ref=e162]:
+      - link "Help" [ref=e163] [cursor=pointer]:
+        - /url: /help/help.html

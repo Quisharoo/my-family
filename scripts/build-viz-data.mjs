@@ -43,7 +43,7 @@ function recordPageUrl(id) {
 
 function formAPdfUrl(record) {
   const formA = (record.images || []).find((image) => image.form === "Form A");
-  return formA ? `https://api-census.nationalarchives.ie${formA.url}` : null;
+  return formA ? `/census/${formA.id}.pdf` : null;
 }
 
 function relationText(member) {
