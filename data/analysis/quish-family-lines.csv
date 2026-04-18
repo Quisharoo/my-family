@@ -4,13 +4,13 @@ family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959,1901|1911|
 family-line::1901::Limerick::Ballylanders::Killeen::13::1505874,1901|1911|1926,1901::Limerick::Ballylanders::Killeen::13::1505874|1911::Limerick::Ballylanders::Killeen::10::634574|1926::Limerick::Ballylanders::Killeen::::380628,true,3
 family-line::1901::Limerick::Emlygrennan::Cush::19::1491679,1901|1911|1926,1901::Limerick::Emlygrennan::Cush::19::1491679|1911::Limerick::Emlygrennan::Cush::21::620325|1926::Limerick::Emlygrennan::Cush::::228748,true,3
 family-line::1901::Limerick::Hospital::Ballycahill::12::1490918,1901|1911|1926,1901::Limerick::Hospital::Ballycahill::12::1490918|1911::Limerick::Hospital::Ballycahill::7::619544|1926::Limerick::Hospital::Ballycahill::::44287,true,3
-family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893,1901|1926,1901::Limerick::Glenbrohane::Ballyfroota::4::1491893|1926::Limerick::Glenbrohane::Ballyfroota::::50767,true,2
+family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893,1901|1911|1926,1901::Limerick::Glenbrohane::Ballyfroota::4::1491893|1911::Limerick::Glenbrohane::Ballyfroota::7::620540|1926::Limerick::Glenbrohane::Ballyfroota::::50772,true,3
+family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539,1911|1926,1911::Limerick::Glenbrohane::Ballyfroota::6::620539|1926::Limerick::Glenbrohane::Ballyfroota::::50767,true,2
 family-line::1926::Limerick::Hospital::Portboy::::528154,1926,1926::Limerick::Hospital::Portboy::::528154,true,1
 family-line::1926::Limerick::Darragh::Darragh Moore::::230540,1926,1926::Limerick::Darragh::Darragh Moore::::230540,true,1
 family-line::1926::Limerick::Knockainy::Knockainy Town::::399468,1926,1926::Limerick::Knockainy::Knockainy Town::::399468,true,1
 family-line::1926::Tipperary::Emly::Nickers::::502764,1926,1926::Tipperary::Emly::Nickers::::502764,true,1
 family-line::1926::Limerick::Duntryleague::Newtown::::500913,1926,1926::Limerick::Duntryleague::Newtown::::500913,true,1
-family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772,1926,1926::Limerick::Glenbrohane::Ballyfroota::::50772,true,1
 family-line::1926::Cork::Cobh Rural::Donegal::::244945,1926,1926::Cork::Cobh Rural::Donegal::::244945,true,1
 family-line::1926::Limerick::Knockainy::Knockainy Town::::399464,1926,1926::Limerick::Knockainy::Knockainy Town::::399464,true,1
 family-line::1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390,1926,1926::Limerick::Limerick South Rural::Ballinacurra Town::::30390,true,1
@@ -28,7 +28,6 @@ family-line::1901::Limerick::Ballylanders::Killeen::8::1505870,1901|1911,1901::L
 family-line::1901::Dublin::Arran Quay::Aberdeen Street::6::1334125,1901|1911,1901::Dublin::Arran Quay::Aberdeen Street::6::1334125|1911::Dublin::Arran Quay::Aberdeen Street::6::38280,false,2
 family-line::1901::Tipperary::Rodus::Ballyhone::1::1718382,1901,1901::Tipperary::Rodus::Ballyhone::1::1718382,false,1
 family-line::1911::Limerick::Darragh::Darragh More::9::620195,1911,1911::Limerick::Darragh::Darragh More::9::620195,false,1
-family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539,1911,1911::Limerick::Glenbrohane::Ballyfroota::6::620539,false,1
 family-line::1911::Tipperary::Rodus::Ballyhowe::6::831154,1911,1911::Tipperary::Rodus::Ballyhowe::6::831154,false,1
 family-line::1901::Limerick::Duntryleague::Lackelly East::3::1506191,1901,1901::Limerick::Duntryleague::Lackelly East::3::1506191,false,1
 family-line::1901::Cork::Cork Urban No. 5::College Road::6.1::1111138,1901,1901::Cork::Cork Urban No. 5::College Road::6.1::1111138,false,1
@@ -36,7 +35,6 @@ family-line::1901::Limerick::Glenbrohane::Ballyfroota::10::1491898,1901,1901::Li
 family-line::1901::Limerick::Hospital::Ballycahill::13::1490919,1901,1901::Limerick::Hospital::Ballycahill::13::1490919,false,1
 family-line::1911::Limerick::Duntryleague::Lackelly East::3::634884,1911,1911::Limerick::Duntryleague::Lackelly East::3::634884,false,1
 family-line::1911::Limerick::Hospital::Ballycahill::3::619540,1911,1911::Limerick::Hospital::Ballycahill::3::619540,false,1
-family-line::1911::Limerick::Glenbrohane::Ballyfroota::7::620540,1911,1911::Limerick::Glenbrohane::Ballyfroota::7::620540,false,1
 family-line::1901::Dublin::Glasnevin::Glasnevin Demesne::1.1::1273126,1901,1901::Dublin::Glasnevin::Glasnevin Demesne::1.1::1273126,false,1
 family-line::1901::Limerick::Glenbrohane::Ballyfroota::6::1491895,1901,1901::Limerick::Glenbrohane::Ballyfroota::6::1491895,false,1
 family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::6::1491958,1901,1901::Limerick::Glenbrohane::Knockaunavlyman::6::1491958,false,1

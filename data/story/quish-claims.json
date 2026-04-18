@@ -1,5 +1,5 @@
 {
-  "count": 67,
+  "count": 65,
   "claims": [
     {
       "id": "claim::family-line::1901::Limerick::Duntryleague::Duntryleague::15::1506166::continuity",
@@ -229,9 +229,10 @@
       ],
       "evidenceRefs": [
         "1901::Limerick::Glenbrohane::Ballyfroota::4::1491893",
-        "1926::Limerick::Glenbrohane::Ballyfroota::::50767"
+        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50772"
       ],
-      "confidence": "likely",
+      "confidence": "strong",
       "eraContext": {
         "year": 1926,
         "regime": "Irish Free State",
@@ -250,6 +251,49 @@
       ],
       "evidenceRefs": [
         "1901::Limerick::Glenbrohane::Ballyfroota::4::1491893",
+        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50772"
+      ],
+      "confidence": "strong",
+      "eraContext": {
+        "year": 1926,
+        "regime": "Irish Free State",
+        "authority": "Irish Free State government",
+        "historicalSignificance": "First census of the Irish Free State",
+        "narrativePriority": 3
+      },
+      "curationStatus": "computed",
+      "eligibleForPrimaryStory": true
+    },
+    {
+      "id": "claim::family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539::continuity",
+      "claimType": "family-line-continuity",
+      "subjectIds": [
+        "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539"
+      ],
+      "evidenceRefs": [
+        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
+        "1926::Limerick::Glenbrohane::Ballyfroota::::50767"
+      ],
+      "confidence": "likely",
+      "eraContext": {
+        "year": 1926,
+        "regime": "Irish Free State",
+        "authority": "Irish Free State government",
+        "historicalSignificance": "First census of the Irish Free State",
+        "narrativePriority": 3
+      },
+      "curationStatus": "computed",
+      "eligibleForPrimaryStory": true
+    },
+    {
+      "id": "claim::family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539::first-free-state",
+      "claimType": "first-free-state-census-milestone",
+      "subjectIds": [
+        "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539"
+      ],
+      "evidenceRefs": [
+        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539",
         "1926::Limerick::Glenbrohane::Ballyfroota::::50767"
       ],
       "confidence": "strong",
@@ -451,46 +495,6 @@
       ],
       "evidenceRefs": [
         "1926::Limerick::Duntryleague::Newtown::::500913"
-      ],
-      "confidence": "strong",
-      "eraContext": {
-        "year": 1926,
-        "regime": "Irish Free State",
-        "authority": "Irish Free State government",
-        "historicalSignificance": "First census of the Irish Free State",
-        "narrativePriority": 3
-      },
-      "curationStatus": "computed",
-      "eligibleForPrimaryStory": true
-    },
-    {
-      "id": "claim::family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772::continuity",
-      "claimType": "family-line-continuity",
-      "subjectIds": [
-        "family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772"
-      ],
-      "evidenceRefs": [
-        "1926::Limerick::Glenbrohane::Ballyfroota::::50772"
-      ],
-      "confidence": "likely",
-      "eraContext": {
-        "year": 1926,
-        "regime": "Irish Free State",
-        "authority": "Irish Free State government",
-        "historicalSignificance": "First census of the Irish Free State",
-        "narrativePriority": 3
-      },
-      "curationStatus": "computed",
-      "eligibleForPrimaryStory": false
-    },
-    {
-      "id": "claim::family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772::first-free-state",
-      "claimType": "first-free-state-census-milestone",
-      "subjectIds": [
-        "family-line::1926::Limerick::Glenbrohane::Ballyfroota::::50772"
-      ],
-      "evidenceRefs": [
-        "1926::Limerick::Glenbrohane::Ballyfroota::::50772"
       ],
       "confidence": "strong",
       "eraContext": {
@@ -1030,26 +1034,6 @@
       "eligibleForPrimaryStory": false
     },
     {
-      "id": "claim::family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539::continuity",
-      "claimType": "family-line-continuity",
-      "subjectIds": [
-        "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539"
-      ],
-      "evidenceRefs": [
-        "1911::Limerick::Glenbrohane::Ballyfroota::6::620539"
-      ],
-      "confidence": "likely",
-      "eraContext": {
-        "year": 1911,
-        "regime": "British administration",
-        "authority": "United Kingdom government",
-        "historicalSignificance": "Final pre-independence Irish census under British rule",
-        "narrativePriority": 2
-      },
-      "curationStatus": "computed",
-      "eligibleForPrimaryStory": false
-    },
-    {
       "id": "claim::family-line::1911::Tipperary::Rodus::Ballyhowe::6::831154::continuity",
       "claimType": "family-line-continuity",
       "subjectIds": [
@@ -1177,26 +1161,6 @@
       ],
       "evidenceRefs": [
         "1911::Limerick::Hospital::Ballycahill::3::619540"
-      ],
-      "confidence": "likely",
-      "eraContext": {
-        "year": 1911,
-        "regime": "British administration",
-        "authority": "United Kingdom government",
-        "historicalSignificance": "Final pre-independence Irish census under British rule",
-        "narrativePriority": 2
-      },
-      "curationStatus": "computed",
-      "eligibleForPrimaryStory": false
-    },
-    {
-      "id": "claim::family-line::1911::Limerick::Glenbrohane::Ballyfroota::7::620540::continuity",
-      "claimType": "family-line-continuity",
-      "subjectIds": [
-        "family-line::1911::Limerick::Glenbrohane::Ballyfroota::7::620540"
-      ],
-      "evidenceRefs": [
-        "1911::Limerick::Glenbrohane::Ballyfroota::7::620540"
       ],
       "confidence": "likely",
       "eraContext": {
