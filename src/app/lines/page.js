@@ -4,13 +4,13 @@ import LinesClient from "./LinesClient";
 import "./lines.css";
 
 export const metadata = {
-  title: "Our linked family lines — traced through the Irish censuses",
+  title: "Our households — traced through the Irish censuses",
   description:
-    "Each linked Quish family line shown as it appears across the Irish censuses where continuity is accepted.",
+    "Linked Quish lines and single recorded households shown together across the Irish censuses.",
 };
 
 export default function LinesPage() {
-  const { lines } = mapData;
+  const entries = [...mapData.lines, ...mapData.sightings];
 
   return (
     <main className="lines-page">
@@ -18,15 +18,15 @@ export default function LinesPage() {
         <Link href="/" className="lines-page__back" aria-label="Back to map">
           ← Back to the map
         </Link>
-        <h1 className="lines-page__title">Our family lines</h1>
+        <h1 className="lines-page__title">Our households</h1>
         <p className="lines-page__subtitle">
-          Each linked household traced through the censuses where continuity is
-          accepted. Every name links to the original record at the National
-          Archives of Ireland.
+          Browse linked lines and single recorded households together. Every
+          name links to the original record at the National Archives of
+          Ireland.
         </p>
       </header>
 
-      <LinesClient lines={lines} />
+      <LinesClient lines={entries} />
 
       <footer className="lines-page__footer">
         <p>

@@ -5,7 +5,9 @@ import path from "node:path";
 
 import {
   buildCountyOptions,
+  buildEvidenceOptions,
   formatLineDisplay,
+  filterEntriesByEvidence,
   filterEntriesByCounty,
   groupEntriesByCounty,
 } from "../src/lib/family-line-utils.mjs";
@@ -37,6 +39,32 @@ test("filterEntriesByCounty returns all entries for All and narrows for a county
   assert.deepEqual(
     filterEntriesByCounty(entries, "Limerick").map((entry) => entry.id),
     ["1", "3"]
+  );
+});
+
+test("buildEvidenceOptions returns mobile-friendly evidence labels", () => {
+  assert.deepEqual(buildEvidenceOptions(), [
+    { value: "all", label: "All" },
+    { value: "line", label: "Linked lines" },
+    { value: "sighting", label: "Single households" },
+  ]);
+});
+
+test("filterEntriesByEvidence narrows by evidence tier", () => {
+  const entries = [
+    { id: "1", evidenceTier: "line" },
+    { id: "2", evidenceTier: "sighting" },
+    { id: "3", evidenceTier: "line" },
+  ];
+
+  assert.equal(filterEntriesByEvidence(entries, "all").length, 3);
+  assert.deepEqual(
+    filterEntriesByEvidence(entries, "line").map((entry) => entry.id),
+    ["1", "3"]
+  );
+  assert.deepEqual(
+    filterEntriesByEvidence(entries, "sighting").map((entry) => entry.id),
+    ["2"]
   );
 });
 
@@ -77,6 +105,21 @@ test("formatLineDisplay keeps named family lines and cleans generic place labels
       title: "Aberdeen Street line",
       place: "Aberdeen Street",
       meta: "Arran Quay, Co. Dublin",
+    }
+  );
+
+  assert.deepEqual(
+    formatLineDisplay({
+      label: "Thomas Quish line",
+      townland: "Ballyhone",
+      ded: "Rodus",
+      county: "Tipperary",
+      evidenceTier: "sighting",
+    }),
+    {
+      title: "Thomas Quish household",
+      place: "Ballyhone",
+      meta: "Rodus, Co. Tipperary",
     }
   );
 });

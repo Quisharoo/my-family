@@ -3,6 +3,19 @@ export function buildCountyOptions(entries) {
   return ["All", ...counties];
 }
 
+export function buildEvidenceOptions() {
+  return [
+    { value: "all", label: "All" },
+    { value: "line", label: "Linked lines" },
+    { value: "sighting", label: "Single households" },
+  ];
+}
+
+export function filterEntriesByEvidence(entries, evidence) {
+  if (!evidence || evidence === "all") return entries;
+  return entries.filter((entry) => entry.evidenceTier === evidence);
+}
+
 export function filterEntriesByCounty(entries, county) {
   if (!county || county === "All") return entries;
   return entries.filter((entry) => entry.county === county);
@@ -20,9 +33,10 @@ function isGenericPlaceLabel(label) {
 }
 
 export function formatLineDisplay(entry) {
+  const suffix = entry.evidenceTier === "sighting" ? "household" : "line";
   const title = isGenericPlaceLabel(entry.label)
-    ? `${entry.townland} line`
-    : entry.label;
+    ? `${entry.townland} ${suffix}`
+    : String(entry.label || "").replace(/\s+line$/i, ` ${suffix}`);
 
   return {
     title,

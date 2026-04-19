@@ -4,7 +4,9 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { formatRegime, formatRelation } from "@/components/family-map/format";
 import {
   buildCountyOptions,
+  buildEvidenceOptions,
   formatLineDisplay,
+  filterEntriesByEvidence,
   filterEntriesByCounty,
   groupEntriesByCounty,
 } from "@/lib/family-line-utils.mjs";
@@ -100,6 +102,9 @@ function LineSection({ line, setRef }) {
             · {line.censusYears.join(" · ")}
           </span>
         </p>
+        <p className="line-section__kind">
+          {line.evidenceTier === "line" ? "Linked line" : "Single household"}
+        </p>
       </header>
       <div className="line-section__timeline">
         {line.yearRecords.map((record) => (
@@ -141,7 +146,9 @@ function MobileSheet({ line, onClose }) {
         <div className="line-sheet__handle" aria-hidden="true" />
         <header className="line-sheet__header">
           <div>
-            <p className="line-sheet__eyebrow">{line.county}</p>
+            <p className="line-sheet__eyebrow">
+              {line.evidenceTier === "line" ? "Linked household" : "Single recorded household"}
+            </p>
             <h2 id="line-sheet-title" className="line-sheet__title">
               {display.title}
             </h2>
@@ -172,15 +179,27 @@ function MobileSheet({ line, onClose }) {
 
 export default function LinesClient({ lines }) {
   const isMobile = useIsMobile();
-  const countyCounts = useMemo(() => groupEntriesByCounty(lines), [lines]);
-  const countyOptions = useMemo(() => buildCountyOptions(lines), [lines]);
+  const evidenceOptions = useMemo(() => buildEvidenceOptions(), []);
+  const [selectedEvidence, setSelectedEvidence] = useState("all");
   const [selectedCounty, setSelectedCounty] = useState("All");
   const [selectedLineId, setSelectedLineId] = useState(null);
   const lineRefs = useRef(new Map());
 
+  const evidenceFiltered = useMemo(
+    () => filterEntriesByEvidence(lines, selectedEvidence),
+    [lines, selectedEvidence]
+  );
+  const countyCounts = useMemo(
+    () => groupEntriesByCounty(evidenceFiltered),
+    [evidenceFiltered]
+  );
+  const countyOptions = useMemo(
+    () => buildCountyOptions(evidenceFiltered),
+    [evidenceFiltered]
+  );
   const filteredLines = useMemo(
-    () => filterEntriesByCounty(lines, selectedCounty),
-    [lines, selectedCounty]
+    () => filterEntriesByCounty(evidenceFiltered, selectedCounty),
+    [evidenceFiltered, selectedCounty]
   );
 
   const selectedLine = useMemo(
@@ -193,6 +212,12 @@ export default function LinesClient({ lines }) {
     const stillVisible = filteredLines.some((line) => line.id === selectedLineId);
     if (!stillVisible) setSelectedLineId(null);
   }, [filteredLines, selectedLineId]);
+
+  useEffect(() => {
+    if (!countyOptions.includes(selectedCounty)) {
+      setSelectedCounty("All");
+    }
+  }, [countyOptions, selectedCounty]);
 
   function setLineRef(id, node) {
     if (!node) {
@@ -213,6 +238,27 @@ export default function LinesClient({ lines }) {
 
   return (
     <>
+      <div className="lines-page__filters" aria-label="Filter households by evidence">
+        {evidenceOptions.map((option) => (
+          <button
+            key={option.value}
+            type="button"
+            className={`lines-page__filter-chip${
+              option.value === selectedEvidence ? " lines-page__filter-chip--active" : ""
+            }`}
+            onClick={() => setSelectedEvidence(option.value)}
+            aria-pressed={option.value === selectedEvidence}
+          >
+            <span>{option.label}</span>
+            <span className="lines-page__filter-count">
+              {option.value === "all"
+                ? lines.length
+                : lines.filter((entry) => entry.evidenceTier === option.value).length}
+            </span>
+          </button>
+        ))}
+      </div>
+
       <div className="lines-page__filters" aria-label="Filter lines by county">
         {countyOptions.map((county) => (
           <button
@@ -226,17 +272,16 @@ export default function LinesClient({ lines }) {
           >
             <span>{county}</span>
             <span className="lines-page__filter-count">
-              {county === "All" ? lines.length : countyCounts[county]}
+              {county === "All" ? evidenceFiltered.length : countyCounts[county]}
             </span>
           </button>
         ))}
       </div>
 
-      <nav className="lines-page__toc" aria-label="Choose a line">
-        {filteredLines.map((line) => (
-          (() => {
-            const display = formatLineDisplay(line);
-            return (
+      <nav className="lines-page__toc" aria-label="Choose a household">
+        {filteredLines.map((line) => {
+          const display = formatLineDisplay(line);
+          return (
           <button
             key={line.id}
             type="button"
@@ -249,14 +294,16 @@ export default function LinesClient({ lines }) {
               <span className="lines-page__toc-name">{display.title}</span>
               <span className="lines-page__toc-place">{display.place}</span>
               <span className="lines-page__toc-meta">{display.meta}</span>
+              <span className="lines-page__toc-kind">
+                {line.evidenceTier === "line" ? "Linked line" : "Single household"}
+              </span>
             </span>
             <span className="lines-page__toc-arrow" aria-hidden="true">
               →
             </span>
           </button>
-            );
-          })()
-        ))}
+          );
+        })}
       </nav>
 
       <div className="lines-page__body">

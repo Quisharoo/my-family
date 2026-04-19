@@ -143,6 +143,14 @@
   font-size: 0.88rem;
 }
 
+.lines-page__toc-kind {
+  color: var(--accent);
+  font-size: 0.78rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .lines-page__toc-arrow {
   flex-shrink: 0;
   color: var(--accent);
@@ -173,6 +181,15 @@
 .line-section__place {
   color: var(--ink);
   font-size: 1rem;
+}
+
+.line-section__kind {
+  margin-top: 8px;
+  color: var(--accent);
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
 }
 
 .line-section__years {
@@ -349,6 +366,11 @@
     font-size: 0.84rem;
   }
 
+  .lines-page__toc-kind {
+    margin-top: 4px;
+    font-size: 0.74rem;
+  }
+
   .line-sheet__backdrop {
     display: block;
     position: fixed;
@@ -405,8 +427,14 @@
   }
 
   .line-sheet__place {
-    color: var(--ink-soft);
+    color: var(--ink);
     font-size: 0.98rem;
+  }
+
+  .line-sheet__meta {
+    margin-top: 2px;
+    color: var(--ink-soft);
+    font-size: 0.88rem;
   }
 
   .line-sheet__close {
