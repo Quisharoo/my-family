@@ -240,8 +240,18 @@ export default function LinesClient({ lines }) {
             }`}
             onClick={() => handleLineSelect(line)}
           >
-            <span>{line.label}</span>
-            <span className="muted">· {line.townland}</span>
+            <span className="lines-page__toc-copy">
+              <span className="lines-page__toc-name">{line.label}</span>
+              <span className="lines-page__toc-place">
+                {line.townland}
+                <span className="lines-page__toc-meta">
+                  {line.ded ? ` · ${line.ded}` : ""} · Co. {line.county}
+                </span>
+              </span>
+            </span>
+            <span className="lines-page__toc-arrow" aria-hidden="true">
+              →
+            </span>
           </button>
         ))}
       </nav>

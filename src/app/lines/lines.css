@@ -79,7 +79,7 @@
 
 .lines-page__toc {
   display: grid;
-  gap: 4px;
+  gap: 10px;
   padding: 16px 18px;
   background: var(--surface);
   border: 1px solid var(--line-soft);
@@ -89,30 +89,64 @@
 }
 
 .lines-page__toc-item {
-  display: block;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 14px;
   width: 100%;
-  padding: 8px 6px;
+  padding: 14px 14px;
   color: var(--ink);
-  text-decoration: none;
-  font-size: 0.98rem;
-  border-radius: 8px;
-  border: none;
-  background: transparent;
+  border-radius: 14px;
+  border: 1px solid var(--line-soft);
+  background: var(--bg);
   text-align: left;
   font: inherit;
   cursor: pointer;
-  transition: background 180ms var(--ease), color 180ms var(--ease);
+  transition: background 180ms var(--ease), color 180ms var(--ease),
+    border-color 180ms var(--ease), transform 150ms var(--ease);
 }
 
 .lines-page__toc-item:hover,
 .lines-page__toc-item:focus-visible {
+  border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent);
 }
 
 .lines-page__toc-item--active {
+  border-color: var(--accent);
   background: var(--accent-soft);
   color: var(--accent);
+}
+
+.lines-page__toc-copy {
+  display: grid;
+  gap: 4px;
+  min-width: 0;
+}
+
+.lines-page__toc-name {
+  color: var(--ink);
+  font-size: 1rem;
+  font-weight: 600;
+  line-height: 1.3;
+}
+
+.lines-page__toc-place {
+  color: var(--ink-soft);
+  font-size: 0.95rem;
+  line-height: 1.35;
+}
+
+.lines-page__toc-meta {
+  color: var(--ink-soft);
+  font-size: 0.88rem;
+}
+
+.lines-page__toc-arrow {
+  flex-shrink: 0;
+  color: var(--accent);
+  font-size: 1rem;
 }
 
 .lines-page__body {
@@ -269,12 +303,48 @@
     padding-bottom: 104px;
   }
 
+  .lines-page__filters {
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    padding-bottom: 6px;
+    margin-inline: -2px;
+    padding-inline: 2px;
+    scrollbar-width: none;
+  }
+
+  .lines-page__filters::-webkit-scrollbar {
+    display: none;
+  }
+
+  .lines-page__filter-chip {
+    flex: 0 0 auto;
+  }
+
   .lines-page__toc {
     margin-bottom: 0;
+    padding: 12px;
   }
 
   .lines-page__body {
     display: none;
+  }
+
+  .lines-page__toc-item {
+    padding: 16px 14px;
+  }
+
+  .lines-page__toc-name {
+    font-size: 1.04rem;
+  }
+
+  .lines-page__toc-place {
+    font-size: 0.98rem;
+  }
+
+  .lines-page__toc-meta {
+    display: block;
+    margin-top: 2px;
+    font-size: 0.84rem;
   }
 
   .line-sheet__backdrop {
