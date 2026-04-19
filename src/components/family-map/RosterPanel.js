@@ -56,11 +56,20 @@ function YearCard({ record }) {
   );
 }
 
-export default function RosterPanel({ line, onClose }) {
+function evidenceLabel(entry) {
+  if (entry.evidenceTier === "line") {
+    return entry.evidenceStatus === "three-census"
+      ? "Linked across three censuses"
+      : "Linked across two censuses";
+  }
+  return "Single recorded household";
+}
+
+export default function RosterPanel({ entry, onClose }) {
   const closeRef = useRef(null);
 
   useEffect(() => {
-    if (!line) return;
+    if (!entry) return;
     const handleKeyDown = (event) => {
       if (event.key === "Escape") onClose();
     };
@@ -70,9 +79,9 @@ export default function RosterPanel({ line, onClose }) {
       document.removeEventListener("keydown", handleKeyDown);
       clearTimeout(timer);
     };
-  }, [line, onClose]);
+  }, [entry, onClose]);
 
-  if (!line) return null;
+  if (!entry) return null;
 
   return (
     <>
@@ -85,13 +94,14 @@ export default function RosterPanel({ line, onClose }) {
       >
         <header className="roster-panel__header">
           <div>
+            <p className="roster-panel__eyebrow">{evidenceLabel(entry)}</p>
             <h2 id="roster-panel-title" className="roster-panel__title">
-              {line.label}
+              {entry.label}
             </h2>
             <p className="roster-panel__place">
-              {line.townland}
+              {entry.townland}
               <span className="roster-panel__place-meta">
-                {line.ded ? `${line.ded}, ` : ""}Co. {line.county}
+                {entry.ded ? `${entry.ded}, ` : ""}Co. {entry.county}
               </span>
             </p>
           </div>
@@ -106,13 +116,14 @@ export default function RosterPanel({ line, onClose }) {
           </button>
         </header>
         <div className="roster-panel__body">
-          {line.yearRecords.map((record) => (
+          {entry.yearRecords.map((record) => (
             <YearCard key={record.year} record={record} />
           ))}
         </div>
         <footer className="roster-panel__footer">
-          Each name links to the original record at the National Archives of
-          Ireland.
+          {entry.evidenceTier === "line"
+            ? "Each name links to the original record at the National Archives of Ireland."
+            : "This household is recorded in one census only; use the explorer for broader comparison across all sightings."}
         </footer>
       </aside>
     </>

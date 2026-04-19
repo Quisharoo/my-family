@@ -38,6 +38,29 @@
   max-width: 640px;
 }
 
+.map-page__stats {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  margin-top: 14px;
+}
+
+.map-page__stat {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  border-radius: 999px;
+  background: var(--surface);
+  border: 1px solid var(--line-soft);
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+}
+
+.map-page__stat strong {
+  color: var(--ink);
+}
+
 .map-page__hint {
   margin-top: 12px;
   color: var(--accent);
@@ -120,7 +143,8 @@
     0 3px 8px rgba(17, 26, 34, 0.5);
 }
 
-.family-pin__label.leaflet-tooltip {
+.family-pin__label.leaflet-tooltip,
+.family-sighting__label.leaflet-tooltip {
   background: rgba(255, 248, 236, 0.94);
   border: 1px solid var(--line);
   border-radius: 10px;
@@ -137,7 +161,8 @@
 }
 
 @media (max-width: 640px) {
-  .family-pin__label.leaflet-tooltip {
+  .family-pin__label.leaflet-tooltip,
+  .family-sighting__label.leaflet-tooltip {
     font-size: 0.7rem;
     padding: 3px 7px;
     max-width: 130px;
@@ -159,16 +184,50 @@
   letter-spacing: 0.01em;
 }
 
+.family-sighting {
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+
+.family-sighting__inner {
+  display: block;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background: rgba(24, 64, 88, 0.55);
+  border: 2px solid rgba(255, 248, 236, 0.85);
+  box-shadow: 0 1px 4px rgba(17, 26, 34, 0.24);
+  transition: transform 180ms var(--ease), background 180ms var(--ease);
+}
+
+.family-sighting:hover .family-sighting__inner,
+.family-sighting:focus-visible .family-sighting__inner {
+  transform: scale(1.15);
+}
+
+.family-sighting--selected .family-sighting__inner {
+  background: var(--accent);
+  transform: scale(1.2);
+}
+
 .family-pin__label.leaflet-tooltip-top::before {
+.family-sighting__label.leaflet-tooltip-top::before {
   border-top-color: rgba(255, 248, 236, 0.94);
 }
 .family-pin__label.leaflet-tooltip-bottom::before {
+.family-sighting__label.leaflet-tooltip-bottom::before {
   border-bottom-color: rgba(255, 248, 236, 0.94);
 }
 .family-pin__label.leaflet-tooltip-left::before {
+.family-sighting__label.leaflet-tooltip-left::before {
   border-left-color: rgba(255, 248, 236, 0.94);
 }
 .family-pin__label.leaflet-tooltip-right::before {
+.family-sighting__label.leaflet-tooltip-right::before {
   border-right-color: rgba(255, 248, 236, 0.94);
 }
 
@@ -321,6 +380,14 @@
   font-size: 1.5rem;
   line-height: 1.2;
   margin-bottom: 6px;
+}
+
+.roster-panel__eyebrow {
+  margin-bottom: 8px;
+  color: var(--accent);
+  font-size: 0.8rem;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
 }
 
 .roster-panel__place {

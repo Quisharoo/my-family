@@ -1,5 +1,5 @@
 {
-  "_note": "Hand-curated centroids for the six anchor Quish family lines, all in Co. Limerick. Source: OpenStreetMap Nominatim (2026). Match on county + ded + townland.",
+  "_note": "Static coordinates for every mapped Quish place. Most are townland/locality centroids from OpenStreetMap geocoding (2026); a small number of urban or spelling-variant entries use the nearest matching locality or district centre.",
   "coordinates": [
     {
       "county": "Limerick",
@@ -34,14 +34,203 @@
       "ded": "Hospital",
       "townland": "Ballycahill",
       "lat": 52.4481043,
-      "lng": -8.4431980
+      "lng": -8.443198
     },
     {
       "county": "Limerick",
       "ded": "Emlygrennan",
       "townland": "Cush",
-      "lat": 52.3886690,
-      "lng": -8.4494310
+      "lat": 52.388669,
+      "lng": -8.449431
+    },
+    {
+      "county": "Limerick",
+      "ded": "Hospital",
+      "townland": "Portboy",
+      "lat": 52.5086731,
+      "lng": -8.4475785
+    },
+    {
+      "county": "Limerick",
+      "ded": "Darragh",
+      "townland": "Darragh Moore",
+      "lat": 52.3016221,
+      "lng": -8.40848
+    },
+    {
+      "county": "Limerick",
+      "ded": "Knockainy",
+      "townland": "Knockainy Town",
+      "lat": 52.4787087,
+      "lng": -8.4733373
+    },
+    {
+      "county": "Tipperary",
+      "ded": "Emly",
+      "townland": "Nickers",
+      "lat": 52.4701939,
+      "lng": -8.3009737
+    },
+    {
+      "county": "Limerick",
+      "ded": "Duntryleague",
+      "townland": "Newtown",
+      "lat": 52.4049746,
+      "lng": -8.3651019
+    },
+    {
+      "county": "Cork",
+      "ded": "Cobh Rural",
+      "townland": "Donegal",
+      "lat": 51.8704509,
+      "lng": -8.3193166
+    },
+    {
+      "county": "Limerick",
+      "ded": "Limerick South Rural",
+      "townland": "Ballinacurra Town",
+      "lat": 52.65047,
+      "lng": -8.6481875
+    },
+    {
+      "county": "Limerick",
+      "ded": "Emlygrennan",
+      "townland": "Elton",
+      "lat": 52.4355172,
+      "lng": -8.4524473
+    },
+    {
+      "county": "Limerick",
+      "ded": "Kilflyn",
+      "townland": "Garryarthur",
+      "lat": 52.3016221,
+      "lng": -8.4269182
+    },
+    {
+      "county": "Tipperary",
+      "ded": "Cappagh",
+      "townland": "Ardnagassane",
+      "lat": 52.5899403,
+      "lng": -8.1785214
+    },
+    {
+      "county": "Tipperary",
+      "ded": "Cullen",
+      "townland": "Ballynulty",
+      "lat": 52.4987743,
+      "lng": -8.2700421
+    },
+    {
+      "county": "Wexford",
+      "ded": "Wexford Number 2 Urban",
+      "townland": "Grogan's Road",
+      "lat": 52.3352227,
+      "lng": -6.4656853
+    },
+    {
+      "county": "Cork",
+      "ded": "Cork Number 3 Urban (North East Ward)",
+      "townland": "Middle Glanmire Road",
+      "lat": 51.9081468,
+      "lng": -8.4334815
+    },
+    {
+      "county": "Limerick",
+      "ded": "Knockainy",
+      "townland": "Rathanny",
+      "lat": 52.4585711,
+      "lng": -8.4640646
+    },
+    {
+      "county": "Tipperary",
+      "ded": "Emly",
+      "townland": "Nickeres",
+      "lat": 52.4701939,
+      "lng": -8.3009737
+    },
+    {
+      "county": "Tipperary",
+      "ded": "Shronell",
+      "townland": "Shronell Beg",
+      "lat": 52.4710752,
+      "lng": -8.2318762
+    },
+    {
+      "county": "Dublin",
+      "ded": "Arran Quay",
+      "townland": "Aberdeen Street",
+      "lat": 53.3515542,
+      "lng": -6.2962076
+    },
+    {
+      "county": "Tipperary",
+      "ded": "Rodus",
+      "townland": "Ballyhone",
+      "lat": 52.4676814,
+      "lng": -8.3756834
+    },
+    {
+      "county": "Limerick",
+      "ded": "Darragh",
+      "townland": "Darragh More",
+      "lat": 52.3016221,
+      "lng": -8.40848
+    },
+    {
+      "county": "Tipperary",
+      "ded": "Rodus",
+      "townland": "Ballyhowe",
+      "lat": 52.4676814,
+      "lng": -8.3756834
+    },
+    {
+      "county": "Limerick",
+      "ded": "Duntryleague",
+      "townland": "Lackelly East",
+      "lat": 52.4340593,
+      "lng": -8.3560442
+    },
+    {
+      "county": "Cork",
+      "ded": "Cork Urban No. 5",
+      "townland": "College Road",
+      "lat": 51.8935932,
+      "lng": -8.492909
+    },
+    {
+      "county": "Dublin",
+      "ded": "Glasnevin",
+      "townland": "Glasnevin Demesne",
+      "lat": 53.3759448,
+      "lng": -6.2747238
+    },
+    {
+      "county": "Cork",
+      "ded": "Cork No. 4 Urban (part of)",
+      "townland": "Rockwell Terrace",
+      "lat": 51.9067709,
+      "lng": -8.4733487
+    },
+    {
+      "county": "Limerick",
+      "ded": "Hospital",
+      "townland": "Hospital Town",
+      "lat": 52.4727891,
+      "lng": -8.4223415
+    },
+    {
+      "county": "Londonderry",
+      "ded": "Londonderry No. 5 Urban",
+      "townland": "Londonderry Workhouse",
+      "lat": 54.9978678,
+      "lng": -7.3213056
+    },
+    {
+      "county": "Wicklow",
+      "ded": "Baltinglass",
+      "townland": "Baltinglass West",
+      "lat": 52.939083,
+      "lng": -6.7189683
     }
   ]
 }

@@ -12,14 +12,15 @@ const FamilyMap = dynamic(() => import("./FamilyMap"), {
   ),
 });
 
-export default function FamilyMapClient({ lines }) {
-  const [selectedLineId, setSelectedLineId] = useState(null);
+export default function FamilyMapClient({ lines, sightings }) {
+  const [selectedEntryId, setSelectedEntryId] = useState(null);
 
   return (
     <FamilyMap
       lines={lines}
-      selectedLineId={selectedLineId}
-      onSelect={setSelectedLineId}
+      sightings={sightings}
+      selectedEntryId={selectedEntryId}
+      onSelect={setSelectedEntryId}
     />
   );
 }

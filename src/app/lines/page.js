@@ -4,9 +4,9 @@ import { formatRegime, formatRelation } from "@/components/family-map/format";
 import "./lines.css";
 
 export const metadata = {
-  title: "Our family lines — traced through 1901, 1911 and 1926",
+  title: "Our linked family lines — traced through the Irish censuses",
   description:
-    "Each Quish family line shown as it appears in the 1901, 1911 and 1926 Irish censuses.",
+    "Each linked Quish family line shown as it appears across the Irish censuses where continuity is accepted.",
 };
 
 function MemberRow({ member }) {
@@ -104,9 +104,9 @@ export default function LinesPage() {
         </Link>
         <h1 className="lines-page__title">Our family lines</h1>
         <p className="lines-page__subtitle">
-          Each household traced through the censuses of 1901, 1911 and 1926.
-          Every name links to the original record at the National Archives of
-          Ireland.
+          Each linked household traced through the censuses where continuity is
+          accepted. Every name links to the original record at the National
+          Archives of Ireland.
         </p>
         <nav className="lines-page__toc" aria-label="Jump to a line">
           {lines.map((line) => (

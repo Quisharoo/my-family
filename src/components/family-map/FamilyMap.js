@@ -3,18 +3,12 @@
 import { useEffect, useMemo, useRef, useState } from "react";
 import "leaflet/dist/leaflet.css";
 import L from "leaflet";
-import {
-  MapContainer,
-  TileLayer,
-  Marker,
-  Tooltip,
-  useMap,
-} from "react-leaflet";
+import { MapContainer, TileLayer, Marker, Tooltip, useMap } from "react-leaflet";
 import { HISTORIC_TILES, FALLBACK_TILES } from "./tile-config";
 import RosterPanel from "./RosterPanel";
 
-const MAP_CENTRE = [52.42, -8.39];
-const MAP_ZOOM = 11;
+const MAP_CENTRE = [53.4, -8.2];
+const MAP_ZOOM = 7;
 
 function jitterCoordinate(coordinate, index) {
   if (index === 0) return coordinate;
@@ -28,39 +22,37 @@ function shortLabel(fullLabel) {
   return fullLabel.replace(/\s+line$/, "").replace(/\s+Quish$/, "");
 }
 
-function attachDisplayCoordinates(lines) {
+function attachDisplayCoordinates(entries) {
   const byKey = new Map();
-  const withCoords = lines.map((line) => {
-    if (!line.coordinate) return line;
-    const key = `${line.coordinate.lat.toFixed(5)}::${line.coordinate.lng.toFixed(5)}`;
+  const withCoords = entries.map((entry) => {
+    if (!entry.coordinate) return entry;
+    const key = `${entry.coordinate.lat.toFixed(5)}::${entry.coordinate.lng.toFixed(5)}`;
     const count = byKey.get(key) || 0;
     byKey.set(key, count + 1);
-    const displayCoordinate = jitterCoordinate(line.coordinate, count);
-    return { ...line, displayCoordinate };
+    const displayCoordinate = jitterCoordinate(entry.coordinate, count);
+    return { ...entry, displayCoordinate };
   });
 
-  const withDisplay = withCoords.filter((line) => line.displayCoordinate);
+  const withDisplay = withCoords.filter((entry) => entry.displayCoordinate);
   if (!withDisplay.length) return withCoords;
   const centreLat =
-    withDisplay.reduce((sum, line) => sum + line.displayCoordinate.lat, 0) /
+    withDisplay.reduce((sum, entry) => sum + entry.displayCoordinate.lat, 0) /
     withDisplay.length;
   const centreLng =
-    withDisplay.reduce((sum, line) => sum + line.displayCoordinate.lng, 0) /
+    withDisplay.reduce((sum, entry) => sum + entry.displayCoordinate.lng, 0) /
     withDisplay.length;
 
-  return withCoords.map((line) => {
-    if (!line.displayCoordinate) return line;
-    const override = LABEL_DIRECTION_OVERRIDES[line.id];
-    if (override) return { ...line, labelDirection: override };
-    const dLat = line.displayCoordinate.lat - centreLat;
-    const dLng = line.displayCoordinate.lng - centreLng;
+  return withCoords.map((entry) => {
+    if (!entry.displayCoordinate) return entry;
+    const dLat = entry.displayCoordinate.lat - centreLat;
+    const dLng = entry.displayCoordinate.lng - centreLng;
     let direction;
     if (Math.abs(dLat) > Math.abs(dLng)) {
       direction = dLat >= 0 ? "top" : "bottom";
     } else {
       direction = dLng >= 0 ? "right" : "left";
     }
-    return { ...line, labelDirection: direction };
+    return { ...entry, labelDirection: direction };
   });
 }
 
@@ -71,63 +63,117 @@ const LABEL_OFFSETS = {
   right: [16, 0],
 };
 
-const LABEL_DIRECTION_OVERRIDES = {
-  "family-line::1901::Limerick::Glenbrohane::Ballyfroota::4::1491893": "left",
-  "family-line::1911::Limerick::Glenbrohane::Ballyfroota::6::620539": "right",
-  "family-line::1901::Limerick::Glenbrohane::Knockaunavlyman::7::1491959": "left",
-  "family-line::1901::Limerick::Ballylanders::Killeen::13::1505874": "right",
-};
+function createMarkerIcon({ kind = "line", selected = false } = {}) {
+  const className =
+    kind === "line"
+      ? `family-pin${selected ? " family-pin--selected" : ""}`
+      : `family-sighting${selected ? " family-sighting--selected" : ""}`;
+  const innerClassName =
+    kind === "line" ? "family-pin__inner" : "family-sighting__inner";
 
-function createPinIcon({ selected = false } = {}) {
   return L.divIcon({
-    className: `family-pin${selected ? " family-pin--selected" : ""}`,
-    html: '<span class="family-pin__inner" aria-hidden="true"></span>',
+    className,
+    html: `<span class="${innerClassName}" aria-hidden="true"></span>`,
     iconSize: [32, 32],
     iconAnchor: [16, 16],
   });
 }
 
-function FitToPins({ lines }) {
+function FitToPins({ entries }) {
   const map = useMap();
+
   useEffect(() => {
-    if (!lines.length) return;
+    if (!entries.length) return;
     const bounds = L.latLngBounds(
-      lines
-        .filter((line) => line.displayCoordinate)
-        .map((line) => [line.displayCoordinate.lat, line.displayCoordinate.lng])
+      entries
+        .filter((entry) => entry.displayCoordinate)
+        .map((entry) => [entry.displayCoordinate.lat, entry.displayCoordinate.lng])
     );
     if (bounds.isValid()) {
-      map.fitBounds(bounds, { padding: [72, 96] });
+      map.fitBounds(bounds, { padding: [48, 48] });
     }
-  }, [lines, map]);
+  }, [entries, map]);
+
   return null;
 }
 
-function FocusOnLine({ focusLine }) {
+function FocusOnEntry({ focusEntry }) {
   const map = useMap();
+
   useEffect(() => {
-    if (!focusLine?.displayCoordinate) return;
+    if (!focusEntry?.displayCoordinate) return;
+    const targetZoom =
+      focusEntry.evidenceTier === "line"
+        ? Math.max(map.getZoom(), 10)
+        : Math.max(map.getZoom(), 11);
     map.flyTo(
-      [focusLine.displayCoordinate.lat, focusLine.displayCoordinate.lng],
-      Math.max(map.getZoom(), 13),
+      [focusEntry.displayCoordinate.lat, focusEntry.displayCoordinate.lng],
+      targetZoom,
       { duration: 0.9 }
     );
-  }, [focusLine, map]);
+  }, [focusEntry, map]);
+
   return null;
 }
 
-export default function FamilyMap({ lines, selectedLineId, onSelect }) {
-  const displayLines = useMemo(() => attachDisplayCoordinates(lines), [lines]);
-  const [tileFailed, setTileFailed] = useState(false);
-  const normalIconRef = useRef(null);
-  const selectedIconRef = useRef(null);
-  if (!normalIconRef.current) normalIconRef.current = createPinIcon();
-  if (!selectedIconRef.current)
-    selectedIconRef.current = createPinIcon({ selected: true });
+function labelClassName(entry) {
+  return entry.evidenceTier === "line"
+    ? "family-pin__label"
+    : "family-sighting__label";
+}
 
-  const selectedLine = useMemo(
-    () => displayLines.find((line) => line.id === selectedLineId) || null,
-    [displayLines, selectedLineId]
+function labelText(entry) {
+  if (entry.evidenceTier === "line") {
+    return {
+      title: shortLabel(entry.label),
+      place: entry.townland,
+    };
+  }
+
+  return {
+    title: entry.townland,
+    place: `${entry.censusYears[0]} sighting`,
+  };
+}
+
+export default function FamilyMap({
+  lines,
+  sightings,
+  selectedEntryId,
+  onSelect,
+}) {
+  const displayEntries = useMemo(
+    () => attachDisplayCoordinates([...lines, ...sightings]),
+    [lines, sightings]
+  );
+  const [tileFailed, setTileFailed] = useState(false);
+  const lineIconRef = useRef(null);
+  const selectedLineIconRef = useRef(null);
+  const sightingIconRef = useRef(null);
+  const selectedSightingIconRef = useRef(null);
+
+  if (!lineIconRef.current) {
+    lineIconRef.current = createMarkerIcon({ kind: "line" });
+  }
+  if (!selectedLineIconRef.current) {
+    selectedLineIconRef.current = createMarkerIcon({
+      kind: "line",
+      selected: true,
+    });
+  }
+  if (!sightingIconRef.current) {
+    sightingIconRef.current = createMarkerIcon({ kind: "sighting" });
+  }
+  if (!selectedSightingIconRef.current) {
+    selectedSightingIconRef.current = createMarkerIcon({
+      kind: "sighting",
+      selected: true,
+    });
+  }
+
+  const selectedEntry = useMemo(
+    () => displayEntries.find((entry) => entry.id === selectedEntryId) || null,
+    [displayEntries, selectedEntryId]
   );
 
   const tileConfig = tileFailed ? FALLBACK_TILES : HISTORIC_TILES;
@@ -156,36 +202,47 @@ export default function FamilyMap({ lines, selectedLineId, onSelect }) {
             },
           }}
         />
-        <FitToPins lines={displayLines} />
-        <FocusOnLine focusLine={selectedLine} />
-        {displayLines.map((line) =>
-          line.displayCoordinate ? (
+        <FitToPins entries={displayEntries} />
+        <FocusOnEntry focusEntry={selectedEntry} />
+        {displayEntries.map((entry) =>
+          entry.displayCoordinate ? (
             <Marker
-              key={line.id}
-              position={[line.displayCoordinate.lat, line.displayCoordinate.lng]}
+              key={entry.id}
+              position={[entry.displayCoordinate.lat, entry.displayCoordinate.lng]}
               icon={
-                line.id === selectedLineId
-                  ? selectedIconRef.current
-                  : normalIconRef.current
+                entry.evidenceTier === "line"
+                  ? entry.id === selectedEntryId
+                    ? selectedLineIconRef.current
+                    : lineIconRef.current
+                  : entry.id === selectedEntryId
+                    ? selectedSightingIconRef.current
+                    : sightingIconRef.current
               }
-              eventHandlers={{ click: () => onSelect(line.id) }}
+              eventHandlers={{
+                click: () => onSelect(entry.id === selectedEntryId ? null : entry.id),
+              }}
+              zIndexOffset={entry.id === selectedEntryId ? 500 : 0}
               keyboard
-              alt={`${line.label} at ${line.townland}`}
+              alt={`${entry.label} at ${entry.townland}`}
             >
               <Tooltip
-                direction={line.labelDirection || "top"}
-                offset={LABEL_OFFSETS[line.labelDirection || "top"]}
-                permanent
-                className="family-pin__label"
+                direction={entry.labelDirection || "top"}
+                offset={LABEL_OFFSETS[entry.labelDirection || "top"]}
+                permanent={entry.id === selectedEntryId}
+                className={labelClassName(entry)}
               >
-                <span className="family-pin__label-line">{shortLabel(line.label)}</span>
-                <span className="family-pin__label-place">{line.townland}</span>
+                <span className="family-pin__label-line">
+                  {labelText(entry).title}
+                </span>
+                <span className="family-pin__label-place">
+                  {labelText(entry).place}
+                </span>
               </Tooltip>
             </Marker>
           ) : null
         )}
       </MapContainer>
-      <RosterPanel line={selectedLine} onClose={() => onSelect(null)} />
+      <RosterPanel entry={selectedEntry} onClose={() => onSelect(null)} />
     </div>
   );
 }
