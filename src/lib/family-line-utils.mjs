@@ -14,3 +14,19 @@ export function groupEntriesByCounty(entries) {
     return counts;
   }, {});
 }
+
+function isGenericPlaceLabel(label) {
+  return String(label || "").includes(" | ");
+}
+
+export function formatLineDisplay(entry) {
+  const title = isGenericPlaceLabel(entry.label)
+    ? `${entry.townland} line`
+    : entry.label;
+
+  return {
+    title,
+    place: entry.townland,
+    meta: `${entry.ded}, Co. ${entry.county}`,
+  };
+}

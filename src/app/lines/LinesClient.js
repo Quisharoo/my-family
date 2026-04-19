@@ -4,6 +4,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import { formatRegime, formatRelation } from "@/components/family-map/format";
 import {
   buildCountyOptions,
+  formatLineDisplay,
   filterEntriesByCounty,
   groupEntriesByCounty,
 } from "@/lib/family-line-utils.mjs";
@@ -78,6 +79,8 @@ function CensusCard({ record }) {
 }
 
 function LineSection({ line, setRef }) {
+  const display = formatLineDisplay(line);
+
   return (
     <section
       id={line.id}
@@ -87,11 +90,11 @@ function LineSection({ line, setRef }) {
     >
       <header className="line-section__header">
         <h2 id={`${line.id}-heading`} className="line-section__title">
-          {line.label}
+          {display.title}
         </h2>
         <p className="line-section__place">
-          {line.townland}
-          {line.ded ? `, ${line.ded}` : ""}, Co. {line.county}
+          {display.place}
+          <span className="line-section__years muted"> · {display.meta}</span>
           <span className="line-section__years muted">
             {" "}
             · {line.censusYears.join(" · ")}
@@ -109,6 +112,7 @@ function LineSection({ line, setRef }) {
 
 function MobileSheet({ line, onClose }) {
   const closeRef = useRef(null);
+  const display = line ? formatLineDisplay(line) : null;
 
   useEffect(() => {
     if (!line) return;
@@ -139,12 +143,10 @@ function MobileSheet({ line, onClose }) {
           <div>
             <p className="line-sheet__eyebrow">{line.county}</p>
             <h2 id="line-sheet-title" className="line-sheet__title">
-              {line.label}
+              {display.title}
             </h2>
-            <p className="line-sheet__place">
-              {line.townland}
-              {line.ded ? `, ${line.ded}` : ""}, Co. {line.county}
-            </p>
+            <p className="line-sheet__place">{display.place}</p>
+            <p className="line-sheet__meta">{display.meta}</p>
           </div>
           <button
             ref={closeRef}
@@ -232,6 +234,9 @@ export default function LinesClient({ lines }) {
 
       <nav className="lines-page__toc" aria-label="Choose a line">
         {filteredLines.map((line) => (
+          (() => {
+            const display = formatLineDisplay(line);
+            return (
           <button
             key={line.id}
             type="button"
@@ -241,18 +246,16 @@ export default function LinesClient({ lines }) {
             onClick={() => handleLineSelect(line)}
           >
             <span className="lines-page__toc-copy">
-              <span className="lines-page__toc-name">{line.label}</span>
-              <span className="lines-page__toc-place">
-                {line.townland}
-                <span className="lines-page__toc-meta">
-                  {line.ded ? ` · ${line.ded}` : ""} · Co. {line.county}
-                </span>
-              </span>
+              <span className="lines-page__toc-name">{display.title}</span>
+              <span className="lines-page__toc-place">{display.place}</span>
+              <span className="lines-page__toc-meta">{display.meta}</span>
             </span>
             <span className="lines-page__toc-arrow" aria-hidden="true">
               →
             </span>
           </button>
+            );
+          })()
         ))}
       </nav>
 

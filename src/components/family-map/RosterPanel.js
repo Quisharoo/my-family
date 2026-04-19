@@ -2,6 +2,7 @@
 
 import { useEffect, useRef } from "react";
 import { formatRegime, formatRelation } from "./format";
+import { formatLineDisplay } from "@/lib/family-line-utils.mjs";
 
 function MemberRow({ member }) {
   const relation = formatRelation(member.relation);
@@ -67,6 +68,7 @@ function evidenceLabel(entry) {
 
 export default function RosterPanel({ entry, onClose }) {
   const closeRef = useRef(null);
+  const display = entry ? formatLineDisplay(entry) : null;
 
   useEffect(() => {
     if (!entry) return;
@@ -96,14 +98,10 @@ export default function RosterPanel({ entry, onClose }) {
           <div>
             <p className="roster-panel__eyebrow">{evidenceLabel(entry)}</p>
             <h2 id="roster-panel-title" className="roster-panel__title">
-              {entry.label}
+              {display.title}
             </h2>
-            <p className="roster-panel__place">
-              {entry.townland}
-              <span className="roster-panel__place-meta">
-                {entry.ded ? `, ${entry.ded}` : ""}, Co. {entry.county}
-              </span>
-            </p>
+            <p className="roster-panel__place">{display.place}</p>
+            <p className="roster-panel__place-meta">{display.meta}</p>
           </div>
           <button
             ref={closeRef}

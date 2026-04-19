@@ -5,6 +5,7 @@ import path from "node:path";
 
 import {
   buildCountyOptions,
+  formatLineDisplay,
   filterEntriesByCounty,
   groupEntriesByCounty,
 } from "../src/lib/family-line-utils.mjs";
@@ -48,4 +49,34 @@ test("groupEntriesByCounty reflects the current linked-line spread", () => {
     Limerick: 10,
     Tipperary: 2,
   });
+});
+
+test("formatLineDisplay keeps named family lines and cleans generic place labels", () => {
+  assert.deepEqual(
+    formatLineDisplay({
+      label: "Pat Quish line",
+      townland: "Ballycahill",
+      ded: "Hospital",
+      county: "Limerick",
+    }),
+    {
+      title: "Pat Quish line",
+      place: "Ballycahill",
+      meta: "Hospital, Co. Limerick",
+    }
+  );
+
+  assert.deepEqual(
+    formatLineDisplay({
+      label: "Dublin | Arran Quay | Aberdeen Street line",
+      townland: "Aberdeen Street",
+      ded: "Arran Quay",
+      county: "Dublin",
+    }),
+    {
+      title: "Aberdeen Street line",
+      place: "Aberdeen Street",
+      meta: "Arran Quay, Co. Dublin",
+    }
+  );
 });
