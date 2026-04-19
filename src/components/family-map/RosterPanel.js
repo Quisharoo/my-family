@@ -101,7 +101,7 @@ export default function RosterPanel({ entry, onClose }) {
             <p className="roster-panel__place">
               {entry.townland}
               <span className="roster-panel__place-meta">
-                {entry.ded ? `${entry.ded}, ` : ""}Co. {entry.county}
+                {entry.ded ? `, ${entry.ded}` : ""}, Co. {entry.county}
               </span>
             </p>
           </div>

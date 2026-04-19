@@ -214,19 +214,19 @@
   transform: scale(1.2);
 }
 
-.family-pin__label.leaflet-tooltip-top::before {
+.family-pin__label.leaflet-tooltip-top::before,
 .family-sighting__label.leaflet-tooltip-top::before {
   border-top-color: rgba(255, 248, 236, 0.94);
 }
-.family-pin__label.leaflet-tooltip-bottom::before {
+.family-pin__label.leaflet-tooltip-bottom::before,
 .family-sighting__label.leaflet-tooltip-bottom::before {
   border-bottom-color: rgba(255, 248, 236, 0.94);
 }
-.family-pin__label.leaflet-tooltip-left::before {
+.family-pin__label.leaflet-tooltip-left::before,
 .family-sighting__label.leaflet-tooltip-left::before {
   border-left-color: rgba(255, 248, 236, 0.94);
 }
-.family-pin__label.leaflet-tooltip-right::before {
+.family-pin__label.leaflet-tooltip-right::before,
 .family-sighting__label.leaflet-tooltip-right::before {
   border-right-color: rgba(255, 248, 236, 0.94);
 }

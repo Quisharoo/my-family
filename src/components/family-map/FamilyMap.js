@@ -122,6 +122,11 @@ function labelClassName(entry) {
     : "family-sighting__label";
 }
 
+function shouldShowPermanentLabel(entry, selectedEntryId) {
+  if (entry.evidenceTier === "line") return true;
+  return entry.id === selectedEntryId;
+}
+
 function labelText(entry) {
   if (entry.evidenceTier === "line") {
     return {
@@ -228,7 +233,7 @@ export default function FamilyMap({
               <Tooltip
                 direction={entry.labelDirection || "top"}
                 offset={LABEL_OFFSETS[entry.labelDirection || "top"]}
-                permanent={entry.id === selectedEntryId}
+                permanent={shouldShowPermanentLabel(entry, selectedEntryId)}
                 className={labelClassName(entry)}
               >
                 <span className="family-pin__label-line">
