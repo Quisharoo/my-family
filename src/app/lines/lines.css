@@ -245,13 +245,15 @@
     transform 150ms var(--ease);
 }
 
-.line-member:hover {
-  border-color: var(--accent);
-  background: var(--accent-soft);
-}
-
 .line-member:active {
   transform: scale(0.99);
+}
+
+.line-member:focus-visible {
+  border-color: var(--accent);
+  background: var(--accent-soft);
+  outline: 2px solid rgba(48, 110, 132, 0.22);
+  outline-offset: 2px;
 }
 
 .line-member__name {
@@ -445,6 +447,13 @@
   .line-member__meta,
   .line-member__note {
     font-size: 0.84rem;
+  }
+}
+
+@media (hover: hover) and (pointer: fine) {
+  .line-member:hover {
+    border-color: var(--accent);
+    background: var(--accent-soft);
   }
 }
 
