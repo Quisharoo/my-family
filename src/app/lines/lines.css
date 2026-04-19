@@ -46,6 +46,19 @@
   margin-bottom: 18px;
 }
 
+.lines-page__filter-group {
+  margin-bottom: 10px;
+}
+
+.lines-page__filter-label {
+  margin: 0 0 8px;
+  color: var(--ink-soft);
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
 .lines-page__filter-chip {
   display: inline-flex;
   align-items: center;
@@ -322,7 +335,7 @@
     padding-bottom: 104px;
   }
 
-  .lines-page__filters {
+  .lines-page__filters--evidence {
     flex-wrap: nowrap;
     overflow-x: auto;
     padding-bottom: 6px;
@@ -331,12 +344,19 @@
     scrollbar-width: none;
   }
 
-  .lines-page__filters::-webkit-scrollbar {
+  .lines-page__filters--evidence::-webkit-scrollbar {
     display: none;
   }
 
   .lines-page__filter-chip {
     flex: 0 0 auto;
+  }
+
+  .lines-page__filters--county {
+    flex-wrap: wrap;
+    overflow: visible;
+    padding: 0;
+    margin-inline: 0;
   }
 
   .lines-page__toc {

@@ -238,45 +238,61 @@ export default function LinesClient({ lines }) {
 
   return (
     <>
-      <div className="lines-page__filters" aria-label="Filter households by evidence">
-        {evidenceOptions.map((option) => (
-          <button
-            key={option.value}
-            type="button"
-            className={`lines-page__filter-chip${
-              option.value === selectedEvidence ? " lines-page__filter-chip--active" : ""
-            }`}
-            onClick={() => setSelectedEvidence(option.value)}
-            aria-pressed={option.value === selectedEvidence}
-          >
-            <span>{option.label}</span>
-            <span className="lines-page__filter-count">
-              {option.value === "all"
-                ? lines.length
-                : lines.filter((entry) => entry.evidenceTier === option.value).length}
-            </span>
-          </button>
-        ))}
-      </div>
+      <section className="lines-page__filter-group" aria-labelledby="household-filter-evidence">
+        <p id="household-filter-evidence" className="lines-page__filter-label">
+          Show
+        </p>
+        <div
+          className="lines-page__filters lines-page__filters--evidence"
+          aria-label="Filter households by evidence"
+        >
+          {evidenceOptions.map((option) => (
+            <button
+              key={option.value}
+              type="button"
+              className={`lines-page__filter-chip${
+                option.value === selectedEvidence ? " lines-page__filter-chip--active" : ""
+              }`}
+              onClick={() => setSelectedEvidence(option.value)}
+              aria-pressed={option.value === selectedEvidence}
+            >
+              <span>{option.label}</span>
+              <span className="lines-page__filter-count">
+                {option.value === "all"
+                  ? lines.length
+                  : lines.filter((entry) => entry.evidenceTier === option.value).length}
+              </span>
+            </button>
+          ))}
+        </div>
+      </section>
 
-      <div className="lines-page__filters" aria-label="Filter lines by county">
-        {countyOptions.map((county) => (
-          <button
-            key={county}
-            type="button"
-            className={`lines-page__filter-chip${
-              county === selectedCounty ? " lines-page__filter-chip--active" : ""
-            }`}
-            onClick={() => setSelectedCounty(county)}
-            aria-pressed={county === selectedCounty}
-          >
-            <span>{county}</span>
-            <span className="lines-page__filter-count">
-              {county === "All" ? evidenceFiltered.length : countyCounts[county]}
-            </span>
-          </button>
-        ))}
-      </div>
+      <section className="lines-page__filter-group" aria-labelledby="household-filter-county">
+        <p id="household-filter-county" className="lines-page__filter-label">
+          County
+        </p>
+        <div
+          className="lines-page__filters lines-page__filters--county"
+          aria-label="Filter households by county"
+        >
+          {countyOptions.map((county) => (
+            <button
+              key={county}
+              type="button"
+              className={`lines-page__filter-chip${
+                county === selectedCounty ? " lines-page__filter-chip--active" : ""
+              }`}
+              onClick={() => setSelectedCounty(county)}
+              aria-pressed={county === selectedCounty}
+            >
+              <span>{county === "All" ? "All counties" : county}</span>
+              <span className="lines-page__filter-count">
+                {county === "All" ? evidenceFiltered.length : countyCounts[county]}
+              </span>
+            </button>
+          ))}
+        </div>
+      </section>
 
       <nav className="lines-page__toc" aria-label="Choose a household">
         {filteredLines.map((line) => {
