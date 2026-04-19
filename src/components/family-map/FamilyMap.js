@@ -122,9 +122,23 @@ function labelClassName(entry) {
     : "family-sighting__label";
 }
 
-function shouldShowPermanentLabel(entry, selectedEntryId) {
+function areEntriesNearby(a, b) {
+  if (!a?.displayCoordinate || !b?.displayCoordinate) return false;
+  const latDiff = Math.abs(a.displayCoordinate.lat - b.displayCoordinate.lat);
+  const lngDiff = Math.abs(a.displayCoordinate.lng - b.displayCoordinate.lng);
+  return latDiff <= 0.035 && lngDiff <= 0.035;
+}
+
+function shouldShowPermanentLabel(entry, selectedEntry) {
   if (entry.evidenceTier === "line") return true;
-  return entry.id === selectedEntryId;
+  if (!selectedEntry) return false;
+  if (entry.id === selectedEntry.id) return true;
+
+  if (selectedEntry.evidenceTier === "sighting") {
+    return areEntriesNearby(entry, selectedEntry);
+  }
+
+  return false;
 }
 
 function labelText(entry) {
@@ -233,7 +247,7 @@ export default function FamilyMap({
               <Tooltip
                 direction={entry.labelDirection || "top"}
                 offset={LABEL_OFFSETS[entry.labelDirection || "top"]}
-                permanent={shouldShowPermanentLabel(entry, selectedEntryId)}
+                permanent={shouldShowPermanentLabel(entry, selectedEntry)}
                 className={labelClassName(entry)}
               >
                 <span className="family-pin__label-line">
